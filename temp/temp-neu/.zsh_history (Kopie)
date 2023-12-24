@@ -1,0 +1,35 @@
+: 1696155869:0;sudo apt install
+: 1696155891:0;sudo apt install lsscsi
+: 1696155908:0;sudo lshw -c video
+: 1696155922:0;xrandr --listproviders
+: 1696155937:0;xrandr --list
+: 1696155940:0;xrandr --listmonitors
+: 1696155948:0;xrandr --listactivemonitors
+: 1696156159:0;glxinfo | grep OpenGL
+: 1697305857:0;l
+: 1697305858:0;ll
+: 1697305871:0;update-motd.d
+: 1697305873:0;l
+: 1697305879:0;cat 10-uname
+: 1697305886:0;uname -snrvm\
+
+: 1697305911:0;cd ..
+: 1697305921:0;cat zsh_command_not_found
+: 1697305929:0;l
+: 1697305954:0;cat i3status.conf
+: 1697305978:0;cd i3
+: 1697305980:0;l
+: 1697305985:0;cat config
+: 1697306002:0;i3-config-wizard to 
+: 1697306043:0;i3status
+: 1697306070:0;cd ..
+: 1697306070:0;ll
+: 1697306075:0;cd ~
+: 1697306076:0;l
+: 1697306113:0;cp zsh* .zsh/
+: 1697306121:0;cp .zsh* .zsh/
+: 1697306127:0;cp -r .zsh* .zsh/
+: 1697306165:0;cp -r .zshrc .zcompdump* $(pwd/.zsh
+: 1697306174:0;cp -r .zshrc .zcompdump* $(pwd)/.zsh
+: 1697306176:0;ll
+: 1697306179:0;la

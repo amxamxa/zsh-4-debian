@@ -1,0 +1,273 @@
+1='cd 1'
+10='cd 10'
+11='cd 11'
+12='cd 12'
+13='cd 13'
+14='cd 14'
+2='cd 2'
+3='cd 3'
+4='cd 4'
+5='cd 5'
+6='cd 6'
+7='cd 7'
+8='cd 8'
+9='cd 9'
+APTinstall='echo -e "\t${inv}Installiere Paket${res}\n" && sudo apt install'
+APTpurge='echo -e "\t${inv}Entferne Paket${res}\n" && sudo apt purge'
+APTsearch='echo -e "\t${inv}Durchsuche Paketdatenbank${res}\n" && apt-cache search'
+APTshow='echo -e "\t${inv}Zeige Paketinformationen${res}\n" && apt show'
+APTupdate=$'\n\techo -e "\\tAktualisiere Pakete\\n\\t\\t" | lolcat\n\tsudo apt-get update\n\tapt list --upgradable\n\techo -e "\\t${inv} Pakete upgraden? ${res}\\n"\n\tsudo apt-get upgrade\n\tsudo apt-get autoremove -y\n\tsudo apt-get autoclean\n\techo -e "\\tapt autoremove und apt autoclean \\n\\t\\terfolgreich durch geballert!\\n" | lolcat'
+AUS='sudo shutdown now'
+CHmod='chmod --verbose --recursive u+x $(pwd)/*.sh'
+D='echo -e "\n\t${inv}Zeige das aktuelle Datum${res}\n" && date "+%A, %B %-d,%Y"'
+D1='echo -e "\n\t${inv} du -h --max-depth=2${res}\n" && du -h --max-depth=2 /home | sort -hr | head -n 24'
+DF=pydf
+DPinstalled='echo -e "\t${inv}Zeigt alle installierten Pakete auf Ihrem Debian-System ... wird mit cat /var/log/dpkg.log gemacht:${res}\n" && cat /var/log/dpkg.log | grep "status installed" | awk "{print \$5}" | cut -d ":" -f 1 | sort'
+DPlist='echo -e "\t${inv}Liste Dateien eines Pakets auf${res}\n" && dpkg --listfiles'
+DPtime-36='echo -e '\''\n\t\tHeute und gestern installiert:\n'\'' && grep -E "$(date -d '\''yesterday'\'' +'\''%Y-%m-%d'\'')|$(date +'\''%Y-%m-%d'\'')" /var/log/dpkg.log | grep '\''status installed/n'\'
+DPtime-all='echo -e '\''\n\t\tHeute und gestern installiert:\n'\'' && cat /var/log/dpkg.log | grep '\''status installed'\'' | sort -k1,1 -k2,2'
+EIN='sudo shutdown -r now'
+FORl='fortune -l 30% drugs 30% linux 10% paradoxum 10% ascii-art 10% education 10% zippy | lolcat'
+FORs='fortune -l 30% drugs 30% linux 10% paradoxum 10% ascii-art 10% education 10% zippy | lolcat'
+G='|grep --ignore-case  --color=auto'
+GLOG='git log --graph --format=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white %an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)" --all'
+H=--help
+L='|less -F'
+LOG='cat "$(ZDOTDIR)/log_error.txt" | grep "error" | sort'
+LOGinline='echo -e "\n\t${inv}\nLOGinline log_error.txt im gleichen Fenstert${res}\n" less -F $"(ZDOTDIR)"/log_error.txt'
+LOGseparate='echo -e "\n\t${inv}\n log_error.txt im separaten Fenstert${res}\n" tail -f $"(ZDOTDIR)"/log_error.txt'
+WMinfo='echo -e "\n\t${inv}...2xklicken!  zeigt Parameter des Windows an!${res}\n" && xprop | grep --color=auto -E WM_CLASS && xwininfo | grep --color=auto geometry'
+WMverbose='echo -e "\n\t${inv}\n 2xklicken!... zeigt Parameter des Windows an!${res}\n" && xprop | grep --color=auto -e "WM_CLASS(STRING)" -e "*SIZE*" -e "WM_PROTOCOLS(ATOM):" -e "geometry" -e "_NET_WM_ALLOWED_ACTIONS(ATOM)" && xwininfo | grep --color=auto geometry'
+ZALI='nano $HOME/ZSH/aliases.zsh && source $HOME/ZSH/aliases.zsh'
+ZRC='nano /home/mxx/ZSH/.zshrc'
+ZRCg='gedit /home/mxx/ZSH/.zshrc &'
+ZSAV='cp "$HOME/ZSH/.zshrc" "$HOME/ZSH/bkp/$(date +%F).zshrc" && cp "$HOME/.zshenv" "$HOME/ZSH/bkp/$(date +%F).zshenv" && cp "$HOME/ZSH/aliases" "$HOME/ZSH/bkp/$(date +%F)aliases.zsh"'
+ZSHoptions=setopt
+_='echo -e "\t${inv}Führe als Superuser (sudo) aus${res}\n" && sudo'
+alais='echo -e "\t${inv}Alias für Alias${res}\n" && alias'
+c='echo -e "\t${inv}Bildschirm löschen${res}\n" zsh && clear'
+cat='batcat --force-colorization --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=ansi'
+cat2='batcat  -force-colorization --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=Coldark-Dark'
+cat3='batcat -force-colorization --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=OneHalfDark'
+cat4='batcat --force-colorization --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=Dracula'
+cp='echo -e "\t${inv}Kopiere Dateien/Verzeichnisse cp -ivr(bestätigt)${res}\n" && cp -ivr'
+d='dirs -v'
+debug='echo "Debugging..."; set -x'
+df='df -Tha --total'
+e1='echo -e "\n\t${inv} exa -A -l --tree -level 1${res}\n" && exa --tree --level 1 --all --long --color-scale --icons'
+e2='echo -e "\n\t${inv} exa -A -l --tree -level 2${res}\n" && exa --tree --level 2 --all --long --color-scale --icons'
+e3='echo -e "\t${inv} exa -A -l --tree -level 3${res}\n" && exa --tree --level 3 --all --long --color-scale --icons'
+e4='echo -e "\t${inv} exa -A -l --tree -level 4${res}\n" && exa --tree --level 4 --all --long --color-scale --icons'
+edit=micro
+egrep='egrep --color=auto'
+fgrep='fgrep --color=auto'
+fhere='find . -name '
+free='free -gt'
+g2ali='alias | grep -i --colour=always'
+g2env='printenv | grep -i --colour=always'
+g2h=g2history
+g2history='cat "$ZDOTDIR/.zhistory"  | grep -i--colour=always'
+ga='git add'
+gb='git branch'
+gc='git commit'
+gcb='git checkout -b'
+gcm='git checkout master'
+gco='git checkout '
+gd='git diff'
+gdc='git diff --cached'
+gl='git log'
+glo='git log --pretty="oneline"'
+glol='git log --graph --oneline --decorate'
+gp='git push'
+gplo='git pull origin'
+gpo='git push origin'
+gr='git remote'
+grs='git remote show'
+gs='git status'
+gtd='git tag --delete'
+gtdr='git tag --delete origin'
+h=history
+l=$'\necho -e "\\t${inv}ls -dsAhp --group-directories-first * \\n-A: alle Files und Verz.\\n -p: Fügt einen Schrägstrich `/` an Verz. -s: Größe jeder Datei in Blocks an.\\n ${res}\\n" && ls -dsAhp --group-directories-first *'
+la='echo -e "\t${inv}ls -plah: Zeigt alles${res}\n" && ls -plah'
+ld='echo -e "\t${inv}Zeigt nur Ordner, exkl. versteckte${res}\n" && ls -pshdr */'
+lf='echo -e "\t${inv}Zeige nur Dateien an${res}\n" && ls -pshdr *.*'
+lh='echo -e "\t${inv}Zeige nur versteckte Verzeichnisse und Dateien an${res}\n" && ls -pdAh --group-directories-first .*'
+ll='echo -e "\t${inv}Alles und als Liste und von unten nach OBEN${res}\n" && ls -palhr'
+lol='alias | lolcat'
+ls='ls ${LS_OPTS}'
+lt='echo -e "\t${inv}ls -AsltpGH: Liste, sortiert nach Änderungsdatum (älteste zuerst)${res}\n" && ls -AsltpGH'
+lx='echo -e "\t${inv}ls -AXlGh: Liste sortiert nach File-EextensionÄnderungsdatum${res}\n" && ls -AXlGhp'
+md='echo -e "\t${inv}Erstelle Verzeichnis (falls nicht vorhanden).\n /-p flag to make any necessary parent directories, /-v flag on top of that so we are told of every directory creation${res}\n" && mkdir -pv'
+mv='echo -e "\t${inv}Verschiebe/umbenenne Dateien/Verzeichnisse (interacive, verbose)${res}\n" && mv -v -i'
+nano=micro
+ps='ps auxf'
+psg='ps aux | grep -v grep | grep -i -e VSZ -e'
+q='echo -e "\t${inv}Beenden${res}\n" && exit'
+rm='echo -e "\t${inv}Entferne Dateien/Verzeichnisse (bestätigt)${res}\n" && rm -vdr'
+sl=ls
+tdlr='echo -e "\t${inv}Zeige verkürzte Handbücher (TL;DR)${res}\n" && tldr'
+top=btop
+wget='wget -c'
+wh_fuck='dpkg -L'
+which-command=whence
+za='zoxide add'
+zq='zoxide query'
+zqi='zoxide query -i'
+zr='zoxide remove'
+Di 5. Dez 13:36:03 CET 2023 - User: mxx - Command: ZALI - Exit code: 0 - Output: local
+Di 5. Dez 13:36:12 CET 2023 - User: mxx - Command: lol - Exit code: 0 - Output: local
+Di 5. Dez 13:40:32 CET 2023 - User: mxx - Command: ll - Exit code: 0 - Output: local
+Di 5. Dez 13:43:15 CET 2023 - User: mxx - Command: ZRC - Exit code: 0 - Output: local
+Di 5. Dez 13:44:38 CET 2023 - User: mxx - Command: source .zshrc && local shell_output=$_ && echo shell_outpuut - Exit code: 0 - Output: local
+Di 5. Dez 13:44:40 CET 2023 - User: mxx - Command: source .zshrc && local shell_output=$_ && echo shell_output - Exit code: 0 - Output: local
+Di 5. Dez 13:51:41 CET 2023 - User: mxx - Command: LOG - Exit code: 0 - Output: local
+Di 5. Dez 13:59:15 CET 2023 - User: mxx - Command: echo "$(date) - User: $username - Command: $last_command - Exit code: $exit_code - Output: $shell_output\nll - Exit code: 0 - Output: local
+Di 5. Dez 14:39:31 CET 2023 - User: mxx - Command: sleep 10 &\necho "PID des Hintergrundjobs: $  # Gibt die PID des sleep-Jobs aus\nsleep 10 &\necho "PID des Hintergrundjobs: $\!"\nsleep 10 && echo "PID des Hintergrundjobs: $\!" - Exit code: 0 - Output: local
+Di 5. Dez 14:39:56 CET 2023 - User: mxx - Command: sleep 10 && echo "PID des Hintergrundjobs: $ - Exit code: 0 - Output: local
+Di 5. Dez 14:40:17 CET 2023 - User: mxx - Command: sleep 10 && echo 'PID des Hintergrundjobs: $!' - Exit code: 0 - Output: local
+Di 5. Dez 14:57:51 CET 2023 - User: mxx - Command: for ((i=1; i<=10; i++)); do\n    echo "Argument $i: ${@[$i]}"\necho -e "Argument: $@ \n $_ \n $; done - Exit code: 0 - Output: local
+Di 5. Dez 15:00:26 CET 2023 - User: mxx - Command: ^[[200~for ((i=1; i<=$#; i++)); do - Exit code: 0 - Output: local
+Di 5. Dez 15:00:26 CET 2023 - User: mxx - Command:    echo "Argument $i: ${@[$i]}" - Exit code: 0 - Output: local
+Di 5. Dez 15:09:33 CET 2023 - User: mxx - Command: sleep 10 &\necho "PID des Hintergrundjobs: $ - Exit code: 0 - Output: local
+Di 5. Dez 15:09:40 CET 2023 - User: mxx - Command: sleep 10 & echo "PID des Hintergrundjobs: $ - Exit code: 0 - Output: local
+Di 5. Dez 15:26:14 CET 2023 - User: mxx - Command: xcowsay" nnnnnnnnnnnNeeeeeeExxxxxxXttttttT echo -e "\n\t nnnnnnneeexxxttt\n" || lolcat|| lolcat\necho -e "\n\t\n"\n - Exit code: 0 - Output: local
+Di 5. Dez 15:26:32 CET 2023 - User: mxx - Command: xcowsay " nnnnnnnnnnnNeeeeeeExxxxxxXttttttT xcowsay" nnnnnnnnnnnNeeeeeeExxxxxxXttttttT echo -e "\n\t nnnnnnneeexxxttt\n" || lolcat|| lolcat\necho -e "\n\t\n"\n|| lolcat                        $ 15:25 Di, 5.Dez.2023\necho -e "\n\t\n"\n - Exit code: 0 - Output: local
+Di 5. Dez 15:26:47 CET 2023 - User: mxx - Command: xcowsay " nnnnnnnnnnnNeeeeeeExxxxxxXttttttT echo -e "\n\t nnnnnnneeexxxttt\n" || lolcat - Exit code: 0 - Output: local
+Di 5. Dez 15:27:05 CET 2023 - User: mxx - Command: xcowsay " nnnnnnnnnnnNeeeeeeExxxxxxXttttttT || lolcat\n" - Exit code: 0 - Output: local
+Di 5. Dez 15:27:15 CET 2023 - User: mxx - Command: xcowsay " nnnnnnnnnnnNeeeeeeExxxxxxXttttttT"\n" - Exit code: 0 - Output: local
+Di 5. Dez 15:27:21 CET 2023 - User: mxx - Command: xcowsay " nnnnnnnnnnnNeeeeeeExxxxxxXttttttT" - Exit code: 0 - Output: local
+Di 5. Dez 15:32:27 CET 2023 - User: mxx - Command: echo -e "\t" ^&&| cowsay -W 20 "1111111111122222222222222222222223333333333333333333333334444444444444444444" - Exit code: 0 - Output: local
+Di 5. Dez 15:50:55 CET 2023 - User: mxx - Command: for i in "${my_array[@]}"; do\n  echo "$i"\ndone - Exit code: 0 - Output: local
+Di 5. Dez 15:53:00 CET 2023 - User: mxx - Command: my_array=()\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay -W 20 "1111111111122222222222222222222233333333333333333333344444444444444444444")\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo "$i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 15:53:45 CET 2023 - User: mxx - Command: while IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay -W 20 'lol' - Exit code: 0 - Output: local
+Di 5. Dez 15:54:00 CET 2023 - User: mxx - Command: while IFS= read -r line; do\n  my_array+=("$line")\ndone << cowsay -W 20 'lol' - Exit code: 0 - Output: local
+Di 5. Dez 15:54:12 CET 2023 - User: mxx - Command: while IFS= read -r line; do\n  my_array+=("$line")\ndone << cowsay -W 20 "lol" - Exit code: 0 - Output: local
+Di 5. Dez 15:54:18 CET 2023 - User: mxx - Command: while IFS= read -r line; do\n  my_array+=("$line")\ndone << cowsay "lol" - Exit code: 0 - Output: local
+Di 5. Dez 16:01:53 CET 2023 - User: mxx - Command: while IFS= read -r line; do                                                 $ 15:53 Di, 5.Dez.2023\n  my_array+=("$line")\ndone < <(cowsay -W 20 'lol'\n\n\n - Exit code: 0 - Output: local
+Di 5. Dez 16:02:26 CET 2023 - User: mxx - Command: my_array=()\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay -W 20 'lol')\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo "$i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:02:52 CET 2023 - User: mxx - Command: my_array=()\ncowsay -W 20 'lol' | while IFS= read -r line; do\n  my_array+=("$line")\ndone\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo "$i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:03:13 CET 2023 - User: mxx - Command: for i in "${my_array[@]}"; do\n  echo "$i"\ndone\n\n - Exit code: 0 - Output: local
+Di 5. Dez 16:03:32 CET 2023 - User: mxx - Command: for i in "${my_array[@]}"; do\n  echo "$i"\ndone\n\n - Exit code: 0 - Output: local
+Di 5. Dez 16:04:04 CET 2023 - User: mxx - Command: my_array=()\noutput=$(cowsay -W 20 'lol')\necho "$output"\n\necho "$output" | while IFS= read -r line; do\n  my_array+=("$line")\ndone\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo "$i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:04:22 CET 2023 - User: mxx - Command: my_array=()\noutput=$(cowsay -W 20 'lol')\necho "$output"\n\necho "$output" | while IFS= read -r line; do\n  my_array+=("$line")\ndone\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo -e "\t $i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:04:41 CET 2023 - User: mxx - Command: my_array=()\noutput=$(cowsay 'lol')\necho "$output"\n\necho "$output" | while IFS= read -r line; do\n  my_array+=("$line")\ndone\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo -e "\t $i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:05:51 CET 2023 - User: mxx - Command: my_array=()\noutput=$(cowsay 'lol')\necho "$output"\n\necho "$output" | while IFS= read -r line; do\n  my_array+=("$line")\ndone\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  \necho -e "\v"\necho "$i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:06:25 CET 2023 - User: mxx - Command: my_array=()\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay 'lol')\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo "$i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:06:56 CET 2023 - User: mxx - Command: my_array=()\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay 'lol' 2>&1)\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo "$i"\ndone - Exit code: 0 - Output: local
+Di 5. Dez 16:07:18 CET 2023 - User: mxx - Command: my_array=()\ntemp_file=$(mktemp)\ncowsay 'lol' > "$temp_file"\n\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < "$temp_file"\n\nrm "$temp_file"  # Clean up temporary file\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n  echo "$i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:08:44 CET 2023 - User: mxx - Command: echo "$output" | while IFS= read -r line; do\n  my_array+=("$line")\ndone\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n                 \necho -e "\v"\necho "$i"                                                                                                         \ndone  - Exit code: 0 - Output: local
+Di 5. Dez 16:08:47 CET 2023 - User: mxx - Command: echo "$output" | while IFS= read -r line; do\n  my_array+=("$line")\ndone\n\n# Print the contents of the array\nfor i in "${my_array[@]}"; do\n                 \necho -e "\v"\necho "$i"                                                                                                         \ndone  - Exit code: 0 - Output: local
+Di 5. Dez 16:09:32 CET 2023 - User: mxx - Command: my_array=()\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay -W 20 "1111111 - Exit code: 0 - Output: local
+Di 5. Dez 16:09:55 CET 2023 - User: mxx - Command: my_array=()\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay -W 20 "1111111my_array=()\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay -W 20 "1111111\nmy_array=()\nwhile IFS= read -r line; do\n  my_array+=("$line")\ndone < <(cowsay -W 20 "1111111 - Exit code: 0 - Output: local
+Di 5. Dez 16:09:59 CET 2023 - User: mxx - Command: [200~mapfile -t my_array < <(cowsay -W 20 "1111111111122222222222222222222333333333333333333333344444444444444444444") - Exit code: 0 - Output: local
+Di 5. Dez 16:10:04 CET 2023 - User: mxx - Command: mapfile -t my_array < <(cowsay -W 20 "1111111111122222222222222222222333333333333333333333344444444444444444444") - Exit code: 0 - Output: local
+Di 5. Dez 16:10:28 CET 2023 - User: mxx - Command: mapfile -t my_array < <'cowsay -W 20 "1111111111122222222222222222222333333333333333333333344444444444444444444")' - Exit code: 0 - Output: local
+Di 5. Dez 16:10:35 CET 2023 - User: mxx - Command: mapfile -t my_array < 'cowsay -W 20 "1111111111122222222222222222222333333333333333333333344444444444444444444")' - Exit code: 0 - Output: local
+Di 5. Dez 16:10:40 CET 2023 - User: mxx - Command: mapfile - Exit code: 0 - Output: local
+Di 5. Dez 16:11:09 CET 2023 - User: mxx - Command: APTshow mapfile - Exit code: 0 - Output: local
+Di 5. Dez 16:14:08 CET 2023 - User: mxx - Command: or i in "${my_array[@]}"; do\n echo "$i"\ndone - Exit code: 0 - Output: local
+Di 5. Dez 16:14:23 CET 2023 - User: mxx - Command: for i in "${my_array[@]}"; do  echo "$i"; done - Exit code: 0 - Output: local
+Di 5. Dez 16:14:27 CET 2023 - User: mxx - Command: for i in "${my_array[@]}"; do  echo "$i"; done; - Exit code: 0 - Output: local
+Di 5. Dez 16:14:32 CET 2023 - User: mxx - Command: for i in "${my_array[@]}"; do\n echo "$i"\ndone\n - Exit code: 0 - Output: local
+Di 5. Dez 16:16:46 CET 2023 - User: mxx - Command: LOGinline - Exit code: 0 - Output: local
+Di 5. Dez 16:26:18 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:33:28 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:33:34 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:37:30 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:38:06 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:38:07 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:50:07 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:53:59 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:54:16 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:55:04 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:55:20 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:55:27 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:55:37 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:56:00 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 16:57:25 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 17:01:18 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 17:13:07 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 19:27:18 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 19:40:39 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 19:40:45 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 19:40:55 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 19:43:23 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 20:33:44 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 20:37:04 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 20:45:00 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 20:57:19 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 21:26:15 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 21:27:36 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 21:51:59 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 21:52:12 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 21:52:28 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 21:52:35 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 21:53:09 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:03:23 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:43:39 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:46:27 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:47:29 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:48:51 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:49:19 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:49:19 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:49:19 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:50:05 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:50:06 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:50:08 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 22:54:04 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 23:28:13 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 23:40:22 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 23:52:54 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Di 5. Dez 23:59:31 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Mi 6. Dez 00:01:03 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Mi 6. Dez 00:01:26 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Mi 6. Dez 01:38:33 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Mi 6. Dez 01:38:43 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Mi 6. Dez 01:39:04 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Mi 6. Dez 01:39:09 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:20:16 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:21:07 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:21:46 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:21:56 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:24:40 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:25:21 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:25:35 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:27:24 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:27:39 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:40:44 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:40:50 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 13:49:55 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:10:32 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:10:32 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:22:42 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:23:00 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:26:48 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:43:09 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:45:54 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:46:45 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:46:50 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:46:52 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:46:58 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:47:03 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:48:21 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:49:46 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:49:54 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:52:12 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 14:52:22 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 15:01:05 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 15:03:39 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 15:10:43 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 15:11:15 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 15:35:07 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 15:35:40 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 23:01:18 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 23:13:52 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Do 7. Dez 23:42:43 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Fr 8. Dez 00:12:57 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Fr 8. Dez 00:13:05 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Fr 8. Dez 00:17:01 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Fr 8. Dez 00:17:58 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Fr 8. Dez 00:18:29 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Fr 8. Dez 00:19:00 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Fr 8. Dez 00:24:38 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:
+Fr 8. Dez 00:25:18 CET 2023 - User: mxx - zsh Shell Command: local - Exit code: 0 - zsh shell Output:

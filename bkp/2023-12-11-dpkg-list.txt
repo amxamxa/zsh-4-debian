@@ -1,0 +1,2673 @@
+ 8 Sep 23:06 /var/lib/dpkg/info/gcc-12-base:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libgcc-s1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libidn2-0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libaudit-common.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libcap-ng0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libaudit1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libcrypt1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libbz2-1.0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libgpg-error0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libgcrypt20:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/gpgv.list
+ 8 Sep 23:06 /var/lib/dpkg/info/liblz4-1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/liblzma5:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libcap2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libapt-pkg6.0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libgmp10:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libnettle8:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libhogweed6:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libffi8:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libp11-kit0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/apt.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libdb5.3:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libmd0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libpcre2-8-0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libacl1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/dpkg.list
+ 8 Sep 23:06 /var/lib/dpkg/info/debconf.list
+ 8 Sep 23:06 /var/lib/dpkg/info/adduser.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libdebconfclient0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/base-passwd.list
+ 8 Sep 23:06 /var/lib/dpkg/info/bash.list
+ 8 Sep 23:06 /var/lib/dpkg/info/bsdutils.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libattr1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/coreutils.list
+ 8 Sep 23:06 /var/lib/dpkg/info/dash.list
+ 8 Sep 23:06 /var/lib/dpkg/info/diffutils.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libblkid1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libcom-err2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libext2fs2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/init-system-helpers.list
+ 8 Sep 23:06 /var/lib/dpkg/info/e2fsprogs.list
+ 8 Sep 23:06 /var/lib/dpkg/info/findutils.list
+ 8 Sep 23:06 /var/lib/dpkg/info/grep.list
+ 8 Sep 23:06 /var/lib/dpkg/info/gzip.list
+ 8 Sep 23:06 /var/lib/dpkg/info/hostname.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libmount1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libunistring2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/mawk.list
+ 8 Sep 23:06 /var/lib/dpkg/info/zlib1g:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libstdc++6:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libzstd1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libxxhash0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libtasn1-6:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libseccomp2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libselinux1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/tar.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libsemanage-common.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libsepol2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libsemanage2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/passwd.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libtinfo6:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libsmartcols1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libss2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libuuid1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/logsave.list
+ 8 Sep 23:06 /var/lib/dpkg/info/login.list
+ 8 Sep 23:06 /var/lib/dpkg/info/mount.list
+ 8 Sep 23:06 /var/lib/dpkg/info/ncurses-base.list
+ 8 Sep 23:06 /var/lib/dpkg/info/ncurses-bin.list
+ 8 Sep 23:06 /var/lib/dpkg/info/sed.list
+ 8 Sep 23:06 /var/lib/dpkg/info/sysvinit-utils.list
+ 8 Sep 23:06 /var/lib/dpkg/info/usr-is-merged.list
+ 8 Sep 23:06 /var/lib/dpkg/info/util-linux-extra.list
+ 8 Sep 23:06 /var/lib/dpkg/info/util-linux.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libdevmapper1.02.1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/dmsetup.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libfdisk1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libargon2-1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libjson-c5:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libcryptsetup12:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libkmod2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libapparmor1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libip4tc2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/cron-daemon-common.list
+ 8 Sep 23:06 /var/lib/dpkg/info/apt-utils.list
+ 8 Sep 23:06 /var/lib/dpkg/info/liblocale-gettext-perl.list
+ 8 Sep 23:06 /var/lib/dpkg/info/debconf-i18n.list
+ 8 Sep 23:06 /var/lib/dpkg/info/cpio.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libbsd0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libkeyutils1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/cron.list
+ 8 Sep 23:06 /var/lib/dpkg/info/dmidecode.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libncursesw6:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libreadline8:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/fdisk.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libelf1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libbpf1:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libmnl0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libcap2-bin.list
+ 8 Sep 23:06 /var/lib/dpkg/info/iproute2.list
+ 8 Sep 23:06 /var/lib/dpkg/info/isc-dhcp-common.list
+ 8 Sep 23:06 /var/lib/dpkg/info/isc-dhcp-client.list
+ 8 Sep 23:06 /var/lib/dpkg/info/ifupdown.list
+ 8 Sep 23:06 /var/lib/dpkg/info/init.list
+ 8 Sep 23:06 /var/lib/dpkg/info/iputils-ping.list
+ 8 Sep 23:06 /var/lib/dpkg/info/kmod.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libedit2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libjansson4:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libnewt0.52:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libnftnl11:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libpopt0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libproc2-0:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libtext-charwidth-perl:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libtext-iconv-perl:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libtext-wrapi18n-perl.list
+ 8 Sep 23:06 /var/lib/dpkg/info/sensible-utils.list
+ 8 Sep 23:06 /var/lib/dpkg/info/netbase.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libtirpc-common.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libtirpc3:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/readline-common.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libxtables12:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/libslang2:amd64.list
+ 8 Sep 23:06 /var/lib/dpkg/info/logrotate.list
+ 8 Sep 23:06 /var/lib/dpkg/info/nano.list
+ 8 Sep 23:06 /var/lib/dpkg/info/procps.list
+ 8 Sep 23:06 /var/lib/dpkg/info/tasksel-data.list
+ 8 Sep 23:06 /var/lib/dpkg/info/tasksel.list
+ 8 Sep 23:06 /var/lib/dpkg/info/vim-common.list
+ 8 Sep 23:06 /var/lib/dpkg/info/vim-tiny.list
+ 8 Sep 23:06 /var/lib/dpkg/info/whiptail.list
+ 8 Sep 23:07 /var/lib/dpkg/info/busybox.list
+ 8 Sep 23:07 /var/lib/dpkg/info/zstd.list
+ 8 Sep 23:07 /var/lib/dpkg/info/libklibc:amd64.list
+ 8 Sep 23:07 /var/lib/dpkg/info/klibc-utils.list
+ 8 Sep 23:07 /var/lib/dpkg/info/initramfs-tools-core.list
+ 8 Sep 23:07 /var/lib/dpkg/info/linux-base.list
+ 8 Sep 23:07 /var/lib/dpkg/info/initramfs-tools.list
+ 8 Sep 23:08 /var/lib/dpkg/info/apparmor.list
+ 8 Sep 23:08 /var/lib/dpkg/info/firmware-linux-free.list
+ 8 Sep 23:08 /var/lib/dpkg/info/pci.ids.list
+ 8 Sep 23:08 /var/lib/dpkg/info/libpci3:amd64.list
+ 8 Sep 23:08 /var/lib/dpkg/info/pciutils.list
+ 8 Sep 23:08 /var/lib/dpkg/info/libusb-1.0-0:amd64.list
+ 8 Sep 23:08 /var/lib/dpkg/info/usbutils.list
+ 8 Sep 23:08 /var/lib/dpkg/info/eject.list
+ 8 Sep 23:08 /var/lib/dpkg/info/dosfstools.list
+ 8 Sep 23:08 /var/lib/dpkg/info/xkb-data.list
+ 8 Sep 23:08 /var/lib/dpkg/info/keyboard-configuration.list
+ 8 Sep 23:08 /var/lib/dpkg/info/kbd.list
+ 8 Sep 23:08 /var/lib/dpkg/info/console-setup-linux.list
+ 8 Sep 23:08 /var/lib/dpkg/info/console-setup.list
+ 8 Sep 23:16 /var/lib/dpkg/info/laptop-detect.list
+ 8 Sep 23:16 /var/lib/dpkg/info/libexpat1:amd64.list
+ 8 Sep 23:16 /var/lib/dpkg/info/discover-data.list
+ 8 Sep 23:16 /var/lib/dpkg/info/libdiscover2.list
+ 8 Sep 23:16 /var/lib/dpkg/info/discover.list
+ 8 Sep 23:16 /var/lib/dpkg/info/firmware-misc-nonfree.list
+ 8 Sep 23:16 /var/lib/dpkg/info/firmware-realtek.list
+ 8 Sep 23:16 /var/lib/dpkg/info/installation-report.list
+ 8 Sep 23:20 /var/lib/dpkg/info/popularity-contest.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libgdbm6:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libgdbm-compat4:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libasound2-data.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libasound2:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libdw1:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libglib2.0-0:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/bluez.list
+ 8 Sep 23:23 /var/lib/dpkg/info/bc.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libavahi-common-data:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libavahi-common3:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libavahi-client3:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/ssl-cert.list
+ 8 Sep 23:23 /var/lib/dpkg/info/ucf.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libpaper1:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libavahi-glib1:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libexif12:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libjpeg62-turbo:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libpng16-16:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libdeflate0:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libjbig0:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/liblerc4:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libcupsfilters1:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libsasl2-modules-db:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libsasl2-2:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libldap-2.5-0:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/cups-browsed.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libgomp1:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libfftw3-double3:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libbrotli1:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libfreetype6:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libfontenc1:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/x11-common.list
+ 8 Sep 23:23 /var/lib/dpkg/info/xfonts-encodings.list
+ 8 Sep 23:23 /var/lib/dpkg/info/xfonts-utils.list
+ 8 Sep 23:23 /var/lib/dpkg/info/fonts-urw-base35.list
+ 8 Sep 23:23 /var/lib/dpkg/info/fontconfig-config.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libfontconfig1:amd64.list
+ 8 Sep 23:23 /var/lib/dpkg/info/libaom3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdav1d6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libnuma1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libx265-199:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libheif1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/liblcms2-2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/liblqr-1-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libltdl7:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libopenjp2-7:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxau6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxdmcp6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxext6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libicu72:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxml2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/imagemagick-6-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmagickcore-6.q16-6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmagickwand-6.q16-6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsane-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libfuse3-3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/fuse3.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libntfs-3g89:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/ntfs-3g.list
+ 8 Sep 23:24 /var/lib/dpkg/info/poppler-data.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpython3.11-minimal:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3.11-minimal.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-minimal.list
+ 8 Sep 23:24 /var/lib/dpkg/info/media-types.list
+ 8 Sep 23:24 /var/lib/dpkg/info/mailcap.list
+ 8 Sep 23:24 /var/lib/dpkg/info/mime-support.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libnsl2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsqlite3-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpython3.11-stdlib:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3.11.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpython3-stdlib:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3.list
+ 8 Sep 23:24 /var/lib/dpkg/info/update-inetd.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libieee1284-3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/acl.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpixman-1-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-render0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-shm0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxrender1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcairo2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpsl5:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/librtmp1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libssh2-1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libabsl20220623:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgav1-1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/librav1e0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsvtav1enc1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libyuv0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libavif15:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgd3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgphoto2-port12:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgphoto2-6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libnspr4:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libnss3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpoppler126:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpoppler-glib8:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsensors-config.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsensors5:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libwrap0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsnmp-base.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsnmp40:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsane1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/sane-utils.list
+ 8 Sep 23:24 /var/lib/dpkg/info/sgml-base.list
+ 8 Sep 23:24 /var/lib/dpkg/info/sudo.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python-apt-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-apt.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-debconf.list
+ 8 Sep 23:24 /var/lib/dpkg/info/apt-listchanges.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bash-completion.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libuv1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libfstrm0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libjemalloc2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/liblmdb0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmaxminddb0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libprotobuf-c1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bzip2.list
+ 8 Sep 23:24 /var/lib/dpkg/info/ca-certificates.list
+ 8 Sep 23:24 /var/lib/dpkg/info/debian-faq.list
+ 8 Sep 23:24 /var/lib/dpkg/info/doc-debian.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmagic-mgc.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmagic1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/file.list
+ 8 Sep 23:24 /var/lib/dpkg/info/gettext-base.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libuchardet0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/groff-base.list
+ 8 Sep 23:24 /var/lib/dpkg/info/liblockfile-bin.list
+ 8 Sep 23:24 /var/lib/dpkg/info/lsof.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bsdextrautils.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpipeline1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/man-db.list
+ 8 Sep 23:24 /var/lib/dpkg/info/manpages.list
+ 8 Sep 23:24 /var/lib/dpkg/info/ncurses-term.list
+ 8 Sep 23:24 /var/lib/dpkg/info/netcat-traditional.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcbor0.8:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libfido2-1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-pkg-resources.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-chardet.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-debian.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-pyparsing.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-httplib2.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-pycurl.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-pysimplesoap.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-debianbts.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-certifi.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-charset-normalizer.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-idna.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-six.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-urllib3.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-requests.list
+ 8 Sep 23:24 /var/lib/dpkg/info/python3-reportbug.list
+ 8 Sep 23:24 /var/lib/dpkg/info/reportbug.list
+ 8 Sep 23:24 /var/lib/dpkg/info/traceroute.list
+ 8 Sep 23:24 /var/lib/dpkg/info/wamerican.list
+ 8 Sep 23:24 /var/lib/dpkg/info/wget.list
+ 8 Sep 23:24 /var/lib/dpkg/info/xz-utils.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libaccountsservice0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpolkit-gobject-1-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/accountsservice.list
+ 8 Sep 23:24 /var/lib/dpkg/info/hicolor-icon-theme.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgdk-pixbuf2.0-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/shared-mime-info.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgdk-pixbuf-2.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/adwaita-icon-theme.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdconf1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/dconf-service.list
+ 8 Sep 23:24 /var/lib/dpkg/info/dconf-gsettings-backend:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgc1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/at-spi2-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libatk1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libtdb1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libogg0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libvorbis0a:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libvorbisfile3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/sound-theme-freedesktop.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcanberra0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxi6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libatspi2.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libatk-bridge2.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcairo-gobject2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcolord2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libepoxy0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libfribidi0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgraphite2-3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libharfbuzz0b:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/fontconfig.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libthai-data.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdatrie1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libthai0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpango-1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpangoft2-1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpangocairo-1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libwayland-client0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libwayland-cursor0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libwayland-egl1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcomposite1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxfixes3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcursor1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxdamage1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxinerama1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxkbcommon0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxrandr2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcanberra-gtk3-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/librsvg2-2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/alsa-topology-conf.list
+ 8 Sep 23:24 /var/lib/dpkg/info/alsa-ucm-conf.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libatopology2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libfftw3-single3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsamplerate0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/alsa-utils.list
+ 8 Sep 23:24 /var/lib/dpkg/info/anacron.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libapr1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libaprutil1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libaprutil1-dbd-sqlite3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libaprutil1-ldap:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/liblua5.3-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/apache2-bin.list
+ 8 Sep 23:24 /var/lib/dpkg/info/apg.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libstemmer0d:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxmlb2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libyaml-0-2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libappstream4:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/appstream.list
+ 8 Sep 23:24 /var/lib/dpkg/info/apt-config-icons.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libaspell15:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/emacsen-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/dictionaries-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/aspell.list
+ 8 Sep 23:24 /var/lib/dpkg/info/aspell-de.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxtst6:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/gsettings-desktop-schemas.list
+ 8 Sep 23:24 /var/lib/dpkg/info/at-spi2-core.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libavahi-core7:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdaemon0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/avahi-daemon.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgraphene-1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/liblzo2-2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcairo-script-interpreter2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcloudproviders0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libadwaita-1-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/baobab.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libical3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bluez-obexd.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bogofilter-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgslcblas0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgsl27:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bogofilter-bdb.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bogofilter.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bolt.list
+ 8 Sep 23:24 /var/lib/dpkg/info/brasero-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/bubblewrap.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libao-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libao4:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/cdrdao.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libglvnd0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdrm-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdrm2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libglapi-mesa:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-dri2-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-dri3-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-glx0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-present0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-randr0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-sync1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxcb-xfixes0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxshmfence1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxxf86vm1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdrm-amdgpu1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpciaccess0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdrm-intel1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdrm-nouveau2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdrm-radeon1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libz3-4:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libllvm15:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgl1-mesa-dri:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libglx-mesa0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libglx0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgl1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libwayland-server0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgbm1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libegl-mesa0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libegl1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcogl20:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcogl-pango20:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcogl-path20:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libevdev2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmtdev1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgudev-1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libwacom-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libwacom9:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libinput-bin.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libinput10:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libjson-glib-1.0-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libjson-glib-1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libclutter-1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libunwind8:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgstreamer1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/liborc-0.4-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/iso-codes.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgstreamer-plugins-base1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libclutter-gst-3.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libass9:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libbs2b0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libva2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmfx1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libva-drm2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libva-x11-2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libvdpau1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/ocl-icd-libopencl1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libcodec2-1.0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgsm1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libjxl0.7:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmp3lame0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libopus0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libshine3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsnappy1v5:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libspeex1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsoxr0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libtheora0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libtwolame0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libvorbisenc2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libx264-164:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxvidcore4:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libzvbi-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libzvbi0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libchromaprint1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libraw1394-11:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdc1394-25:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdca0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgles2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdirectfb-1.7-7:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdvdread8:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdvdnav4:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libfaad2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libflite1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libflac12:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libmpg123-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsndfile1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libinstpatch-1.0-2:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libjack-jackd2-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libasyncns0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libpulse0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libdecor-0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libxss1:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libsdl2-2.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/timgm6mb-soundfont.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libfluidsynth3:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libfreeaptx0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgme0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libgstreamer-gl1.0-0:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/libproxy1v5:amd64.list
+ 8 Sep 23:24 /var/lib/dpkg/info/glib-networking-common.list
+ 8 Sep 23:24 /var/lib/dpkg/info/glib-networking-services.list
+ 8 Sep 23:25 /var/lib/dpkg/info/glib-networking:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsoup-3.0-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsoup-3.0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgssdp-1.6-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgupnp-1.6-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgupnp-igd-1.0-4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnice10:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libvulkan1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxcb-xkb1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxkbcommon-x11-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libimath-3-1-29:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libkate1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libldacbt-enc2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libserd-0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsord-0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsratom-0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/liblilv-0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxslt1.1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libyajl2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libraptor2-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/liblrdf0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libltc11:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmjpegutils-2.1-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmodplug1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmpcdec6:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmpeg2encpp-2.1-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmplex2-2.1-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libneon27:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libopenal-data.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsndio7.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libopenal1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libopenexr-3-1-30:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libopenh264-7:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libopenmpt0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libopenni2-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libqrencode4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsbc1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsoundtouch1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libspandsp2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsrt1.5-gnutls:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsrtp2-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libvo-aacenc0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libvo-amrwbenc0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libwebrtc-audio-processing1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libwildmidi2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libv4lconvert0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libv4l-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libzbar0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libzxing2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libcdparanoia0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libvisual-0.4-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gstreamer1.0-plugins-base:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgpm2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libncurses6:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libaa1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libavc1394-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libcaca0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libdv4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libiec61883-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libshout3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libtag1v5-vanilla:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libtag1v5:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libwavpack1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsoup2.4-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsoup2.4-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gstreamer1.0-plugins-good:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/cheese-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxv1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gstreamer1.0-x:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libcheese8:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libclutter-gtk-1.0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gstreamer1.0-clutter-3.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libcheese-gtk25:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnome-desktop3-data.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxkbregistry0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgnome-desktop-3-20:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnome-video-effects.list
+ 8 Sep 23:25 /var/lib/dpkg/info/cheese.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgirepository-1.0-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-glib-2.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-accountsservice-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-freedesktop:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gdkpixbuf-2.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-graphene-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-harfbuzz-0.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxft2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpangoxft-1.0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-pango-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-adw-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-atk-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-atspi-2.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgck-1-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgcr-base-3-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgcr-ui-3-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gck-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gcr-3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gdesktopenums-3.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgdm1.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gdm-1.0.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgeoclue-2-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-geoclue-2.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libupower-glib3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnome-bluetooth-3-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgnome-bluetooth-3.0-13:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gnomebluetooth-3.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gnomedesktop-3.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gstreamer-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/geocode-glib-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgeocode-glib-2-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgweather-4-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgweather-4-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-gweather-4.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libibus-1.0-5:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-ibus-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libice6:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libspa-0.2-modules:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpipewire-0.3-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsm6:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxcb-util1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libstartup-notification0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxcb-res0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxkbfile1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-json-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnm0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-nm-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnma-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnma0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-nma-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpolkit-agent-1-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-polkit-1.0.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-rsvg-2.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-soup-3.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-upowerglib-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libatomic1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/xdg-dbus-proxy.list
+ 8 Sep 23:25 /var/lib/dpkg/info/hunspell-en-us.list
+ 8 Sep 23:25 /var/lib/dpkg/info/hunspell-de-de.list
+ 8 Sep 23:25 /var/lib/dpkg/info/hunspell-de-ch.list
+ 8 Sep 23:25 /var/lib/dpkg/info/hunspell-de-at.list
+ 8 Sep 23:25 /var/lib/dpkg/info/ispell.list
+ 8 Sep 23:25 /var/lib/dpkg/info/iswiss.list
+ 8 Sep 23:25 /var/lib/dpkg/info/ingerman.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libhunspell-1.7-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libenchant-2-2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libharfbuzz-icu0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libhyphen0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmanette-0.2-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsecret-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsecret-1-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libwoff1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libwpe-1.0-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libwpebackend-fdo-1.0-1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnome-backgrounds.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnome-settings-daemon-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libbluetooth3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/liblc3-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libldacbt-abr2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libspa-0.2-bluetooth:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpipewire-0.3-modules:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/pipewire-bin.list
+ 8 Sep 23:25 /var/lib/dpkg/info/pipewire:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/pipewire-alsa:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/pipewire-pulse.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libwireplumber-0.4-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/wireplumber.list
+ 8 Sep 23:25 /var/lib/dpkg/info/pipewire-audio.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmm-glib0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnotify4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpulse-mainloop-glib0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnome-settings-daemon.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gstreamer1.0-pipewire:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libglib2.0-data.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libglib2.0-bin.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libcamel-1.2-64:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evolution-data-server-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libedataserver-1.2-27:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libecal-2.0-2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libarchive13:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgnome-autoar-0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/python3-gi.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnome-browser-connector.list
+ 8 Sep 23:25 /var/lib/dpkg/info/chrome-gnome-shell.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libblas3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libquadmath0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgfortran5:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/liblapack3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/coinor-libcoinutils3v5:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/coinor-libosi1v5:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/coinor-libclp1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/coinor-libcgl1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/coinor-libcbc3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/coinor-libcoinmp1v5:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/colord-data.list
+ 8 Sep 23:25 /var/lib/dpkg/info/xml-core.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libduktape207:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/polkitd.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgusb2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libcolorhug2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/colord.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libisl23:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmpfr6:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmpc3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/cpp-12.list
+ 8 Sep 23:25 /var/lib/dpkg/info/cpp.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libcrack2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/cracklib-runtime.list
+ 8 Sep 23:25 /var/lib/dpkg/info/poppler-utils.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpoppler-cpp0v5:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/cups-filters-core-drivers.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libidn12:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libijs-0.35:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libjbig2dec0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libxt6:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libfontembed1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/cups-filters.list
+ 8 Sep 23:25 /var/lib/dpkg/info/cups-pk-helper.list
+ 8 Sep 23:25 /var/lib/dpkg/info/dconf-cli.list
+ 8 Sep 23:25 /var/lib/dpkg/info/librsvg2-common:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/fonts-quicksand.list
+ 8 Sep 23:25 /var/lib/dpkg/info/desktop-base.list
+ 8 Sep 23:25 /var/lib/dpkg/info/desktop-file-utils.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libassuan0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gpgconf.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libksba8:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnpth0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/dirmngr.list
+ 8 Sep 23:25 /var/lib/dpkg/info/dns-root-data.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnfnetlink0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnetfilter-conntrack3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/dnsmasq-base.list
+ 8 Sep 23:25 /var/lib/dpkg/info/sgml-data.list
+ 8 Sep 23:25 /var/lib/dpkg/info/docbook-xml.list
+ 8 Sep 23:25 /var/lib/dpkg/info/enchant-2.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libexempi8:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libhandy-1-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpeas-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpython3.11:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpeas-1.0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gir1.2-peas-1.0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/webp-pixbuf-loader:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/eog.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evince-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libdjvulibre-text.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libdjvulibre21:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgxps2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libkpathsea6:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libspectre1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsynctex2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libevdocument3-4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgspell-1-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgspell-1-2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libevview3-3:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evince.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libcmark0.30.2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libprotobuf32:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libphonenumber8:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libebook-contacts-1.2-4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libebackend-1.2-11:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libedata-book-1.2-27:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libebook-1.2-21:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libedataserverui-1.2-4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgnome-autoar-gtk-0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libytnef0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evolution-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libevolution.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libedata-cal-2.0-2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgoa-1.0-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgoa-1.0-0b:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gcr.list
+ 8 Sep 23:25 /var/lib/dpkg/info/p11-kit-modules:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/p11-kit.list
+ 8 Sep 23:25 /var/lib/dpkg/info/pinentry-gnome3.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnome-keyring.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evolution-data-server.list
+ 8 Sep 23:25 /var/lib/dpkg/info/psmisc.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evolution.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evolution-plugin-bogofilter.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libpst4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evolution-plugin-pstimport.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libdbusmenu-glib4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libdee-1.0-4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libunity-protocol-private0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libunity-scopes-json-def-desktop.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libunity9:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/evolution-plugins.list
+ 8 Sep 23:25 /var/lib/dpkg/info/p7zip.list
+ 8 Sep 23:25 /var/lib/dpkg/info/p7zip-full.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libnautilus-extension4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/file-roller.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libdbus-glib-1-2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libevent-2.1-7:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgee-0.8-2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/folks-common.list
+ 8 Sep 23:25 /var/lib/dpkg/info/fonts-opensymbol.list
+ 8 Sep 23:25 /var/lib/dpkg/info/fonts-symbola.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgsound0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libefivar1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libefiboot1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libftdi1-2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libjaylink0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libflashrom1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnupg-l10n.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnupg-utils.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gpg.list
+ 8 Sep 23:25 /var/lib/dpkg/info/pinentry-curses.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gpg-agent.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gpg-wks-client.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gpg-wks-server.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gpgsm.list
+ 8 Sep 23:25 /var/lib/dpkg/info/gnupg.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgpgme11:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libjcat1:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libfwupd2:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libgcab-1.0-0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmbim-glib4:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libmbim-proxy.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libqrtr-glib0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libqmi-glib5:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libqmi-proxy.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libsmbios-c2.list
+ 8 Sep 23:25 /var/lib/dpkg/info/tpm-udev.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libtss2-mu0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libtss2-tcti-cmd0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libtss2-tcti-device0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libtss2-tcti-mssim0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libtss2-tcti-swtpm0:amd64.list
+ 8 Sep 23:25 /var/lib/dpkg/info/libtss2-sys1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libtss2-esys-3.0.2-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/fwupd.list
+ 8 Sep 23:26 /var/lib/dpkg/info/fwupd-amd64-signed.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gdisk.list
+ 8 Sep 23:26 /var/lib/dpkg/info/upower.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxmu6:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxaw7:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/x11-xkb-utils.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxcvt0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxfont2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/xwayland.list
+ 8 Sep 23:26 /var/lib/dpkg/info/xdg-desktop-portal.list
+ 8 Sep 23:26 /var/lib/dpkg/info/xdg-desktop-portal-gtk.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgnome-desktop-4-2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgnome-bg-4-2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/xdg-desktop-portal-gnome.list
+ 8 Sep 23:26 /var/lib/dpkg/info/xbitmaps.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libutempter0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/xterm.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-terminal-data.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-terminal.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxmuu1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/x11-xserver-utils.list
+ 8 Sep 23:26 /var/lib/dpkg/info/geoclue-2.0.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-cogl-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-coglpango-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-clutter-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-evince-3.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-geocodeglib-2.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgnome-menu-3-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-gmenu-3.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-gnomedesktop-4.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-goa-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libsoup-gnome2.4-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-soup-2.4:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libtotem-plparser-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libtotem-plparser18:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgrilo-0.3-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-grilo-0.3:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-gst-plugins-base-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-gtkclutter-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgtksourceview-4-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgtksourceview-4-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-gtksource-4:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-handy-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libmalcontent-0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-malcontent-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libmediaart-2.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-mediaart-2.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-notify-0.7:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libpackagekit-glib2-18:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-packagekitglib-1.0.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librhythmbox-core10:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-rb-3.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librest-1.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-rest-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-secret-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libshumate-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libshumate-1.0-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-shumate-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-totemplparser-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libtotem0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-totem-1.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libtracker-sparql-3.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-tracker-3.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxres1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libwnck-3-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libwnck-3-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gir1.2-wnck-3.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgnomekbd-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxklavier16:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgnomekbd8:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gkbd-capplet.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-bluetooth-sendto.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgtksourceview-5-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgtksourceview-5-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-calculator.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libfolks26:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libfolks-eds26:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libportal1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-contacts.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcolord-gtk4-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgnome-bluetooth-ui-3.0-13:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgnome-rr-4-2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgoa-backend-1.0-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgtop2-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgtop-2.0-11:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libnma-gtk4-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libpwquality-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libpwquality1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libtalloc2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libtevent0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libsnapd-glib-2-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libudisks2-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-control-center-data.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-control-center.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libblockdev-part-err2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libblockdev-utils2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libparted2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libparted-fs-resize0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libblockdev-fs2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libblockdev-loop2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libblockdev-part2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libblockdev-swap2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/parted.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libatasmart4:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libblockdev2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/udisks2.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-disk-utility.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-font-viewer.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-logs.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-menus.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-online-accounts.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gvfs-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gvfs-libs:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libudfread0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libbluray2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gvfs-daemons.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gvfs:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-shell-extensions.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-software-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcairo-perl.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libextutils-depends-perl.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libglib-perl:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcairo-gobject-perl.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libglib-object-introspection-perl.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgtk3-perl.list
+ 8 Sep 23:26 /var/lib/dpkg/info/packagekit.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-dateutil.list
+ 8 Sep 23:26 /var/lib/dpkg/info/lsb-release.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-lazr.uri.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-wadllib.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-distro.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-blinker.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-cffi-backend:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-cryptography.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-jwt.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-oauthlib.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-lazr.restfulclient.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-dbus.list
+ 8 Sep 23:26 /var/lib/dpkg/info/nautilus-data.list
+ 8 Sep 23:26 /var/lib/dpkg/info/tracker.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libexiv2-27:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgexiv2-2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgif7:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgsf-1-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgsf-1-114:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libiptcdata0.list
+ 8 Sep 23:26 /var/lib/dpkg/info/usb.ids.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libosinfo-l10n.list
+ 8 Sep 23:26 /var/lib/dpkg/info/osinfo-db.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libosinfo-1.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/tracker-extract.list
+ 8 Sep 23:26 /var/lib/dpkg/info/tracker-miner-fs.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libportal-gtk4-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/nautilus.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gstreamer1.0-gtk3:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-sushi.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libsigc++-2.0-0v5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libglibmm-2.4-1v5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libatkmm-1.6-1v5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcairomm-1.0-1v5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libpangomm-1.4-1v5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgtkmm-3.0-1v5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-system-monitor.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libeditorconfig0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-text-editor.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-themes-extra-data.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gtk2-engines-pixbuf:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-themes-extra:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libyelp0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/yelp-xsl.list
+ 8 Sep 23:26 /var/lib/dpkg/info/yelp.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-user-docs.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libapache2-mod-dnssd.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-user-share.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gstreamer1.0-packagekit.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcdio19:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcdio-cdda2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcdio-paranoia2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgdata-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgdata22:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libplist3:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libusbmuxd6:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libimobiledevice6:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libmtp-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libmtp9:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libnfs13:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gvfs-backends.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gvfs-fuse.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libatk-adaptor:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcanberra-pulse:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libpam-gnome-keyring:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libproxy1-plugin-gsettings:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libproxy1-plugin-webkit:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-cairo:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-cups:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-cupshelpers.list
+ 8 Sep 23:26 /var/lib/dpkg/info/system-config-printer-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/system-config-printer-udev.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libdmapsharing-3.0-2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgom-1.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/liboauth0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/grilo-plugins-0.3:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/totem-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gstreamer1.0-gl:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/totem.list
+ 8 Sep 23:26 /var/lib/dpkg/info/zenity-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/zenity.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libproxy1-plugin-networkmanager:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libayatana-ido3-0.4-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libayatana-indicator3-7:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libdbusmenu-gtk3-4:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libayatana-appindicator3-1.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libndp0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libteamdctl0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/network-manager.list
+ 8 Sep 23:26 /var/lib/dpkg/info/network-manager-gnome.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libedataserverui4-1.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-calendar.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-clocks.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-color-manager.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-maps.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-gi-cairo.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-music.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libraw20:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/shotwell-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/shotwell.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-weather.list
+ 8 Sep 23:26 /var/lib/dpkg/info/liblouis-data.list
+ 8 Sep 23:26 /var/lib/dpkg/info/liblouis20:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-louis.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-pyatspi.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-xdg.list
+ 8 Sep 23:26 /var/lib/dpkg/info/python3-speechd.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libaudio2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/speech-dispatcher-audio-plugins:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libdotconf0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libspeechd2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/speech-dispatcher.list
+ 8 Sep 23:26 /var/lib/dpkg/info/xkbset.list
+ 8 Sep 23:26 /var/lib/dpkg/info/orca.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libges-1.0-0.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgupnp-av-1.0-3.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgupnp-dlna-2.0-4.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librygel-core-2.8-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librygel-db-2.8-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librygel-renderer-2.8-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librygel-server-2.8-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/rygel.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librygel-renderer-gst-2.8-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/rygel-playbin.list
+ 8 Sep 23:26 /var/lib/dpkg/info/rygel-tracker.list
+ 8 Sep 23:26 /var/lib/dpkg/info/xdg-utils.list
+ 8 Sep 23:26 /var/lib/dpkg/info/simple-scan.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-sound-recorder.list
+ 8 Sep 23:26 /var/lib/dpkg/info/gnome-tweaks.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgsf-bin.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libreoffice-style-colibre.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libuno-sal3.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libuno-salhelpergcc3-3.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libuno-cppu3.list
+ 8 Sep 23:26 /var/lib/dpkg/info/uno-libs-private.list
+ 8 Sep 23:26 /var/lib/dpkg/info/liblangtag-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/liblangtag1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libuno-cppuhelpergcc3-3.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libuno-purpenvhelpergcc3-3.list
+ 8 Sep 23:26 /var/lib/dpkg/info/ure.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libnumbertext-data.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libreoffice-common.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libboost-thread1.74.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libboost-locale1.74.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libclucene-core1v5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libclucene-contribs1v5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libeot0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libexttextcat-data.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libexttextcat-2.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libgpgmepp6:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libmythes-1.2-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libnumbertext-1.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libboost-filesystem1.74.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libboost-iostreams1.74.0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/liborcus-parser-0.17-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/liborcus-0.17-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libmhash2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librasqal3:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librdf0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/librevenge-0.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxmlsec1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libxmlsec1-nss:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libreoffice-core.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libreoffice-gnome.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libreoffice-base-core.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libabw-0.1-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libe-book-0.1-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libepubgen-0.1-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libetonyek-0.1-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libmwaw-0.3-3:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libodfgen-0.1-1:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libstaroffice-0.0-0:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libwpd-0.10-10:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libwpg-0.3-3:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libwps-0.4-4:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libreoffice-writer.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libsuitesparseconfig5:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libcolamd2:amd64.list
+ 8 Sep 23:26 /var/lib/dpkg/info/lp-solve.list
+ 8 Sep 23:26 /var/lib/dpkg/info/libreoffice-calc.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libcdr-0.1-1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libfreehand-0.1-1.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmspub-0.1-1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libpagemaker-0.0-0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libqxp-0.0-0.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libvisio-0.1-1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libzmf-0.0-0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-draw.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libbox2d2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-impress.list
+ 8 Sep 23:27 /var/lib/dpkg/info/rhythmbox-data.list
+ 8 Sep 23:27 /var/lib/dpkg/info/media-player-info.list
+ 8 Sep 23:27 /var/lib/dpkg/info/rhythmbox.list
+ 8 Sep 23:27 /var/lib/dpkg/info/seahorse.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xdg-user-dirs.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xdg-user-dirs-gtk.list
+ 8 Sep 23:27 /var/lib/dpkg/info/librabbitmq4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libcjson1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmbedcrypto7:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/librist4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libssh-gcrypt-4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnorm1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libpgm-5.3-0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libsodium23:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libzmq5:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmysofa1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libplacebo208:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libsphinxbase3:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libpocketsphinx3:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/librubberband2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libvidstab1.1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libzimg2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/gstreamer1.0-libav:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/liba52-0.7.4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmpeg2-4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libopencore-amrnb0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libopencore-amrwb0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libsidplay1v5:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/gstreamer1.0-plugins-ugly:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgpod4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/liblirc-client0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/python3-markupsafe.list
+ 8 Sep 23:27 /var/lib/dpkg/info/python3-mako.list
+ 8 Sep 23:27 /var/lib/dpkg/info/rhythmbox-plugins.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libburn4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libjte2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libisofs6:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libbrasero-media3-1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/rhythmbox-plugin-cdrecorder.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libportal-gtk3-1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/totem-plugins.list
+ 8 Sep 23:27 /var/lib/dpkg/info/gnome-accessibility-themes.list
+ 8 Sep 23:27 /var/lib/dpkg/info/gnome-icon-theme.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libostree-1-1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libflatpak0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmalcontent-ui-1-1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/pkexec.list
+ 8 Sep 23:27 /var/lib/dpkg/info/gnome-initial-setup.list
+ 8 Sep 23:27 /var/lib/dpkg/info/gnome-keyring-pkcs11:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libwinpr2-2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libfreerdp2-2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libfreerdp-server2-2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libtss2-rc0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libtss2-tctildr0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/gnome-remote-desktop.list
+ 8 Sep 23:27 /var/lib/dpkg/info/gsfonts.list
+ 8 Sep 23:27 /var/lib/dpkg/info/hyphen-de.list
+ 8 Sep 23:27 /var/lib/dpkg/info/hyphen-en-us.list
+ 8 Sep 23:27 /var/lib/dpkg/info/i965-va-driver:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/ibus-data.list
+ 8 Sep 23:27 /var/lib/dpkg/info/python3-ibus-1.0.list
+ 8 Sep 23:27 /var/lib/dpkg/info/ibus.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgtk2.0-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgtk2.0-0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/ibus-gtk:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/ibus-gtk3:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/ibus-gtk4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/iio-sensor-proxy.list
+ 8 Sep 23:27 /var/lib/dpkg/info/im-config.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libigdgmm12:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/intel-media-va-driver:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/ipp-usb.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnl-3-200:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnl-genl-3-200:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/iw.list
+ 8 Sep 23:27 /var/lib/dpkg/info/javascript-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libonig5:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libjq1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/jq.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libaacs0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libauthen-sasl-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libbdplus0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libvolume-key1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libblockdev-crypto2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libcanberra-gtk3-module:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libclone-perl:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libclutter-1.0-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libcogl-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libdata-dump-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libdecor-0-plugin-1-cairo:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libencode-locale-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libept1.6.0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libipc-system-simple-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libfile-basedir-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libregexp-ipv6-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/liburi-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libfile-desktopentry-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libtimedate-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhttp-date-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libfile-listing-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libfile-mimeinfo-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libfont-afm-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgail18:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgail-common:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgdk-pixbuf2.0-bin.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libopengl0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libglu1-mesa:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgphoto2-l10n.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libsgutils2-1.46-2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgpod-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libgtk2.0-bin.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhtml-tagset-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhtml-parser-perl:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libio-html-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/liblwp-mediatypes-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhttp-message-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhtml-form-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhtml-tree-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhtml-format-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhttp-cookies-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhttp-daemon-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libhttp-negotiate-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/perl-openssl-defaults:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnet-ssleay-perl:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libio-socket-ssl-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libio-stringy-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libjim0.81:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libjxr0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libjxr-tools.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libldap-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/liblouisutdml-data.list
+ 8 Sep 23:27 /var/lib/dpkg/info/liblouisutdml9:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/liblouisutdml-bin.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnet-http-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libtry-tiny-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libwww-robotrules-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libwww-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/liblwp-protocol-https-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libwmflite-0.2-7:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmagickcore-6.q16-6-extra:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnet-smtp-ssl-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmailtools-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmbim-utils.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libminiupnpc17:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libmtp-runtime.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnatpmp1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxml-parser-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxml-twig-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnet-dbus-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnl-route-3-200:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libnss-mdns:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libpaper-utils.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libpcap0.8:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libpcsclite1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libperl4-corelibs-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libpipewire-0.3-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libplymouth5:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libqmi-utils.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-gtk3.list
+ 8 Sep 23:27 /var/lib/dpkg/info/node-normalize.css.list
+ 8 Sep 23:27 /var/lib/dpkg/info/node-clipboard.list
+ 8 Sep 23:27 /var/lib/dpkg/info/node-prismjs.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-help-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-l10n-de.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-help-de.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-help-en-us.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-math.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libreoffice-style-elementary.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libsasl2-modules:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libtie-ixhash-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libvdpau-va-gl1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libx11-protocol-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxapian30:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxatracker2:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxcb-damage0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxcb-icccm4:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxcb-image0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxcb-keysyms1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxcb-render-util0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxcb-shape0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxcb-xv0:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxml-xpathengine-perl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxvmc1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/libxxf86dga1:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/low-memory-monitor.list
+ 8 Sep 23:27 /var/lib/dpkg/info/lynx-common.list
+ 8 Sep 23:27 /var/lib/dpkg/info/lynx.list
+ 8 Sep 23:27 /var/lib/dpkg/info/malcontent.list
+ 8 Sep 23:27 /var/lib/dpkg/info/malcontent-gui.list
+ 8 Sep 23:27 /var/lib/dpkg/info/manpages-de.list
+ 8 Sep 23:27 /var/lib/dpkg/info/mesa-va-drivers:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/mesa-vdpau-drivers:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/mesa-vulkan-drivers:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/mobile-broadband-provider-info.list
+ 8 Sep 23:27 /var/lib/dpkg/info/modemmanager.list
+ 8 Sep 23:27 /var/lib/dpkg/info/mythes-de.list
+ 8 Sep 23:27 /var/lib/dpkg/info/mythes-de-ch.list
+ 8 Sep 23:27 /var/lib/dpkg/info/mythes-en-us.list
+ 8 Sep 23:27 /var/lib/dpkg/info/nautilus-extension-gnome-terminal:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/packagekit-tools.list
+ 8 Sep 23:27 /var/lib/dpkg/info/perl-tk.list
+ 8 Sep 23:27 /var/lib/dpkg/info/plymouth.list
+ 8 Sep 23:27 /var/lib/dpkg/info/plymouth-label.list
+ 8 Sep 23:27 /var/lib/dpkg/info/pocketsphinx-en-us.list
+ 8 Sep 23:27 /var/lib/dpkg/info/power-profiles-daemon.list
+ 8 Sep 23:27 /var/lib/dpkg/info/ppp.list
+ 8 Sep 23:27 /var/lib/dpkg/info/publicsuffix.list
+ 8 Sep 23:27 /var/lib/dpkg/info/python3-smbc.list
+ 8 Sep 23:27 /var/lib/dpkg/info/python3-uno.list
+ 8 Sep 23:27 /var/lib/dpkg/info/realmd.list
+ 8 Sep 23:27 /var/lib/dpkg/info/rtkit.list
+ 8 Sep 23:27 /var/lib/dpkg/info/sane-airscan.list
+ 8 Sep 23:27 /var/lib/dpkg/info/sound-icons.list
+ 8 Sep 23:27 /var/lib/dpkg/info/switcheroo-control.list
+ 8 Sep 23:27 /var/lib/dpkg/info/synaptic.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-video-amdgpu.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-video-fbdev.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-video-vesa.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-video-vmware.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-video-qxl.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-video-intel.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-input-libinput.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-input-all.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-input-wacom.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xfonts-base.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xfonts-100dpi.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xfonts-75dpi.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xfonts-scalable.list
+ 8 Sep 23:27 /var/lib/dpkg/info/x11-apps.list
+ 8 Sep 23:27 /var/lib/dpkg/info/x11-session-utils.list
+ 8 Sep 23:27 /var/lib/dpkg/info/x11-utils.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xauth.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xinit.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xorg-docs-core.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xorg.list
+ 8 Sep 23:27 /var/lib/dpkg/info/task-german.list
+ 8 Sep 23:27 /var/lib/dpkg/info/task-german-desktop.list
+ 8 Sep 23:27 /var/lib/dpkg/info/unzip.list
+ 8 Sep 23:27 /var/lib/dpkg/info/usb-modeswitch-data.list
+ 8 Sep 23:27 /var/lib/dpkg/info/usb-modeswitch.list
+ 8 Sep 23:27 /var/lib/dpkg/info/usbmuxd.list
+ 8 Sep 23:27 /var/lib/dpkg/info/va-driver-all:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/vdpau-driver-all:amd64.list
+ 8 Sep 23:27 /var/lib/dpkg/info/wireless-regdb.list
+ 8 Sep 23:27 /var/lib/dpkg/info/wngerman.list
+ 8 Sep 23:27 /var/lib/dpkg/info/wpasupplicant.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xcvt.list
+ 8 Sep 23:30 /var/lib/dpkg/info/libfuse2:amd64.list
+ 8 Sep 23:30 /var/lib/dpkg/info/os-prober.list
+ 8 Sep 23:30 /var/lib/dpkg/info/efibootmgr.list
+ 8 Sep 23:30 /var/lib/dpkg/info/mokutil.list
+ 8 Sep 23:30 /var/lib/dpkg/info/shim-unsigned.list
+ 8 Sep 23:30 /var/lib/dpkg/info/shim-helpers-amd64-signed.list
+ 8 Sep 23:30 /var/lib/dpkg/info/shim-signed-common.list
+ 8 Sep 23:30 /var/lib/dpkg/info/shim-signed:amd64.list
+ 8 Sep 23:31 /var/lib/dpkg/info/iucode-tool.list
+13 Sep 14:57 /var/lib/dpkg/info/libfmt9:amd64.list
+13 Sep 14:57 /var/lib/dpkg/info/libgtksourceview-3.0-common.list
+13 Sep 14:57 /var/lib/dpkg/info/libgtksourceview-3.0-1:amd64.list
+13 Sep 14:57 /var/lib/dpkg/info/libgtksourceviewmm-3.0-0v5:amd64.list
+13 Sep 14:57 /var/lib/dpkg/info/libxml++2.6-2v5:amd64.list
+13 Sep 14:57 /var/lib/dpkg/info/cherrytree.list
+13 Sep 14:59 /var/lib/dpkg/info/libdouble-conversion3:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libpcre2-16-0:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5core5a:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libmd4c0:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5dbus5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5network5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libxcb-xinerama0:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libxcb-xinput0:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5gui5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5qml5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5qmlmodels5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5quick5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtquick-window2:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5qmlworkerscript5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtquick2:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtgraphicaleffects:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/catdoc.list
+13 Sep 14:59 /var/lib/dpkg/info/cinnamon-desktop-data.list
+13 Sep 14:59 /var/lib/dpkg/info/cinnamon-l10n.list
+13 Sep 14:59 /var/lib/dpkg/info/exif.list
+13 Sep 14:59 /var/lib/dpkg/info/font-manager-common:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/font-viewer.list
+13 Sep 14:59 /var/lib/dpkg/info/libnemo-extension1:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/gir1.2-nemo-3.0:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libb2-1:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/gtkhash.list
+13 Sep 14:59 /var/lib/dpkg/info/html2text.list
+13 Sep 14:59 /var/lib/dpkg/info/hwdata.list
+13 Sep 14:59 /var/lib/dpkg/info/id3.list
+13 Sep 14:59 /var/lib/dpkg/info/inxi.list
+13 Sep 14:59 /var/lib/dpkg/info/libcinnamon-desktop4:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libharfbuzz-subset0:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libjs-jquery.list
+13 Sep 14:59 /var/lib/dpkg/info/libjs-underscore.list
+13 Sep 14:59 /var/lib/dpkg/info/libkf5archive-data.list
+13 Sep 14:59 /var/lib/dpkg/info/libkf5archive5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5widgets5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5svg5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5printsupport5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5quicktemplates2-5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5quickcontrols2-5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5quickwidgets5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5sql5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5sql5-sqlite:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5waylandclient5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5waylandcompositor5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5webchannel5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5webengine-data.list
+13 Sep 14:59 /var/lib/dpkg/info/libre2-9:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5webenginecore5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libqt5webenginewidgets5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/xapps-common.list
+13 Sep 14:59 /var/lib/dpkg/info/libxapp1:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/libxapp-gtk3-module:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/lm-sensors.list
+13 Sep 14:59 /var/lib/dpkg/info/mesa-utils-bin:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/mesa-utils.list
+13 Sep 14:59 /var/lib/dpkg/info/nemo-data.list
+13 Sep 14:59 /var/lib/dpkg/info/nemo.list
+13 Sep 14:59 /var/lib/dpkg/info/nemo-fileroller.list
+13 Sep 14:59 /var/lib/dpkg/info/nemo-font-manager:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/nemo-gtkhash.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qt-labs-platform:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtqml:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtqml-models2:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtquick-templates2:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtquick-controls2:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qt-labs-folderlistmodel:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qt-labs-settings:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtquick-privatewidgets:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtquick-dialogs:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qml-module-qtquick-layouts:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/odt2txt.list
+13 Sep 14:59 /var/lib/dpkg/info/python3-xlrd.list
+13 Sep 14:59 /var/lib/dpkg/info/qt5-gtk-platformtheme:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/qttranslations5-l10n.list
+13 Sep 14:59 /var/lib/dpkg/info/qtwayland5:amd64.list
+13 Sep 14:59 /var/lib/dpkg/info/tree.list
+13 Sep 14:59 /var/lib/dpkg/info/untex.list
+13 Sep 14:59 /var/lib/dpkg/info/xapp-sn-watcher.list
+13 Sep 15:11 /var/lib/dpkg/info/libexo-common.list
+13 Sep 15:11 /var/lib/dpkg/info/libxfce4util-common.list
+13 Sep 15:11 /var/lib/dpkg/info/libxfce4util7:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libexo-2-0:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libxfce4ui-common.list
+13 Sep 15:11 /var/lib/dpkg/info/xfconf.list
+13 Sep 15:11 /var/lib/dpkg/info/libxfconf-0-3:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libxfce4ui-2-0:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/exo-utils.list
+13 Sep 15:11 /var/lib/dpkg/info/fonts-freefont-ttf.list
+13 Sep 15:11 /var/lib/dpkg/info/libaribb24-0:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libcddb2.list
+13 Sep 15:11 /var/lib/dpkg/info/libdvbpsi10:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libebml5:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libixml10:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/liblua5.2-0:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libmad0:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libmatroska7:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libopenmpt-modplug1:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libprotobuf-lite32:amd64.list
+13 Sep 15:11 /var/lib/dpkg/info/libproxy-tools.list
+13 Sep 15:11 /var/lib/dpkg/info/libqt5x11extras5:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libresid-builder0c2a.list
+13 Sep 15:12 /var/lib/dpkg/info/libsdl1.2debian:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libsdl-image1.2:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libsidplay2.list
+13 Sep 15:12 /var/lib/dpkg/info/libspatialaudio0:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libspeexdsp1:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/thunar-data.list
+13 Sep 15:12 /var/lib/dpkg/info/libthunarx-3-0:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libtumbler-1-0:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libupnp13:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libva-wayland2:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libvncclient1:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libxcb-composite0:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/libxfce4panel-2.0-4.list
+13 Sep 15:12 /var/lib/dpkg/info/libxfce4util-bin.list
+13 Sep 15:12 /var/lib/dpkg/info/lshw.list
+13 Sep 15:12 /var/lib/dpkg/info/thunar.list
+13 Sep 15:12 /var/lib/dpkg/info/thunar-archive-plugin:amd64.list
+13 Sep 15:12 /var/lib/dpkg/info/thunar-gtkhash.list
+13 Sep 15:12 /var/lib/dpkg/info/thunar-volman.list
+13 Sep 15:12 /var/lib/dpkg/info/tumbler-common.list
+13 Sep 15:12 /var/lib/dpkg/info/tumbler:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/binutils-common:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libbinutils:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libctf-nobfd0:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libctf0:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libgprofng0:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/binutils-x86-64-linux-gnu.list
+13 Sep 15:13 /var/lib/dpkg/info/binutils.list
+13 Sep 15:13 /var/lib/dpkg/info/libjsoncpp25:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/librhash0:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/cmake-data.list
+13 Sep 15:13 /var/lib/dpkg/info/cmake.list
+13 Sep 15:13 /var/lib/dpkg/info/cmake-curses-gui.list
+13 Sep 15:13 /var/lib/dpkg/info/libcc1-0:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libitm1:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libasan8:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/liblsan0:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libtsan2:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libubsan1:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libgcc-12-dev:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/gcc-12.list
+13 Sep 15:13 /var/lib/dpkg/info/gcc.list
+13 Sep 15:13 /var/lib/dpkg/info/libcrypt-dev:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libtirpc-dev:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/libnsl-dev:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/rpcsvc-proto.list
+13 Sep 15:13 /var/lib/dpkg/info/libpkgconf3:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/make.list
+13 Sep 15:13 /var/lib/dpkg/info/manpages-dev.list
+13 Sep 15:13 /var/lib/dpkg/info/pkgconf-bin.list
+13 Sep 15:13 /var/lib/dpkg/info/pkgconf:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/pkg-config:amd64.list
+13 Sep 15:13 /var/lib/dpkg/info/radeontop.list
+13 Sep 15:13 /var/lib/dpkg/info/cmake-extras.list
+13 Sep 15:15 /var/lib/dpkg/info/libid3tag0:amd64.list
+13 Sep 15:15 /var/lib/dpkg/info/caca-utils.list
+13 Sep 15:15 /var/lib/dpkg/info/libchafa0:amd64.list
+13 Sep 15:15 /var/lib/dpkg/info/chafa.list
+13 Sep 15:15 /var/lib/dpkg/info/cowsay.list
+13 Sep 15:15 /var/lib/dpkg/info/librecode0:amd64.list
+13 Sep 15:15 /var/lib/dpkg/info/fortune-mod.list
+13 Sep 15:15 /var/lib/dpkg/info/fortunes-min.list
+13 Sep 15:15 /var/lib/dpkg/info/imagemagick-6.q16.list
+13 Sep 15:15 /var/lib/dpkg/info/imagemagick.list
+13 Sep 15:15 /var/lib/dpkg/info/jp2a.list
+13 Sep 15:15 /var/lib/dpkg/info/libnetpbm11:amd64.list
+13 Sep 15:15 /var/lib/dpkg/info/rubygems-integration.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby3.1.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby-rubygems.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby.list
+13 Sep 15:15 /var/lib/dpkg/info/rake.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby-net-telnet.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby-webrick.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby-xmlrpc.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby-sdbm:amd64.list
+13 Sep 15:15 /var/lib/dpkg/info/libruby3.1:amd64.list
+13 Sep 15:15 /var/lib/dpkg/info/libruby:amd64.list
+13 Sep 15:15 /var/lib/dpkg/info/libsixel1:amd64.list
+13 Sep 15:15 /var/lib/dpkg/info/libsixel-bin.list
+13 Sep 15:15 /var/lib/dpkg/info/locate.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby-paint.list
+13 Sep 15:15 /var/lib/dpkg/info/ruby-optimist.list
+13 Sep 15:15 /var/lib/dpkg/info/lolcat.list
+13 Sep 15:15 /var/lib/dpkg/info/neofetch.list
+13 Sep 15:15 /var/lib/dpkg/info/netpbm.list
+13 Sep 15:15 /var/lib/dpkg/info/toilet-fonts.list
+13 Sep 15:15 /var/lib/dpkg/info/toilet.list
+13 Sep 15:15 /var/lib/dpkg/info/w3m.list
+13 Sep 15:15 /var/lib/dpkg/info/w3m-img.list
+13 Sep 15:15 /var/lib/dpkg/info/zip.list
+13 Sep 15:39 /var/lib/dpkg/info/fonts-3270.list
+13 Sep 15:39 /var/lib/dpkg/info/fonts-anonymous-pro.list
+13 Sep 15:41 /var/lib/dpkg/info/fonts-compagnon.list
+13 Sep 15:41 /var/lib/dpkg/info/fonts-gnutypewriter.list
+14 Sep 14:27 /var/lib/dpkg/info/libwebp7:amd64.list
+14 Sep 14:27 /var/lib/dpkg/info/libwebpdemux2:amd64.list
+14 Sep 14:27 /var/lib/dpkg/info/libwebpmux3:amd64.list
+15 Sep 12:18 /var/lib/dpkg/info/sshfs.list
+15 Sep 12:41 /var/lib/dpkg/info/gir1.2-poppler-0.18:amd64.list
+15 Sep 12:41 /var/lib/dpkg/info/libimagequant0:amd64.list
+15 Sep 12:41 /var/lib/dpkg/info/libraqm0:amd64.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-packaging.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-deprecation.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-lxml:amd64.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-pil:amd64.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-pikepdf.list
+15 Sep 12:41 /var/lib/dpkg/info/pdfarranger.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-soupsieve.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-bs4.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-webencodings.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-html5lib.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-img2pdf.list
+15 Sep 12:41 /var/lib/dpkg/info/python3-olefile.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-camel-1.2:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-edataserver-1.2:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-ebookcontacts-1.2:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-gee-0.8:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/libtelepathy-glib0:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-telepathyglib-0.12:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-folks-0.7:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-gdata-0.0:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-gnomeautoar-0.1:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-gsound-1.0:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gir1.2-nautilus-4.0:amd64.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-appindicator.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-autohidetopbar.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-dashtodock.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-desktop-icons-ng.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-gsconnect.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-gsconnect-browsers.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-hard-disk-led.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-panel-osd.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-shortcuts.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-tiling-assistant.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-top-icons-plus.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extension-vertical-overview.list
+15 Sep 13:30 /var/lib/dpkg/info/gnome-shell-extensions-extra.list
+15 Sep 13:30 /var/lib/dpkg/info/python3-configobj.list
+15 Sep 13:30 /var/lib/dpkg/info/python3-nautilus.list
+15 Sep 13:59 /var/lib/dpkg/info/liberror-perl.list
+15 Sep 13:59 /var/lib/dpkg/info/git-man.list
+15 Sep 13:59 /var/lib/dpkg/info/git.list
+15 Sep 13:59 /var/lib/dpkg/info/patch.list
+15 Sep 13:59 /var/lib/dpkg/info/tldr.list
+15 Sep 14:26 /var/lib/dpkg/info/gtk2-engines-murrine:amd64.list
+15 Sep 14:26 /var/lib/dpkg/info/blackbird-gtk-theme.list
+15 Sep 16:29 /var/lib/dpkg/info/rsync.list
+15 Sep 16:29 /var/lib/dpkg/info/timeshift.list
+15 Sep 17:42 /var/lib/dpkg/info/linux-image-6.1.0-10-amd64.list
+15 Sep 17:47 /var/lib/dpkg/info/fonts-powerline.list
+15 Sep 17:47 /var/lib/dpkg/info/fzf.list
+15 Sep 17:47 /var/lib/dpkg/info/libjna-jni.list
+15 Sep 17:47 /var/lib/dpkg/info/libjna-java.list
+15 Sep 17:47 /var/lib/dpkg/info/libjuniversalchardet-java.list
+15 Sep 17:47 /var/lib/dpkg/info/libjline3-java.list
+15 Sep 17:47 /var/lib/dpkg/info/liquidprompt.list
+15 Sep 17:47 /var/lib/dpkg/info/ondir.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-psutil.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-powerline.list
+15 Sep 17:47 /var/lib/dpkg/info/powerline.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-powerline-gitstatus.list
+15 Sep 17:47 /var/lib/dpkg/info/powerline-gitstatus.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-colorama.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-decorator.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-lib2to3.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-distutils.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-wcwidth.list
+15 Sep 17:47 /var/lib/dpkg/info/python3-pyte.list
+15 Sep 17:47 /var/lib/dpkg/info/thefuck.list
+15 Sep 20:02 /var/lib/dpkg/info/duf.list
+15 Sep 20:10 /var/lib/dpkg/info/darkblood-gtk-theme.list
+15 Sep 20:10 /var/lib/dpkg/info/darkcold-gtk-theme.list
+15 Sep 20:10 /var/lib/dpkg/info/darkfire-gtk-theme.list
+15 Sep 20:10 /var/lib/dpkg/info/darkmint-gtk-theme.list
+15 Sep 20:10 /var/lib/dpkg/info/greybird-gtk-theme.list
+15 Sep 20:10 /var/lib/dpkg/info/libqt6core6:amd64.list
+15 Sep 20:10 /var/lib/dpkg/info/libqt6dbus6:amd64.list
+15 Sep 20:10 /var/lib/dpkg/info/libts0:amd64.list
+15 Sep 20:10 /var/lib/dpkg/info/libqt6gui6:amd64.list
+15 Sep 20:10 /var/lib/dpkg/info/libqt6network6:amd64.list
+15 Sep 20:10 /var/lib/dpkg/info/materia-gtk-theme.list
+15 Sep 20:10 /var/lib/dpkg/info/numix-gtk-theme.list
+15 Sep 20:10 /var/lib/dpkg/info/orchis-gtk-theme.list
+15 Sep 20:10 /var/lib/dpkg/info/qt6-gtk-platformtheme:amd64.list
+15 Sep 20:10 /var/lib/dpkg/info/qt6-qpa-plugins:amd64.list
+15 Sep 20:10 /var/lib/dpkg/info/qt6-translations-l10n.list
+15 Sep 20:53 /var/lib/dpkg/info/emelfm2-svg-icons.list
+15 Sep 20:53 /var/lib/dpkg/info/fdpowermon-icons.list
+15 Sep 20:53 /var/lib/dpkg/info/fonts-elusive-icons.list
+15 Sep 20:53 /var/lib/dpkg/info/fonts-material-design-icons-iconfont.list
+15 Sep 20:53 /var/lib/dpkg/info/numix-icon-theme.list
+15 Sep 20:53 /var/lib/dpkg/info/numix-icon-theme-circle.list
+15 Sep 20:54 /var/lib/dpkg/info/bash-builtins.list
+15 Sep 20:54 /var/lib/dpkg/info/bash-doc.list
+15 Sep 20:54 /var/lib/dpkg/info/fortunes.list
+15 Sep 20:54 /var/lib/dpkg/info/fortunes-debian-hints.list
+15 Sep 20:54 /var/lib/dpkg/info/liburing2:amd64.list
+15 Sep 20:54 /var/lib/dpkg/info/plocate.list
+15 Sep 22:10 /var/lib/dpkg/info/arc-theme.list
+15 Sep 22:17 /var/lib/dpkg/info/gtk2-engines-aurora.list
+15 Sep 22:17 /var/lib/dpkg/info/gtk2-engines-cleanice.list
+15 Sep 22:17 /var/lib/dpkg/info/papirus-icon-theme.list
+15 Sep 22:19 /var/lib/dpkg/info/debian-reference-common.list
+15 Sep 22:19 /var/lib/dpkg/info/debian-reference-de.list
+15 Sep 22:22 /var/lib/dpkg/info/runit-helper.list
+15 Sep 22:22 /var/lib/dpkg/info/color-picker.list
+15 Sep 22:22 /var/lib/dpkg/info/libtcl8.6:amd64.list
+15 Sep 22:22 /var/lib/dpkg/info/tcl8.6.list
+15 Sep 22:22 /var/lib/dpkg/info/tcl-expect:amd64.list
+15 Sep 22:22 /var/lib/dpkg/info/expect.list
+15 Sep 22:22 /var/lib/dpkg/info/libmpdclient2:amd64.list
+15 Sep 22:22 /var/lib/dpkg/info/libxcb-cursor0:amd64.list
+15 Sep 22:22 /var/lib/dpkg/info/libxcb-ewmh2:amd64.list
+15 Sep 22:22 /var/lib/dpkg/info/libxcb-xrm0:amd64.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-fastbencode.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-merge3.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-yaml.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-dulwich.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-patiencediff.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-breezy.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-launchpadlib.list
+15 Sep 22:22 /var/lib/dpkg/info/lptools.list
+15 Sep 22:22 /var/lib/dpkg/info/makepatch.list
+15 Sep 22:22 /var/lib/dpkg/info/pick.list
+15 Sep 22:22 /var/lib/dpkg/info/pipemeter.list
+15 Sep 22:22 /var/lib/dpkg/info/pipexec.list
+15 Sep 22:22 /var/lib/dpkg/info/polybar.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-chameleon.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-wrapt.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-deprecated.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-fastimport.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-nacl.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-github.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-gpg.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-more-itertools.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-zipp.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-importlib-metadata.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-jaraco.classes.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-jeepney.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-secretstorage.list
+15 Sep 22:22 /var/lib/dpkg/info/python3-keyring.list
+15 Sep 22:22 /var/lib/dpkg/info/rancid.list
+15 Sep 22:22 /var/lib/dpkg/info/shellcheck.list
+15 Sep 22:22 /var/lib/dpkg/info/shelltestrunner.list
+15 Sep 22:22 /var/lib/dpkg/info/shfmt.list
+15 Sep 22:22 /var/lib/dpkg/info/spectre-meltdown-checker.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-accanthis.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-baskervald.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-berenis.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-gillius.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-ikarius.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-irianis.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-libris.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-mekanus.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-oldania.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-romande.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-solothurn.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-switzera.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-tribun.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-universalis.list
+17 Sep 17:56 /var/lib/dpkg/info/fonts-adf-verana.list
+17 Sep 18:05 /var/lib/dpkg/info/flatpak.list
+17 Sep 18:36 /var/lib/dpkg/info/btop.list
+18 Sep 01:06 /var/lib/dpkg/info/liblocale-maketext-fuzzy-perl.list
+20 Sep 20:45 /var/lib/dpkg/info/libapt-pkg-perl.list
+20 Sep 20:45 /var/lib/dpkg/info/libregexp-assemble-perl.list
+20 Sep 20:45 /var/lib/dpkg/info/apt-file.list
+20 Sep 20:45 /var/lib/dpkg/info/command-not-found.list
+20 Sep 23:00 /var/lib/dpkg/info/gedit-common.list
+20 Sep 23:00 /var/lib/dpkg/info/libamtk-5-common.list
+20 Sep 23:00 /var/lib/dpkg/info/libamtk-5-0:amd64.list
+20 Sep 23:00 /var/lib/dpkg/info/libtepl-common.list
+20 Sep 23:00 /var/lib/dpkg/info/libtepl-6-2:amd64.list
+20 Sep 23:00 /var/lib/dpkg/info/gedit.list
+22 Sep 19:04 /var/lib/dpkg/info/qml-module-qtquick-controls:amd64.list
+22 Sep 19:04 /var/lib/dpkg/info/qml-module-qtquick-localstorage:amd64.list
+22 Sep 19:04 /var/lib/dpkg/info/fonts-inconsolata.list
+22 Sep 19:04 /var/lib/dpkg/info/qmltermwidget-common.list
+22 Sep 19:04 /var/lib/dpkg/info/qml-module-termwidget:amd64.list
+22 Sep 19:04 /var/lib/dpkg/info/fonts-agave.list
+22 Sep 19:04 /var/lib/dpkg/info/fonts-sixtyfour.list
+22 Sep 19:04 /var/lib/dpkg/info/fonts-pc.list
+22 Sep 19:04 /var/lib/dpkg/info/fonts-pc-extra.list
+22 Sep 19:04 /var/lib/dpkg/info/fonts-amiga.list
+22 Sep 19:04 /var/lib/dpkg/info/fonts-atarismall.list
+22 Sep 19:04 /var/lib/dpkg/info/cool-retro-term.list
+25 Sep 01:09 /var/lib/dpkg/info/gnome-chess.list
+25 Sep 01:09 /var/lib/dpkg/info/gnome-colors-common.list
+25 Sep 01:10 /var/lib/dpkg/info/bind9-host.list
+25 Sep 01:10 /var/lib/dpkg/info/bind9-dnsutils.list
+25 Sep 01:10 /var/lib/dpkg/info/bind9-libs:amd64.list
+26 Sep 07:27 /var/lib/dpkg/info/gir1.2-appstream-1.0:amd64.list
+26 Sep 07:27 /var/lib/dpkg/info/gir1.2-gudev-1.0:amd64.list
+26 Sep 07:27 /var/lib/dpkg/info/isenkram-cli.list
+26 Sep 07:27 /var/lib/dpkg/info/isenkram.list
+28 Sep 01:44 /var/lib/dpkg/info/cowsay-off.list
+28 Sep 03:00 /var/lib/dpkg/info/hyperfine.list
+28 Sep 03:00 /var/lib/dpkg/info/libxml2-utils.list
+28 Sep 03:00 /var/lib/dpkg/info/ncdu.list
+28 Sep 03:00 /var/lib/dpkg/info/pydf.list
+28 Sep 03:00 /var/lib/dpkg/info/wsl.list
+28 Sep 03:00 /var/lib/dpkg/info/xsltproc.list
+29 Sep 13:52 /var/lib/dpkg/info/gettext.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-cinnamondesktop-3.0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/muffin-common.list
+29 Sep 13:52 /var/lib/dpkg/info/libmuffin0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-xapp.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-control-center-data.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-tinycss.list
+29 Sep 13:52 /var/lib/dpkg/info/libcvc0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-cvc-1.0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-settings-daemon.list
+29 Sep 13:52 /var/lib/dpkg/info/libcinnamon-control-center1:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/policykit-1-gnome.list
+29 Sep 13:52 /var/lib/dpkg/info/libcinnamon-menu-3-0.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-control-center.list
+29 Sep 13:52 /var/lib/dpkg/info/libxdo3:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/libcscreensaver0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-cscreensaver-1.0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-xkl-1.0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-gkbd-3.0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-xapp-1.0.list
+29 Sep 13:52 /var/lib/dpkg/info/iso-flags-png-320x240.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-setproctitle:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-xlib.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-screensaver.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-session-common.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-session.list
+29 Sep 13:52 /var/lib/dpkg/info/muffin.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-control-center-goa:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/libasound2-plugins:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/libpulsedsp:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/pulseaudio-utils.list
+29 Sep 14:05 /var/lib/dpkg/info/nvidia-vaapi-driver:amd64.list
+29 Sep 15:09 /var/lib/dpkg/info/libglut3.12:amd64.list
+29 Sep 15:09 /var/lib/dpkg/info/webp.list
+ 1 Okt 12:18 /var/lib/dpkg/info/libpcre3:amd64.list
+ 1 Okt 12:24 /var/lib/dpkg/info/lsscsi.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libdebuginfod-common.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5config-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5configcore5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5coreaddons-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5coreaddons5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5crash5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5dbusaddons-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5dbusaddons5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5i18n-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5i18n5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5service-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libqt5xml5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5service5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5service-bin.list
+ 1 Okt 12:37 /var/lib/dpkg/info/kded5.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5auth-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libpolkit-qt5-1-1:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5authcore5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5configwidgets-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5codecs-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5codecs5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5configgui5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5guiaddons-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5guiaddons5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5widgetsaddons-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5widgetsaddons5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5configwidgets5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5doctools5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5itemviews-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5itemviews5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5kiocore5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5windowsystem-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5windowsystem5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5kiogui5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5kiontlm5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5completion-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5completion5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5iconthemes-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5iconthemes5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5jobwidgets-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5jobwidgets5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5solid5-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5solid5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5kiowidgets5:amd64.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libkf5notifications-data.list
+ 1 Okt 12:37 /var/lib/dpkg/info/libdbusmenu-qt5-2:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqt5texttospeech5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5notifications5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5textwidgets-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5sonnet5-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5sonnetcore5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5sonnetui5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5textwidgets5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5wallet-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkwalletbackend5-5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5wallet5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqca-qt5-2:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5wallet-bin.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kio.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5package-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5package5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kpackagetool5.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5configqml5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5declarative-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5declarative5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5globalaccel-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5globalaccel5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5globalaccelprivate5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libxcb-record0:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5globalaccel-bin.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5idletime5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5quickaddons5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5screen-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libxcb-dpms0:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5screendpms8:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kwayland-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5waylandclient5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5xmlgui-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5xmlgui5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/liblayershellqtinterface5.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkscreenlocker5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/aha.list
+ 1 Okt 12:38 /var/lib/dpkg/info/apt-config-icons-hidpi.list
+ 1 Okt 12:38 /var/lib/dpkg/info/apt-config-icons-large.list
+ 1 Okt 12:38 /var/lib/dpkg/info/apt-config-icons-large-hidpi.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kconfig:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kquickcontrols:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kquickcontrolsaddons:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5activities5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5calendarevents5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5kirigami2-5.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5bluezqt-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5bluezqt6:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-bluezqt:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kio:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5bookmarks-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5bookmarks5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5kiofilewidgets5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/bluedevil.list
+ 1 Okt 12:38 /var/lib/dpkg/info/breeze-cursor-theme.list
+ 1 Okt 12:38 /var/lib/dpkg/info/breeze-icon-theme.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5style5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kde-style-breeze.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkdecorations2private10:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkdecorations2-5v5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kwin-style-breeze.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5kcmutils-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5auth5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5kcmutilscore5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5kcmutils5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/breeze.list
+ 1 Okt 12:38 /var/lib/dpkg/info/breeze-gtk-theme.list
+ 1 Okt 12:38 /var/lib/dpkg/info/par2.list
+ 1 Okt 12:38 /var/lib/dpkg/info/python3-pylibacl:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/python3-pyxattr:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/bup.list
+ 1 Okt 12:38 /var/lib/dpkg/info/bup-doc.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libboost-chrono1.74.0:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libboost-program-options1.74.0:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libspdlog1.10:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/cryfs.list
+ 1 Okt 12:38 /var/lib/dpkg/info/debconf-kde-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libdebconf-kde1:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/debconf-kde-helper.list
+ 1 Okt 12:38 /var/lib/dpkg/info/docbook-xsl.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5syntaxhighlighting-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5syntaxhighlighting5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-syntaxhighlighting:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkuserfeedbackcore1:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/drkonqi.list
+ 1 Okt 12:38 /var/lib/dpkg/info/fonts-hack.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libappstreamqt2:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5attica5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5syndication5abi1:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5newstuffcore5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libpackagekitqt5-1:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/frameworkintegration.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libdebuginfod1:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libipt2.list
+ 1 Okt 12:38 /var/lib/dpkg/info/gdb-minimal.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kirigami2.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqt5test5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqt5webengine5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-qtwebengine:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libsignon-plugins-common1:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/signon-plugin-oauth2.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libaccounts-glib0:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libaccounts-qt5-1:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libsignon-qt5-1:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkaccounts2:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kaccounts-providers.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kactivities-bin.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kactivitymanagerd.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kde-cli-tools-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5su-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5pty-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5pty5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5su5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5su-bin.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5parts-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5parts5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kde-cli-tools.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kde-config-gtk-style:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kcm:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kcmutils:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5itemmodels5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kitemmodels:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-newstuff.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqt5quickshapes5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-qtquick-shapes:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5threadweaver5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5runner5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/systemsettings.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kde-config-screenlocker.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kde-config-sddm.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kde-config-updates.list
+ 1 Okt 12:38 /var/lib/dpkg/info/liboxygenstyle5-5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/liboxygenstyleconfig5-5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kde-style-oxygen-qt5.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5contacts-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5i18nlocaledata5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5contacts5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5people-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5peoplebackend5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kpeople-vcard:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqca-qt5-2-plugins:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5people5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5peoplewidgets5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-people:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqt5multimedia5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqt5multimediaquick5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-qtmultimedia:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libqt5quickparticles5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-qtquick-particles2:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libfakekey0:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5pulseaudioqt3:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kdeconnect.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kdoctools5.list
+ 1 Okt 12:38 /var/lib/dpkg/info/keditbookmarks.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kgamma5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kinit.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libgrantlee-templates5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5khtml-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5js5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libphonon4qt5-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libphonon4qt5-4:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/phonon4qt5-backend-vlc:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/phonon4qt5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5khtml5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/khelpcenter.list
+ 1 Okt 12:38 /var/lib/dpkg/info/khotkeys-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5kdelibs4support-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5kdelibs4support5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/khotkeys:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kwin-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5newstuff-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5newstuff5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5newstuffwidgets5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkwinglutils14.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkwineffects14.list
+ 1 Okt 12:38 /var/lib/dpkg/info/kwin-common.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5config-bin.list
+ 1 Okt 12:38 /var/lib/dpkg/info/milou.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-sonnet:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-qqc2desktopstyle.list
+ 1 Okt 12:38 /var/lib/dpkg/info/plasma-integration.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qtchooser.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qdbus-qt5.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-draganddrop:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kcoreaddons:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5holidays-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5holidays5:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-kholidays:amd64.list
+ 1 Okt 12:38 /var/lib/dpkg/info/qml-module-org-kde-quickcharts.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libkf5sysguard-data.list
+ 1 Okt 12:38 /var/lib/dpkg/info/libksysguardformatter1.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libksysguardsystemstats1.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libksysguardsensors1.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libksysguardsensorfaces1.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libprocesscore9.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-ksysguard.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-kwindowsystem:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libdmtx0b:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5prison5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5prisonscanner5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-prison:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-solid:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-userfeedback:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libgps28:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5activitiesstats1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5balooengine5.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5filemetadata-data.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5filemetadata3:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5baloo5.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5kexiv2-15.0.0:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5networkmanagerqt6.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5notifyconfig-data.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5notifyconfig5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/ktexteditor-data.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5texteditor-bin.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5texteditor5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkpipewire5.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libksgrd9.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5screen8:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5screen-bin.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libprocessui9.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqalculate-data.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqalculate22:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kinfocenter.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kio-extras-data.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libsquashfuse0:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libxdgutilsbasedir1.0.1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libxdgutilsdesktopentry1.0.1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libappimage1.0abi1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkdsoap1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5dnssd-data.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5dnssd5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libssh-4:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kio-extras.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kmenuedit.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kpackagelauncherqml.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqt5sensors5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kscreen.list
+ 1 Okt 12:39 /var/lib/dpkg/info/ksshaskpass.list
+ 1 Okt 12:39 /var/lib/dpkg/info/ksystemstats.list
+ 1 Okt 12:39 /var/lib/dpkg/info/ktexteditor-katepart.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libhttp-parser2.9:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libmbedx509-1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libmbedtls14:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libgit2-1.5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kup-backup.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kuserfeedback-doc.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kwalletmanager.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kwayland-integration:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqaccessibilityclient-qt5-0:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kwin-wayland.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kwin-x11.list
+ 1 Okt 12:39 /var/lib/dpkg/info/kwrited.list
+ 1 Okt 12:39 /var/lib/dpkg/info/layer-shell-qt.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libzip4:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libepub0.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libgsettings-qt1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libhfstospell11:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5dbusaddons-bin.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libpoppler-qt5-1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqmobipocket2:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5filemetadata-bin:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5guiaddons-bin.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5iconthemes-bin.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5kcmutils-bin.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5kdelibs4support5-bin.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5khtml-bin.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5modemmanagerqt6:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5parts-plugins.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5purpose5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5purpose-bin:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkf5xmlgui-bin:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkpipewiredmabuf5.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkpipewirerecord5.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libkpmcore12.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libmarkdown2:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libxmlsec1-openssl:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libpskc0:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libtommath1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libtomcrypt1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libstoken1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libopenconnect5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/socat.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libpam-kwallet-common.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libpam-kwallet5.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libpowerdevilcore2:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libpowerdevilui5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqt5concurrent5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqt5multimediawidgets5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqt5multimediagsttools5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqt5multimedia5-plugins:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqt5virtualkeyboard5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libqt5webview5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libscim8v5:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/libvoikko1:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/oxygen-sounds.list
+ 1 Okt 12:39 /var/lib/dpkg/info/partitionmanager.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-browser-integration.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-desktop-data.list
+ 1 Okt 12:39 /var/lib/dpkg/info/polkit-kde-agent-1.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-desktop.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-discover-common.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-discover.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-discover-backend-fwupd.list
+ 1 Okt 12:39 /var/lib/dpkg/info/smartmontools.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-disks.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-nm.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-pa.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-qt-labs-qmlmodels:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-systemmonitor.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-thunderbolt.list
+ 1 Okt 12:39 /var/lib/dpkg/info/plasma-vault.list
+ 1 Okt 12:39 /var/lib/dpkg/info/powerdevil-data.list
+ 1 Okt 12:39 /var/lib/dpkg/info/powerdevil.list
+ 1 Okt 12:39 /var/lib/dpkg/info/python3-fuse.list
+ 1 Okt 12:39 /var/lib/dpkg/info/python3-tornado.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-gsettings1.0:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-activities:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-pipewire.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-purpose:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-org-kde-runnermodel.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qml-module-qtquick-virtualkeyboard:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/qtspeech5-speechd-plugin:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/sonnet-plugins:amd64.list
+ 1 Okt 12:39 /var/lib/dpkg/info/xdg-desktop-portal-kde.list
+ 1 Okt 12:39 /var/lib/dpkg/info/xsettingsd.list
+ 1 Okt 15:02 /var/lib/dpkg/info/htop.list
+ 1 Okt 16:24 /var/lib/dpkg/info/libuuid-perl.list
+ 1 Okt 16:24 /var/lib/dpkg/info/libyaml-tiny-perl.list
+ 1 Okt 16:24 /var/lib/dpkg/info/doc-base.list
+ 1 Okt 16:24 /var/lib/dpkg/info/apache2-data.list
+ 1 Okt 16:24 /var/lib/dpkg/info/apache2-utils.list
+ 1 Okt 16:24 /var/lib/dpkg/info/apache2.list
+ 1 Okt 16:24 /var/lib/dpkg/info/info2www.list
+ 1 Okt 16:24 /var/lib/dpkg/info/doc-central.list
+ 1 Okt 19:35 /var/lib/dpkg/info/xdm.list
+ 1 Okt 19:36 /var/lib/dpkg/info/policykit-1.list
+ 1 Okt 19:36 /var/lib/dpkg/info/polkitd-pkla.list
+ 1 Okt 19:36 /var/lib/dpkg/info/gdm3.list
+29 Sep 13:52 /var/lib/dpkg/info/blueman.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-common.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon-core.list
+29 Sep 13:52 /var/lib/dpkg/info/cinnamon.list
+29 Sep 13:52 /var/lib/dpkg/info/cjs.list
+29 Sep 13:44 /var/lib/dpkg/info/dex.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-caribou-1.0.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-cmenu-3.0.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-ecal-2.0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-ical-3.0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-keybinder-3.0.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-meta-muffin-0.0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/gir1.2-timezonemap-1.0.list
+29 Sep 13:44 /var/lib/dpkg/info/i3status.list
+29 Sep 13:44 /var/lib/dpkg/info/i3-wm.list
+29 Sep 13:44 /var/lib/dpkg/info/libanyevent-i3-perl.list
+29 Sep 13:44 /var/lib/dpkg/info/libanyevent-perl.list
+29 Sep 13:44 /var/lib/dpkg/info/libasync-interrupt-perl.list
+29 Sep 13:52 /var/lib/dpkg/info/libcaribou0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/libcaribou-common.list
+29 Sep 13:52 /var/lib/dpkg/info/libcjs0:amd64.list
+29 Sep 13:44 /var/lib/dpkg/info/libcommon-sense-perl:amd64.list
+29 Sep 13:44 /var/lib/dpkg/info/libconfuse2:amd64.list
+29 Sep 13:44 /var/lib/dpkg/info/libconfuse-common.list
+29 Sep 13:44 /var/lib/dpkg/info/libev-perl:amd64.list
+29 Sep 13:44 /var/lib/dpkg/info/libev4:amd64.list
+29 Sep 13:44 /var/lib/dpkg/info/libguard-perl.list
+29 Sep 13:44 /var/lib/dpkg/info/libjson-xs-perl.list
+29 Sep 13:52 /var/lib/dpkg/info/libkeybinder-3.0-0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/libmozjs-78-0:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/libtimezonemap1:amd64.list
+29 Sep 13:52 /var/lib/dpkg/info/libtimezonemap-data.list
+29 Sep 13:44 /var/lib/dpkg/info/libtypes-serialiser-perl.list
+29 Sep 13:52 /var/lib/dpkg/info/metacity-common.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-pampy.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-pexpect.list
+29 Sep 13:52 /var/lib/dpkg/info/python-tinycss2-common.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-ptyprocess.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-pyinotify.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-tinycss2.list
+29 Sep 13:52 /var/lib/dpkg/info/python3-tz.list
+ 1 Okt 19:36 /var/lib/dpkg/info/liblightdm-gobject-1-0:amd64.list
+ 1 Okt 19:36 /var/lib/dpkg/info/lightdm-gtk-greeter.list
+ 1 Okt 19:36 /var/lib/dpkg/info/lightdm.list
+ 1 Okt 19:35 /var/lib/dpkg/info/sddm.list
+ 8 Sep 23:16 /var/lib/dpkg/info/firmware-amd-graphics.list
+ 8 Sep 23:27 /var/lib/dpkg/info/xserver-xorg-video-nouveau.list
+29 Sep 23:15 /var/lib/dpkg/info/arandr.list
+10 Okt 22:03 /var/lib/dpkg/info/debianutils.list
+10 Okt 22:03 /var/lib/dpkg/info/libpam0g:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libpam-modules-bin.list
+10 Okt 22:03 /var/lib/dpkg/info/libpam-modules:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libpam-runtime.list
+10 Okt 22:03 /var/lib/dpkg/info/dbus-system-bus-common.list
+10 Okt 22:03 /var/lib/dpkg/info/dbus-session-bus-common.list
+10 Okt 22:03 /var/lib/dpkg/info/dbus-user-session.list
+10 Okt 22:03 /var/lib/dpkg/info/dbus-daemon.list
+10 Okt 22:03 /var/lib/dpkg/info/dbus-bin.list
+10 Okt 22:03 /var/lib/dpkg/info/dbus.list
+10 Okt 22:03 /var/lib/dpkg/info/libdbus-1-3:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/ghostscript.list
+10 Okt 22:03 /var/lib/dpkg/info/libgs10:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libgs10-common.list
+10 Okt 22:03 /var/lib/dpkg/info/libgs-common.list
+10 Okt 22:03 /var/lib/dpkg/info/libgssapi-krb5-2:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libkrb5-3:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libkrb5support0:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libk5crypto3:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/openssh-sftp-server.list
+10 Okt 22:03 /var/lib/dpkg/info/openssh-server.list
+10 Okt 22:03 /var/lib/dpkg/info/openssh-client.list
+10 Okt 22:03 /var/lib/dpkg/info/debian-archive-keyring.list
+10 Okt 22:03 /var/lib/dpkg/info/nftables.list
+10 Okt 22:03 /var/lib/dpkg/info/libnftables1:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/inetutils-telnet.list
+10 Okt 22:03 /var/lib/dpkg/info/krb5-locales.list
+10 Okt 22:03 /var/lib/dpkg/info/libgail-3-0:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libgtk-3-common.list
+10 Okt 22:03 /var/lib/dpkg/info/libgtk-3-0:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/gir1.2-gtk-3.0:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libgtk-4-common.list
+10 Okt 22:03 /var/lib/dpkg/info/libgtk-4-1:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/gir1.2-gtk-4.0:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libmozjs-102-0:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/gjs.list
+10 Okt 22:03 /var/lib/dpkg/info/libgjs0g:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/gtk-update-icon-cache.list
+10 Okt 22:03 /var/lib/dpkg/info/libbrlapi0.8:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/plasma-workspace-wayland.list
+10 Okt 22:03 /var/lib/dpkg/info/plasma-workspace.list
+10 Okt 22:03 /var/lib/dpkg/info/libkworkspace5-5.list
+10 Okt 22:03 /var/lib/dpkg/info/libkf5plasma5:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libkf5plasmaquick5:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/plasma-framework.list
+10 Okt 22:03 /var/lib/dpkg/info/plasma-workspace-data.list
+10 Okt 22:03 /var/lib/dpkg/info/libkfontinstui5.list
+10 Okt 22:03 /var/lib/dpkg/info/libkfontinst5.list
+10 Okt 22:03 /var/lib/dpkg/info/libnotificationmanager1.list
+10 Okt 22:03 /var/lib/dpkg/info/libplasma-geolocation-interface5.list
+10 Okt 22:03 /var/lib/dpkg/info/libtaskmanager6abi1.list
+10 Okt 22:03 /var/lib/dpkg/info/libweather-ion7.list
+10 Okt 22:03 /var/lib/dpkg/info/libcolorcorrect5.list
+10 Okt 22:03 /var/lib/dpkg/info/libgtk-3-bin.list
+10 Okt 22:03 /var/lib/dpkg/info/libgtk-4-bin.list
+10 Okt 22:03 /var/lib/dpkg/info/libhwy1:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libimlib2:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libqt5positioning5:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libvte-2.91-0:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/libvte-2.91-common.list
+10 Okt 22:03 /var/lib/dpkg/info/python3-brlapi:amd64.list
+10 Okt 22:03 /var/lib/dpkg/info/transmission-common.list
+10 Okt 22:03 /var/lib/dpkg/info/transmission-gtk.list
+10 Okt 22:03 /var/lib/dpkg/info/xbrlapi.list
+13 Okt 14:18 /var/lib/dpkg/info/desktopfolder.list
+13 Okt 14:18 /var/lib/dpkg/info/install-info.list
+13 Okt 14:18 /var/lib/dpkg/info/info.list
+13 Okt 14:48 /var/lib/dpkg/info/nextcloud-desktop-common.list
+14 Okt 16:56 /var/lib/dpkg/info/libgda-5.0-common.list
+14 Okt 16:56 /var/lib/dpkg/info/libgda-5.0-4:amd64.list
+14 Okt 16:56 /var/lib/dpkg/info/gir1.2-gda-5.0:amd64.list
+15 Okt 17:03 /var/lib/dpkg/info/konsole-kpart.list
+15 Okt 17:03 /var/lib/dpkg/info/yakuake.list
+18 Okt 08:32 /var/lib/dpkg/info/linux-image-6.1.0-13-amd64.list
+23 Okt 14:03 /var/lib/dpkg/info/wmctrl.list
+23 Okt 14:03 /var/lib/dpkg/info/xdotool.list
+23 Okt 14:22 /var/lib/dpkg/info/exa.list
+23 Okt 14:37 /var/lib/dpkg/info/ripgrep.list
+23 Okt 14:45 /var/lib/dpkg/info/progress.list
+25 Okt 01:42 /var/lib/dpkg/info/libc-devtools.list
+25 Okt 01:42 /var/lib/dpkg/info/libc6-dev:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libc-dev-bin.list
+25 Okt 01:42 /var/lib/dpkg/info/libc6:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libc-bin.list
+25 Okt 01:42 /var/lib/dpkg/info/libc-l10n.list
+25 Okt 01:42 /var/lib/dpkg/info/locales.list
+25 Okt 01:42 /var/lib/dpkg/info/libssl3:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/curl.list
+25 Okt 01:42 /var/lib/dpkg/info/libcurl4:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libcurl3-gnutls:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libx11-6:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libx11-xcb1:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libx11-data.list
+25 Okt 01:42 /var/lib/dpkg/info/grub2-common.list
+25 Okt 01:42 /var/lib/dpkg/info/grub-efi-amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/grub-efi-amd64-bin.list
+25 Okt 01:42 /var/lib/dpkg/info/grub-common.list
+25 Okt 01:42 /var/lib/dpkg/info/grub-efi-amd64-signed.list
+25 Okt 01:42 /var/lib/dpkg/info/libcue2:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libldb2:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libsmbclient:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/samba-libs:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libwbclient0:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libvpx7:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/libxpm4:amd64.list
+25 Okt 01:42 /var/lib/dpkg/info/openssl.list
+25 Okt 01:42 /var/lib/dpkg/info/linux-image-6.1.0-11-amd64.list
+ 2 Nov 01:32 /var/lib/dpkg/info/xserver-common.list
+ 2 Nov 01:32 /var/lib/dpkg/info/xserver-xephyr.list
+ 2 Nov 01:32 /var/lib/dpkg/info/xserver-xorg-legacy.list
+ 2 Nov 01:32 /var/lib/dpkg/info/xserver-xorg-core.list
+ 2 Nov 01:52 /var/lib/dpkg/info/liblo7:amd64.list
+ 2 Nov 01:52 /var/lib/dpkg/info/liborcania2.3:amd64.list
+ 2 Nov 01:52 /var/lib/dpkg/info/libmicrohttpd12:amd64.list
+ 2 Nov 01:52 /var/lib/dpkg/info/libyder2.0:amd64.list
+ 2 Nov 01:52 /var/lib/dpkg/info/libulfius2.7:amd64.list
+ 2 Nov 01:52 /var/lib/dpkg/info/lebiniou-data.list
+ 2 Nov 01:52 /var/lib/dpkg/info/lebiniou.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-base:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-data.list
+ 9 Nov 01:00 /var/lib/dpkg/info/libvlccore9:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-skins2:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-qt:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-video-output:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/libvlc5:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-bin.list
+ 9 Nov 01:00 /var/lib/dpkg/info/libvlc-bin:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-l10n.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-access-extra:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-jack:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-notify:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-samba:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-svg:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-video-splitter:amd64.list
+ 9 Nov 01:00 /var/lib/dpkg/info/vlc-plugin-visualization:amd64.list
+ 9 Nov 01:30 /var/lib/dpkg/info/uuid-runtime.list
+ 9 Nov 02:22 /var/lib/dpkg/info/libncurses-dev:amd64.list
+10 Nov 17:45 /var/lib/dpkg/info/sqlite3.list
+10 Nov 19:25 /var/lib/dpkg/info/autorandr.list
+12 Nov 15:33 /var/lib/dpkg/info/net.downloadhelper.coapp.list
+12 Nov 16:55 /var/lib/dpkg/info/gedit-plugins-common:amd64.list
+12 Nov 16:55 /var/lib/dpkg/info/gedit-plugin-bookmarks.list
+12 Nov 16:55 /var/lib/dpkg/info/gedit-plugin-bracket-completion.list
+12 Nov 16:56 /var/lib/dpkg/info/libgucharmap-2-90-7:amd64.list
+12 Nov 16:56 /var/lib/dpkg/info/gir1.2-gucharmap-2.90:amd64.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-character-map.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-code-comment.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-color-picker.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-color-schemer.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-draw-spaces.list
+12 Nov 16:56 /var/lib/dpkg/info/libgit2-glib-1.0-0:amd64.list
+12 Nov 16:56 /var/lib/dpkg/info/gir1.2-ggit-1.0:amd64.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-git.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-join-lines.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-multi-edit.list
+12 Nov 16:56 /var/lib/dpkg/info/gir1.2-amtk-5:amd64.list
+12 Nov 16:56 /var/lib/dpkg/info/gir1.2-tepl-6:amd64.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-session-saver.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-smart-spaces.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-synctex.list
+12 Nov 16:56 /var/lib/dpkg/info/gir1.2-vte-2.91:amd64.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-terminal.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-text-size.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugin-word-completion.list
+12 Nov 16:56 /var/lib/dpkg/info/gedit-plugins.list
+14 Nov 14:23 /var/lib/dpkg/info/zsh-common.list
+14 Nov 14:23 /var/lib/dpkg/info/zsh.list
+14 Nov 14:23 /var/lib/dpkg/info/zsh-antigen.list
+14 Nov 14:23 /var/lib/dpkg/info/zsh-autosuggestions.list
+14 Nov 14:23 /var/lib/dpkg/info/zsh-dev.list
+14 Nov 14:23 /var/lib/dpkg/info/zsh-doc.list
+14 Nov 14:23 /var/lib/dpkg/info/zsh-static.list
+14 Nov 14:23 /var/lib/dpkg/info/zsh-theme-powerlevel9k.list
+14 Nov 15:48 /var/lib/dpkg/info/net-tools.list
+14 Nov 16:29 /var/lib/dpkg/info/libswscale6:amd64.list
+14 Nov 16:29 /var/lib/dpkg/info/libpostproc56:amd64.list
+14 Nov 16:29 /var/lib/dpkg/info/libswresample4:amd64.list
+14 Nov 16:29 /var/lib/dpkg/info/libavfilter8:amd64.list
+14 Nov 16:29 /var/lib/dpkg/info/libavformat59:amd64.list
+14 Nov 16:29 /var/lib/dpkg/info/libavcodec59:amd64.list
+14 Nov 16:29 /var/lib/dpkg/info/libavutil57:amd64.list
+14 Nov 19:33 /var/lib/dpkg/info/fonts-allerta.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-cabinsketch.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-glasstty.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-havana.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-radisnoir.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-reggae.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-roadgeek.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-rocknroll.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-routed-gothic.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-sjfonts.list
+14 Nov 19:34 /var/lib/dpkg/info/fonts-yusei-magic.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-cegui.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-century-catalogue.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-cherrybomb.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-comic-neue.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-fantasque-sans.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-firacode.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-le-murmure.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-linex.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-ubuntu-console.list
+14 Nov 21:32 /var/lib/dpkg/info/fonts-ubuntu-title.list
+15 Nov 19:43 /var/lib/dpkg/info/zsh-syntax-highlighting.list
+15 Nov 20:03 /var/lib/dpkg/info/less.list
+15 Nov 23:57 /var/lib/dpkg/info/deborphan.list
+16 Nov 00:47 /var/lib/dpkg/info/anarchism.list
+16 Nov 22:00 /var/lib/dpkg/info/xclip.list
+18 Nov 00:21 /var/lib/dpkg/info/gir1.2-webkit2-4.0:amd64.list
+18 Nov 00:21 /var/lib/dpkg/info/gir1.2-javascriptcoregtk-4.0:amd64.list
+18 Nov 00:21 /var/lib/dpkg/info/libwebkit2gtk-4.0-37:amd64.list
+18 Nov 00:21 /var/lib/dpkg/info/libjavascriptcoregtk-4.0-18:amd64.list
+18 Nov 00:21 /var/lib/dpkg/info/gir1.2-webkit2-4.1:amd64.list
+18 Nov 00:21 /var/lib/dpkg/info/gir1.2-javascriptcoregtk-4.1:amd64.list
+18 Nov 00:21 /var/lib/dpkg/info/libwebkit2gtk-4.1-0:amd64.list
+18 Nov 00:21 /var/lib/dpkg/info/libjavascriptcoregtk-4.1-0:amd64.list
+18 Nov 00:21 /var/lib/dpkg/info/libwebkitgtk-6.0-4:amd64.list
+18 Nov 00:22 /var/lib/dpkg/info/libjavascriptcoregtk-6.0-1:amd64.list
+18 Nov 13:41 /var/lib/dpkg/info/xcowsay.list
+18 Nov 14:04 /var/lib/dpkg/info/bat.list
+18 Nov 22:20 /var/lib/dpkg/info/zoxide.list
+21 Nov 11:52 /var/lib/dpkg/info/libavif-bin.list
+21 Nov 11:52 /var/lib/dpkg/info/libavifile-0.7-common.list
+21 Nov 11:52 /var/lib/dpkg/info/libavifile-0.7c2:amd64.list
+21 Nov 11:52 /var/lib/dpkg/info/libavifile-0.7-bin.list
+21 Nov 12:20 /var/lib/dpkg/info/hdparm.list
+21 Nov 12:20 /var/lib/dpkg/info/powermgmt-base.list
+22 Nov 22:23 /var/lib/dpkg/info/micro.list
+23 Nov 03:21 /var/lib/dpkg/info/firefox-esr-l10n-de.list
+23 Nov 03:21 /var/lib/dpkg/info/firefox-esr.list
+24 Nov 18:31 /var/lib/dpkg/info/intel-microcode.list
+24 Nov 20:14 /var/lib/dpkg/info/libportaudio2:amd64.list
+26 Nov 18:18 /var/lib/dpkg/info/libpcaudio0:amd64.list
+26 Nov 18:18 /var/lib/dpkg/info/libsonic0:amd64.list
+26 Nov 18:18 /var/lib/dpkg/info/espeak-ng-data:amd64.list
+26 Nov 18:18 /var/lib/dpkg/info/libespeak-ng1:amd64.list
+26 Nov 18:18 /var/lib/dpkg/info/espeak-ng.list
+26 Nov 18:18 /var/lib/dpkg/info/mbrola.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-de1.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-de2.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-de3.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-de4.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-de5.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-de6.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-de7.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-de8.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-en1.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-hb2.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-it2.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-it4.list
+26 Nov 18:21 /var/lib/dpkg/info/mbrola-us1.list
+26 Nov 19:25 /var/lib/dpkg/info/gstreamer1.0-plugins-bad:amd64.list
+26 Nov 19:25 /var/lib/dpkg/info/libgstreamer-plugins-bad1.0-0:amd64.list
+26 Nov 19:25 /var/lib/dpkg/info/gir1.2-gst-plugins-bad-1.0:amd64.list
+27 Nov 00:00 /var/lib/dpkg/info/hydrapaper.list
+27 Nov 22:31 /var/lib/dpkg/info/libtiff6:amd64.list
+28 Nov 22:03 /var/lib/dpkg/info/vivid.list
+30 Nov 14:31 /var/lib/dpkg/info/liblua5.1-0:amd64.list
+30 Nov 14:31 /var/lib/dpkg/info/devilspie2.list
+ 2 Dez 22:53 /var/lib/dpkg/info/libnghttp2-14:amd64.list
+ 9 Dez 21:42 /var/lib/dpkg/info/libperl5.36:amd64.list
+ 9 Dez 21:42 /var/lib/dpkg/info/perl.list
+ 9 Dez 21:42 /var/lib/dpkg/info/perl-base.list
+ 9 Dez 21:42 /var/lib/dpkg/info/perl-modules-5.36.list
+ 9 Dez 21:42 /var/lib/dpkg/info/libnss-systemd:amd64.list
+ 9 Dez 21:42 /var/lib/dpkg/info/systemd-coredump.list
+ 9 Dez 21:42 /var/lib/dpkg/info/systemd-timesyncd.list
+ 9 Dez 21:42 /var/lib/dpkg/info/libpam-systemd:amd64.list
+ 9 Dez 21:42 /var/lib/dpkg/info/systemd.list
+ 9 Dez 21:42 /var/lib/dpkg/info/libsystemd-shared:amd64.list
+ 9 Dez 21:42 /var/lib/dpkg/info/libsystemd0:amd64.list
+ 9 Dez 21:42 /var/lib/dpkg/info/systemd-sysv.list
+ 9 Dez 21:42 /var/lib/dpkg/info/cups-ipp-utils.list
+ 9 Dez 21:42 /var/lib/dpkg/info/cups-common.list
+ 9 Dez 21:42 /var/lib/dpkg/info/cups-client.list
+ 9 Dez 21:42 /var/lib/dpkg/info/cups-core-drivers.list
+ 9 Dez 21:42 /var/lib/dpkg/info/cups-ppdc.list
+ 9 Dez 21:42 /var/lib/dpkg/info/cups-server-common.list
+ 9 Dez 21:42 /var/lib/dpkg/info/cups-daemon.list
+ 9 Dez 21:42 /var/lib/dpkg/info/cups.list
+ 9 Dez 21:42 /var/lib/dpkg/info/libgnutls30:amd64.list
+ 9 Dez 21:42 /var/lib/dpkg/info/libcups2:amd64.list
+ 9 Dez 21:43 /var/lib/dpkg/info/udev.list
+ 9 Dez 21:43 /var/lib/dpkg/info/libudev1:amd64.list
+ 9 Dez 21:43 /var/lib/dpkg/info/tzdata.list
+ 9 Dez 21:43 /var/lib/dpkg/info/distro-info-data.list
+ 9 Dez 21:43 /var/lib/dpkg/info/exfatprogs.list
+ 9 Dez 21:43 /var/lib/dpkg/info/mutter-common.list
+ 9 Dez 21:43 /var/lib/dpkg/info/gir1.2-mutter-11:amd64.list
+ 9 Dez 21:43 /var/lib/dpkg/info/libmutter-11-0:amd64.list
+ 9 Dez 21:43 /var/lib/dpkg/info/gnome-characters.list
+ 9 Dez 21:43 /var/lib/dpkg/info/gnome-session.list
+ 9 Dez 21:43 /var/lib/dpkg/info/gnome-session-common.list
+ 9 Dez 21:43 /var/lib/dpkg/info/gnome-session-bin.list
+ 9 Dez 21:43 /var/lib/dpkg/info/gnome-shell-extension-prefs.list
+ 9 Dez 21:43 /var/lib/dpkg/info/gnome-shell.list
+ 9 Dez 21:43 /var/lib/dpkg/info/gnome-shell-common.list
+ 9 Dez 21:43 /var/lib/dpkg/info/libde265-0:amd64.list
+ 9 Dez 21:43 /var/lib/dpkg/info/libminizip1:amd64.list
+ 9 Dez 21:43 /var/lib/dpkg/info/libnss-myhostname:amd64.list
+ 9 Dez 21:43 /var/lib/dpkg/info/libqpdf29:amd64.list
+10 Dez 16:59 /var/lib/dpkg/info/linux-image-6.1.0-14-amd64.list
+11 Dez 13:16 /var/lib/dpkg/info/base-files.list
+11 Dez 13:16 /var/lib/dpkg/info/linux-libc-dev:amd64.list
+11 Dez 13:16 /var/lib/dpkg/info/linux-image-6.1.0-12-amd64.list
+11 Dez 13:18 /var/lib/dpkg/info/linux-image-6.1.0-15-amd64.list
+11 Dez 13:18 /var/lib/dpkg/info/linux-image-amd64.list
+11 Dez 13:18 /var/lib/dpkg/info/libbabeltrace1:amd64.list
+11 Dez 13:18 /var/lib/dpkg/info/libopencsd1:amd64.list
+11 Dez 13:18 /var/lib/dpkg/info/linux-perf.list
+11 Dez 15:28 /var/lib/dpkg/info/libstdc++-12-dev:amd64.list
+11 Dez 15:28 /var/lib/dpkg/info/g++-12.list
+11 Dez 15:28 /var/lib/dpkg/info/g++.list
+11 Dez 15:28 /var/lib/dpkg/info/libdpkg-perl.list
+11 Dez 15:28 /var/lib/dpkg/info/dpkg-dev.list
+11 Dez 15:28 /var/lib/dpkg/info/build-essential.list
+11 Dez 15:28 /var/lib/dpkg/info/libfakeroot:amd64.list
+11 Dez 15:28 /var/lib/dpkg/info/fakeroot.list
+11 Dez 15:28 /var/lib/dpkg/info/libalgorithm-diff-perl.list
+11 Dez 15:28 /var/lib/dpkg/info/libalgorithm-diff-xs-perl:amd64.list
+11 Dez 15:28 /var/lib/dpkg/info/libalgorithm-merge-perl.list
+11 Dez 15:28 /var/lib/dpkg/info/libexpat1-dev:amd64.list
+11 Dez 15:28 /var/lib/dpkg/info/libfile-fcntllock-perl.list
+11 Dez 15:28 /var/lib/dpkg/info/libjs-sphinxdoc.list
+11 Dez 15:28 /var/lib/dpkg/info/zlib1g-dev:amd64.list
+11 Dez 15:28 /var/lib/dpkg/info/libpython3.11-dev:amd64.list
+11 Dez 15:28 /var/lib/dpkg/info/libpython3-dev:amd64.list
+11 Dez 15:28 /var/lib/dpkg/info/python3.11-dev.list
+11 Dez 15:28 /var/lib/dpkg/info/python3-dev.list
+11 Dez 15:28 /var/lib/dpkg/info/python3-setuptools.list
+11 Dez 15:28 /var/lib/dpkg/info/python3-wheel.list
+11 Dez 15:28 /var/lib/dpkg/info/python3-pip.list
+11 Dez 15:49 /var/lib/dpkg/info/fonts-lato.list
+11 Dez 15:49 /var/lib/dpkg/info/libtk8.6:amd64.list
+11 Dez 15:49 /var/lib/dpkg/info/tk8.6-blt2.5.list
+11 Dez 15:50 /var/lib/dpkg/info/blt.list
+11 Dez 15:50 /var/lib/dpkg/info/fonts-font-awesome.list
+11 Dez 15:50 /var/lib/dpkg/info/ghp-import.list
+11 Dez 15:50 /var/lib/dpkg/info/libjs-popper.js.list
+11 Dez 15:50 /var/lib/dpkg/info/libjs-bootstrap4.list
+11 Dez 15:50 /var/lib/dpkg/info/libjs-highlight.js.list
+11 Dez 15:50 /var/lib/dpkg/info/libjs-lunr.list
+11 Dez 15:50 /var/lib/dpkg/info/libjs-modernizr.list
+11 Dez 15:50 /var/lib/dpkg/info/libjs-sizzle.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-livereload.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-click.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-joblib.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-regex.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-tqdm.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-nltk.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-lunr.list
+11 Dez 15:50 /var/lib/dpkg/info/sphinx-rtd-theme-common.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-jinja2.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-markdown.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-mergedeep.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-pyyaml-env-tag.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-watchdog.list
+11 Dez 15:50 /var/lib/dpkg/info/mkdocs.list
+11 Dez 15:50 /var/lib/dpkg/info/node-jquery.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-pip-whl.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-setuptools-whl.list
+11 Dez 15:50 /var/lib/dpkg/info/python3.11-venv.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-venv.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-argcomplete.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-userpath.list
+11 Dez 15:50 /var/lib/dpkg/info/pipx.list
+11 Dez 15:50 /var/lib/dpkg/info/python-babel-localedata.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-attr.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-babel.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-iniconfig.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-numpy.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-pluggy.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-py.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-pygments.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-pytest.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-simplejson.list
+11 Dez 15:50 /var/lib/dpkg/info/python3-tk:amd64.list

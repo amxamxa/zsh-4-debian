@@ -1,0 +1,15 @@
+   <?xml version="1.0" encoding="UTF-8"?>
+                <mime-info xmlns='http://www.freedesktop.  
+​￼org/standards/shared-mime-info'>  
+            ​￼<mime-type type="text/zsh">
+                 <comment xml:lang="en">zsh config</comment>
+                 <comment xml:lang="en">zsh beeld</comment>
+                 <desktop:can-edit-with>micro.desktop</desktop:can-edit-with>
+                <magic priority="50">
+                 <match type="string" value="\x89ZSH" offset="0"/>
+                </magic>
+         <glob pattern="*.zsh"/>
+         <glob pattern="*.zshrc"/>
+         <glob pattern="*.zshenv"/>
+  </mime-type>
+</mime-info>
