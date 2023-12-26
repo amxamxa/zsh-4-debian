@@ -142,6 +142,16 @@ source "/usr/share/doc/fzf/examples/key-bindings.zsh"
 #source "/usr/share/zsh/vendor-completions/_fzf"
 source "/usr/share/doc/fzf/examples/completion.zsh"
 
+function fzkill() {
+    local pid
+    pid=$(ps aufx --user $(id -u)| sed 1d | fzf -m | awk '{print $2}')
+    
+    if [[ -n "$pid" ]]; then
+        kill -${1:-TERM} $pid
+    fi
+}
+
+
 ### ------------------------------ ###
 ###  globalen Suffix-Aliases erweitern
 ### ------------------------------ ###
@@ -203,6 +213,8 @@ chpwd_functions=(${chpwd_functions[@]} "_zoxide_hook")
 ### ------------------------------ ###
 autoload -U bashcompinit
 bashcompinit
+
+
 ### ------------------------------ ###
 # Funktion ZC: Speichert den letzten Befehl in die Datei $ZDOTDIR/aliases.maybe und gibt eine Bestätigungsmeldung aus.
 ### ------------------------------ ###
