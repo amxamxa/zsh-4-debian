@@ -122,7 +122,25 @@ _comp_options+=(globdots) 	# With hidden files
 # source prompt_purifi.zsh
 
 
+sh -c -x ~/project/pywall/pywall.sh  &
 
+TON() {
+  local CARDS=$(cat /proc/asound/cards)
+  local DEVICES=$(aplay -l)
+  local CODECS=$(cat /proc/asound/card*/codec*)
+
+  local TABELLE="| Karte | Gerät | Codec |"
+
+  while read -r KARTE; do
+    while read -r GERÄT; do
+      while read -r CODEC; do
+        TABELLE="${TABELLE}\n| $(printf "%-6s" "$KARTE") | $(printf "%-15s" "$GERÄT") | $(printf "%-15s" "$CODEC") |"
+      done <<< "$(echo "$CODECS" | grep "$KARTE")"
+    done <<< "$(echo "$DEVICES" | grep "$KARTE")"
+  done <<< "$(echo "$CARDS")"
+
+  column -t <<< "$TABELLE"
+}
 
 # ohne extension zsh
 #fpath+=("$ZDOTDIR/bin")

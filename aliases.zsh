@@ -15,6 +15,22 @@
 ### --------------- ##
 ##      N E U       ##
 ## ---------------- ##
+
+#alias AUDIO() {
+# ="cat /proc/asound/cards && aplay -l && cat /proc/asound/card*/codec*"
+#while read -r KARTE; do
+#  while read -r GERÄT; do
+#    local SAMPLE_RATE=$(aplay -l | grep "$GERÄT" | awk '{print $NF}' | sed 's/[[:space:]]\+//g')#
+#    local BIT_TIEFE=$(aplay -l | grep "$GERÄT" | awk '{print $(NF-1)}' | sed 's/[[:space:]]\+//g')
+#    local KANÄLE=$(aplay -l | grep "$GERÄT" | awk '{print $(NF-2)}' | sed 's/[[:space:]]\+//g')#
+#
+#    while read -r CODEC; do
+#      TABELLE="$TABELLE\n| $KARTE | $GERÄT | $CODEC | $SAMPLE_RATE | $BIT_TIEFE | $KANÄLE |"
+#    done < <(echo "$CODECS" | grep "$KARTE")
+#  done < <(echo "$DEVICES" | grep "$KARTE")
+#done < <(echo "$CARDS")
+#}
+
 alias sudo='sudo --preserve-env=HOME'
 
 

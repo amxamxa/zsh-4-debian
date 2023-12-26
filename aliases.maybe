@@ -115,10 +115,5 @@ echo -e "\033[38;2;0;233;21m\033[48;2;21;16;46m ... hallo Welt" \n
 
 echo" purge fonts-urw-base35 fonts-ubuntu-title gsfonts fonts-yusei-magic fonts-lato fonts-adf-verana fonts-freefont-ttf fonts-glasstty"
 
-find ~ -type f -name "*.zshrc" -exec wc -l {} \;
-cbonsai -l -i -b 4 -L 80 -m $banner "oi" -c "$%&§&%#*+_"
-devilspie2 --folder="/home/mxx/.config/devilspie2/config" --debug
-devilspie2 --folder="/home/mxx/.config/devilspie2/config" --debug &
-devilspie2 --folder="/home/mxx/.config/devilspie2/config"
-echo -e "${LILA} $(figlet -f 3D-ASCII.flf "Hallo")" |sed -e 's/^/\t/'
-toilet -o -s -f big -t "_/$ $HOST "| sed -e 's/^/\ /' |lolcat --seed=9000 --truecolor --invert\n
+alias AUDIO="cat /proc/asound/cards && aplay -l && cat /proc/asound/card*/codec*"
+
