@@ -144,7 +144,7 @@ source "/usr/share/doc/fzf/examples/completion.zsh"
 
 function fzkill() {
     local pid
-    pid=$(ps aufx --user $(id -u)| sed 1d | fzf -m | awk '{print $2}')
+    pid=$(ps aufxc --user $(id -u)| sed 1d | fzf -m | awk '{print $2}')
     
     if [[ -n "$pid" ]]; then
         kill -${1:-TERM} $pid
