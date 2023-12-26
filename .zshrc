@@ -97,29 +97,31 @@ source "$ZDOTDIR/log_error.zsh"
 ### ------------------ ###
 
 #  Powerline Prompt configuration, edit über die conf_powerline.json
-#if [[ -r /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
-#     source /usr/share/powerline/bindings/zsh/powerline.zsh
-#fi
+if [[ -r /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
+     source /usr/share/powerline/bindings/zsh/powerline.zsh
+fi
 # RECHTER PROMPT 1
 #RPROMPT=%F{black}%K{magent}%D{%a,%e.%b.%y}%f%k 
 #RPROMPT 2: Tag, Nummer. Monat. Jahr
 #RPROMPT="%F{#CF36E8}%K{#39257D}%D{%a,}%f%k%K{#3B0045}%F{#518EA9}%D{%e.%b.}%f%k%F{#FFEAA0}%K{#95235F}%D{%Y}%f%k"
 #RPROMPT3: 23:16 Di, 14.Nov. 2023
-#RPROMPT="%F{#FFCA5B}%K{#805700}$ %F{#FFEAA0}%K{#95235F}%D{%R}%f%k%F{#FFCA5B}%K{#805700} %F{#CF36E8}%K{#39257D}%D{%a,}%f%k%K{#3B0045}%F{#518EA9}%D{%e.%b.}%f%k%F{#FFEAA0}%K{#1E202C}%D{%Y}%f%k"
+RPROMPT="%F{#FFCA5B}%K{#805700}$ %F{#FFEAA0}%K{#95235F}%D{%R}%f%k%F{#FFCA5B}%K{#805700} %F{#CF36E8}%K{#39257D}%D{%a,}%f%k%K{#3B0045}%F{#518EA9}%D{%e.%b.}%f%k%F{#FFEAA0}%K{#1E202C}%D{%Y}%f%k"
 
-#ALTERNATIV Purity prompt, mit source kein Fehler 
 fpath=($ZDOTDIR $fpath)
 ### ------------------------------ ###
 #  **A U T O L O A D**
 ### ------------------------------ ###
-#autoload -Uz "prompt_purifi.zsh"; prompt_purifi.zsh
-autoload -Uz prompt_purifi && prompt_purifi 
-
 # autoload command load a file containing shell commands
 # autoload looks in directories of the "_Zsh file search path_", defined in the 
 # variable `$fpath`, and search a file called `compinit`.
 autoload -Uz compinit; compinit
 _comp_options+=(globdots) 	# With hidden files
+
+#ALTERNATIV Purity prompt, mit source kein Fehler 
+#autoload -Uz prompt_purifi; prompt_purifi
+# source prompt_purifi.zsh
+
+
 
 
 # ohne extension zsh

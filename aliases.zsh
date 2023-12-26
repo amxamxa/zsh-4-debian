@@ -15,14 +15,18 @@
 ### --------------- ##
 ##      N E U       ##
 ## ---------------- ##
+alias sudo='sudo --preserve-env=HOME'
+
+
+alias diff='colodiff --ignore-case --ignore-tab-expansion --ignore-trailing-space --ignore-space-change --ignore-all-space --ignore-blank-lines'
 alias lsblk='echo -e "\n\t${LILA}lsblk --width 80 --merge --zoned --ascii --topology --output MODEL,MOUNTPOINTS,PATH,SIZE,TRAN,LABEL,FSTYPE,TYPE${RESET}" && lsblk --width 80 --merge --zoned --ascii --topology --output MODEL,MOUNTPOINTS,PATH,SIZE,TRAN,LABEL,FSTYPE,TYPE'
 
 alias MICsett='micro /home/mxx/.config/micro/settings.json'
 alias MICbin='micro /home/mxx/.config/micro/bindings.json'
 
-alias TRl2='tree -L 2 -s -h -F -C -a --du --prune $(pwd)'
-alias TRl4='tree -L 4 -s -h -F -C -a --du --prune $(pwd)'
-alias TRl8='tree -L 8 -s -h -F -C -a --du --prune $(pwd)'
+alias TREE2='tree -L 2 -s -h -F -C -a --du --prune $(pwd)'
+alias TREE4='tree -L 4 -s -h -F -C -a --du --prune $(pwd)'
+alias TREE8='tree -L 8 -s -h -F -C -a --du --prune $(pwd)'
 
 # Terminal linker Screen, NordEast, 2x
 alias Tl2x='gnome-terminal --geometry 70x26+387+514; gnome-terminal --geometry 70x26+387+4'
@@ -74,7 +78,7 @@ alias -g SRC='source'
 alias -g L='|less -F'
 alias -g G='|grep --ignore-case  --color=auto' # ..usage$ file G pattern
 alias -g H='--help'
-alias -g F='|tldr'
+#alias -g F='|tldr'
 alias -g T='tldr'
 ## ---------------------------  ## 
 ##    suffix alias (zsh only)
@@ -91,19 +95,19 @@ alias -s jpg='img2sixel'
 alias -s jpeg='img2sixel'
 alias -s png='img2sixel'
 alias -s jpeg='img2sixel'
-alias -s sh='micro'
-alias -s zsh='micro'
+#alias -s sh='micro'
+#alias -s zsh='micro'
 
 ## ---------------------------  ## 
 ##  CAT/ BATCAT      
 ## ---------------------------  ## 
 # gute themes für batcat ansi OneHalfDark Dracula Coldark-Dark
-alias cat='batcat --plain --terminal-width 80'
+alias bat='batcat --plain --terminal-width 80'
 
-alias cat1='batcat --force-colorization --terminal-width 80 --theme=ansi'
-alias cat4='batcat --force-colorization --number --terminal-width 80 --wrap=auto --theme=Dracula'
-alias cat2='batcat --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=Coldark-Dark'
-alias cat3='batcat --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=OneHalfDark'
+alias bat1='batcat --force-colorization --terminal-width 80 --theme=ansi'
+alias bat2='batcat --force-colorization --number --terminal-width 80 --wrap=auto --theme=Dracula'
+alias bat3='batcat --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=Coldark-Dark'
+alias bat4='batcat --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=OneHalfDark'
 
 ## ---------------------------  ## 
 ## biggest stuff
@@ -202,10 +206,10 @@ UPdate () {
 	echo -e "\t${PINK} Pakete upgraden? ${RESET}\n"
 	read -r answer\?"Pakete upgraden (j/N)? "
      if [[ "$answer" =~ ^[Jj] ]]; then
-  	   nala upgrade
+  	 sudo  nala upgrade
 	fi
-	#nala autopurge
-    nala autoremove
+	sudo nala autopurge
+    sudo nala autoremove
 	else
 	 echo -e "\tAktualisiere Pakete\n\t\t" | lolcat
 	  sudo apt-get update
@@ -221,13 +225,13 @@ UPdate () {
  	 \n\t\terfolgreich durch geballert!\n" | lolcat
 	fi      }
 
-alais APTsugg='apt install --dry-run --install-suggests'
+alias APTsugg='apt install --dry-run --install-suggests'
 
-alias APTpurge='nala purge |updateecho -e "\t${PINK}Entferne Paket${RESET}\n" && sudo apt purge' 
+alias APTpurge='nala purge |update echo -e "\t${PINK}Entferne Paket${RESET}\n" && sudo apt purge' 
 # Funktion ersetzt: alias APTsearch='nala search |echo -e "\t${PINK}Durchsuche Paketdatenbank${RESET}\n" && apt-cache search'  # apt search / Paketdatenbank
 alias APTshow='nala show |echo -e "\t${PINK}Zeige Paketinformationen${RESET}\n" && apt show'  # apt search / Paketinformationen
 
-alias APTinstall='nala show install | echo -e "\t${PINK}Installiere Paket${RESET}\n" && sudo apt install'
+alias APTinstall='nala install | echo -e "\t${PINK}Installiere Paket${RESET}\n" && sudo apt install'
 
 	alias DPlist='echo -e "\t${PINK}Liste Dateien eines Pakets auf${RESET}\n" && dpkg --listfiles'
 	alias DPinstalled='echo -e "\t${PINK}Zeigt alle installierten Pakete auf Ihrem Debian-System ... wird mit cat /var/log/dpkg.log gemacht:${RESET}\n" && cat /var/log/dpkg.log | grep "status installed" | awk "{print \$5}" | cut -d ":" -f 1 | sort'
@@ -250,7 +254,7 @@ alias cd..='echo -e "\t${PINK}Gehe ein Verzeichnis höher${RESET}\n" && cd ..'
 alias rm='echo -e "\t${PINK}Entferne Dateien/Verzeichnisse (bestätigt)${RESET}\n" && rm -vdr'
 alias cp='echo -e "\t${PINK}Kopiere Dateien/Verzeichnisse cp -ivr(bestätigt)${RESET}\n" && cp -ivr'
 alias mv='echo -e "\t${PINK}Verschiebe/umbenenne Dateien/Verzeichnisse (interacive, verbose)${RESET}\n" && mv -v -i'
-alias alais='echo -e "\t${PINK}Alias für Alias${RESET}\n" && alias'
+#alias alais='echo -e "\t${PINK}Alias für Alias${RESET}\n" && alias'
 alias tdlr='echo -e "\t${GELB}Zeige verkürzte Handbücher (TL;DR)${RESET}\n" && tldr'
 alias T='echo -e "\t${GELB}Zeige verkürzte Handbücher (TL;DR)${RESET}\n" && tldr'
 alias _='echo -e "\t${PINK}Führe als Superuser (sudo) aus${RESET}\n" && sudo'
