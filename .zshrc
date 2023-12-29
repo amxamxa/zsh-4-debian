@@ -323,10 +323,8 @@ export LS_COLORS="$(vivid -m 8-bit generate $HOME/.config/vivid/mxx.yml)" || exp
 #toilet -F gay -f smscript "... ... ... ist geladen!"|sed -e 's/^/\t/'|lolcat --seed=233   
 #toilet -F gay -f smscript "³³³³³³³³³³³³³³³³³³³³³³³³"|sed -e 's/^/\t/'|lolcat --seed=255   
 
-
-
-
-
+# -> greeting.zsh export SCRIPT_RUN_zshrc="true"
+ export SCRIPT_RUN_zshrc="true"
 
 
 

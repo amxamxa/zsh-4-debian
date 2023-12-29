@@ -342,3 +342,9 @@ alias dif="git diff --no-index"   # Vergleicht zwei Dateien, auch wenn sie nicht
 #alias g='   '  #
 #alias g='   '  #
 #alias XX='exa' #test
+
+
+
+# -->greeting.zsh aliases.zsh  
+ export SCRIPT_RUN_aliaseszsh="true"
+ 

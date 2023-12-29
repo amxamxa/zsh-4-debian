@@ -32,7 +32,7 @@ if [[ "$x11_set" == "true" ]]; then
 	 # message
 	 printf "${BOLD}${GREEN}\tX11 wird verwendet,\t\t  ${RESET} \n${UNDER}${GREEN} xrandr für x11 sowie und 2 Bildschirme    ${RESET}\n${GREEN} ${BOLD}\twurde erfolgreich ausgeführt        ${RESET}" | cowsay -n -W 40 -f $RANDOM_COW| sed -e 's/^/\t\t/' 
 else
-
+        echo "x11 NOK"
 fi 
 	
 echo
