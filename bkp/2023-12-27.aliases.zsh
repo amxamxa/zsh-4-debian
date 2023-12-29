@@ -318,9 +318,7 @@ alias gdc='git diff --cached'  # Zeigt die Unterschiede zwischen Staging-Bereich
 alias gco='git checkout'       # Wechselt zu einem anderen Branch oder Commit
 
 # Git Log
-  # Zeigt die Commit-Historie in einer Zeile an
-  alias gl='echo -e "${GELB} Zeigt die Commit-Historie in einer Zeile an${RESET}\n" && \
-  git log --pretty=oneline' 
+alias gl='git log --pretty=oneline'   # Zeigt die Commit-Historie in einer Zeile an
 alias glol='git log --graph --abbrev-commit --oneline --decorate'   # Zeigt die Commit-Historie in einer graphischen Darstellung an
 
 # Git Remote
