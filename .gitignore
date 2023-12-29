@@ -1,5 +1,14 @@
-
+# Ignoriere alle symbolischen Links
+      *
 # Ignoriere die Datei: 
 	.zhistory
+	.zcompdump
 # Ignoriere alle Dateien mit der Erweiterung ".log"
 	*.log
+# Ignoriere das Verzeichnis
+	/build/
+	/temp/
+	/log_error/
+	/share/
+	/powerline-doc/
+	/bkp/
