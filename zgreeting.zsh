@@ -9,6 +9,7 @@
 ##  comments:      
 ###########################################
 
+
 # Umgebungsvariablen für verschiedene Skripte setzen
  #.zshenv: 
  export SCRIPT_RUN_zenv="true" 

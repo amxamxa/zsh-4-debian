@@ -12,9 +12,11 @@
 
 
 
-### --------------- ##
+##### --%%%%%%%%%%%%%%-- #####
+##
 ##      N E U       ##
-## ---------------- ##
+##
+##### --%%%%%%%%%%%%%%-- #####
 
 #alias AUDIO() {
 # ="cat /proc/asound/cards && aplay -l && cat /proc/asound/card*/codec*"
@@ -50,16 +52,19 @@ alias Tl2x='gnome-terminal --geometry 70x26+387+514; gnome-terminal --geometry 7
 # Terminal rechter Screen, Nord, 2x
 alias Tr2x='gnome-terminal --geometry 79x21+1694+768; gnome-terminal --geometry 79x17+1692+1147'
 
-### --------------- ##
+##### --%%%%%%%%%%%%%%-- #####
 ##      ANSAGE      ##
-## ---------------- ##
+##### --%%%%%%%%%%%%%%-- #####
 alias VOCtime='echo -e "Es ist jetzte $(date "+%R").Heute ist $(date "+%A")" > $HOME/temp/time.tmp && espeak-ng -v mb-de5 -s 130 -p 40 95 -g 20 -k 20 -b 2 -f $HOME/temp/time.tmp'
 alias VOCdate='echo -e "Heute ist $(date "+%A")! \vWir haben den $(date "+%-d ten %BNach unserer neuen Zeitrechnung sind wir im Jahre %Y! ")" > $HOME/temp/date.tmp && espeak-ng -v mb-de5 -s 130 -p 40 95 -g 20 -k 20 -b 2 -f $HOME/temp/date.tmp'
 
-## ---------------------------  ## 
+##### --%%%%%%%%%%%%%%-- #####
+##							 
 ##      * *   Z S H *  *           
-##  .zshenv .zshrc aliases.zsh  
-## ---------------------------  ## 
+##  .zshenv .zshrc aliases.zsh
+##  
+##### --%%%%%%%%%%%%%%-- #####
+ 
 alias ZRC='nano "$ZDOTDIR/.zshrc" && source "$ZDOTDIR/.zshrc" && echo -e "\n\t${PINK}source $ZDOTDIR/.zshrc erfolgreich!${RESET}\n" || echo -e "\n\t${GELB}source $ZDOTDIR/.zshrc  ---NICHT---  erfolgreich!${RESET}\n"'
 
 alias ZENV='nano "$HOME/.zshenv" && source "$HOME/.zshenv" && echo -e "\n\t${PINK}source ~/.zshenv erfolgreich!${RESET}\n" || echo -e "\n\t${GELB}source ~/.zshenv ---NICHT---  erfolgreich!${RESET}\n"'
@@ -68,15 +73,20 @@ alias ZALI='nano $ZDOTDIR/aliases.zsh && source $ZDOTDIR/aliases.zsh && echo -e 
 alias ZSAVE='echo -e "\n" && cp "$ZDOTDIR/.zshrc" "$ZDOTDIR/bkp/$(date +'%F').zshrc.zsh" && cp "$HOME/.zshenv" "$ZDOTDIR/bkp/$(date +'%F').zshenv.zsh"  && cp "$ZDOTDIR/aliases.zsh" "$ZDOTDIR/bkp/$(date +'%F').aliases.zsh"'
 alias ZSHoptions=setopt
 alias wh_fuck='dpkg -L' # alle Dateien finden, die mit 'apt install' installiert wurde
-
+##### --%%%%%%%%%%%%%%-- #####
 ### -------------------- ##
 ##     gnome gui windows ##
 ### -------------------- ##
+##### --%%%%%%%%%%%%%%-- #####
+
 alias WMinfo='echo -e "\n\t${PINK}...2xklicken!  zeigt Parameter des Windows an!${RESET}\n" && xprop | grep --color=auto -E WM_CLASS && xwininfo | grep --color=auto geometry'
 alias WMverbose='echo -e "\n\t${PINK}\n 2xklicken!... zeigt Parameter des Windows an!${RESET}\n" && xprop | grep --color=auto -e "WM_CLASS(STRING)" -e "*SIZE*" -e "WM_PROTOCOLS(ATOM):" -e "geometry" -e "_NET_WM_ALLOWED_ACTIONS(ATOM)" && xwininfo | grep --color=auto geometry'
+##### --%%%%%%%%%%%%%%-- #####
 ## --------------------  ## 
 ##     mittelneu
 ## --------------------  ##
+##### --%%%%%%%%%%%%%%-- #####
+
 alias nano=micro
 alias edit=micro
 alias DATE='echo -e "\t${PINK}Zeige das aktuelle Datum  $(date "+%A, %-d. %B %Y"):{$RESET}" && echo -e "${GELB} $(date "+%A, %-d. %B %Y")${RESET} \n "&& echo -e "${PINK} oder $ (date +%F_%H-%M)\t ${RESET}" 	&& echo -e "${GELB} $(date "+%F_%H-%M") ${RESET}"'
@@ -88,9 +98,12 @@ alias LOG='cat "$ZDOTDIR/log_error/log_error.txt" | grep "error" | sort'
 alias LOGseparate='tail -f "$ZDOTDIR/log_error/log_error.txt"'
 alias LOGinline='less -F "$ZDOTDIR/log_error/log_error.txt"'
 
+##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
 ##    globale aliase (zsh only)
 ## ---------------------------  ##
+##### --%%%%%%%%%%%%%%-- #####
+
 alias -g SRC='source'
 
 alias -g L='|less -F'
@@ -117,9 +130,12 @@ alias -s jpeg='img2sixel'
 #alias -s sh='micro'
 #alias -s zsh='micro'
 
+##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
 ##  CAT/ BATCAT      
 ## ---------------------------  ## 
+##### --%%%%%%%%%%%%%%-- #####
+
 alias bat='batcat --plain --terminal-width 80'
 # gute themes für batcat ansi OneHalfDark Dracula Coldark-Dark
 alias bat1='batcat --force-colorization --terminal-width 80 --theme=ansi'
@@ -127,9 +143,12 @@ alias bat2='batcat --force-colorization --number --terminal-width 80 --wrap=auto
 alias bat3='batcat --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=Coldark-Dark'
 alias bat4='batcat --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=OneHalfDark'
 
+##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
-## biggest stuff
+## biggest stuff ??
 ## ---------------------------  ## 
+##### --%%%%%%%%%%%%%%-- #####
+
 # alias DU='echo -e "\t${PINK}Zeige die 22 größten Verzeichnisse und Dateien${RESET}\n" && command du -cah --exclude='*cache' --exclude='*run' --exclude='*sys' --exclude='*proc' | sort -hr | head -n 22' 
 D3() {
  echo -e "\n\t${GELB} du --max-depth=3 --separate-dirs --threshold=16K -BM -x $(pwd) 2> /dev/null | sort -hr | head -n 24${LILA} \t... wir reden über Pfad $(pwd)${RESET}}\n"
@@ -139,10 +158,12 @@ D1() {
  echo -e "\n\t${GELB} du --max-depth=1 --separate-dirs --threshold=16K -BM -x $(pwd) 2> /dev/null | sort -hr | head -n 24${LILA} \t... wir reden über Pfad $(pwd)${RESET}}\n"
 du --human-readable --max-depth=1 --separate-dirs --threshold=16K --block-size=M --one-file-system --exclude='*cache' --exclude='*run' --exclude='*sys' --exclude='*proc'$pwd 2> /dev/null | sort -hr | head -n 24
 }
-
+##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
 ##    ls  ll  lh  ld ...
 ## ---------------------------  ## 
+##### --%%%%%%%%%%%%%%-- #####
+
 export LS_OPTS='--color=force'
 alias ls='ls ${LS_OPTS}'
 alias sl='ls'
@@ -158,11 +179,13 @@ alias la='echo -e "\n\t${PINK}ls -lahp: Zeigt alles, mit --group-directories-fir
 alias lt='echo -e "\n\t${PINK}Liste TIME: nach Änderungsdatum (älteste zuerst)${RESET}\n\t${GELB}ls -AsltpGHp${RESET}" && ls -AsltGHp'
 alias lx='echo -e "\n\t${PINK} Liste EXT:  sortiert nach File-Eextension${RESET}\n\t${GELB}		ls -AXlGhp${RESET}\n" && ls -AXlGhp' 
 
-
+##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
 ##       e x a 
 ## ---------------------------  ## 
- alias e1='echo -e "\n\t${GELB} exa -A -l --tree --level 1--no-time --no-permissions --git --group-directories-first     ${RESET}\n" && exa --no-time --no-permissions --tree --level 1 --all --long --color-scale --icons --git --group-directories-first'
+##### --%%%%%%%%%%%%%%-- #####
+
+alias e1='echo -e "\n\t${GELB} exa -A -l --tree --level 1--no-time --no-permissions --git --group-directories-first     ${RESET}\n" && exa --no-time --no-permissions --tree --level 1 --all --long --color-scale --icons --git --group-directories-first'
   alias e2='echo -e "\n\t${GELB} exa --no-time --no-permissions -A -l --tree --level 2 --git --group-directories-first${RESET}\n" && exa --tree --level 2 --all --long --color-scale --icons --no-time --no-permissions --git --group-directories-first'
  alias e3='echo -e "\t${GELB} exa -A -l --tree -level 3--no-time --no-permissions --git --group-directories-first${RESET}\n" && exa --tree --level 3 --all --long --color-scale --icons --no-time --no-permissions --git --group-directories-first'
  alias e4='echo -e "\t${GELB} exa --no-time --no-permissions --A -l --tree -level 4 --git--group-directories-first${RESET}\n" && exa --tree --level 4 --all --long --color-scale --icons --no-time --no-permissions --git --group-directories-first'
@@ -210,11 +233,12 @@ alias DF="pydf"
 
 alias EIN="sudo shutdown -r now"
 alias AUS="sudo shutdown now"
-
+##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
 ##        D E B I A N
 ##      -- apt /dpkg -- 
 ## ---------------------------  ## 
+##### --%%%%%%%%%%%%%%-- #####
 
 UPdate () {
   if which nala > /dev/null; then
@@ -280,71 +304,83 @@ alias c='echo -e "\t${PINK}Bildschirm löschen${RESET}\n"  && clear'
 alias q='echo -e "\t${PINK}Beenden${RESET}\n" && exit'
 alias lol="alias | lolcat"
 
-
+##### --%%%%%%%%%%%%%%-- #####
+##	                        ##
+##	        g i t           ##
+##	                        ##
+##### --%%%%%%%%%%%%%%-- #####
 
 # Git Status
-alias gs='git status'          # Zeigt den Status des Arbeitsverzeichnisses und des Staging-Bereichs an
-alias gss='git status -s'      # Zeigt den Status des Arbeitsverzeichnisses und des Staging-Bereichs in Kurzform an
+alias gs='echo -e "${GELB}\nZeigt den Status des Arbeitsverzeichnisses und des Staging-Bereichs an${RESET}\n" && git status'
+
+alias gss='echo -e "${PINK}\n\t git status --short ${RESET} with abbr.:${RESET}\n
+${GELB}?? ... Untracked files${RESET}\t${GELB}U ... Files with merge conflicts${RESET}\t ${GELB}A ... New files added to staging ${RESET}\t${GELB}M ... Modified files${RESET}\t${GELB}D ... Deleted files${RESET}\t${GELB}R ... Renamed files${RESET}\t${GELB}C ... Copied files${RESET}\n" && git status -s'
+
+#alias gss='cowsay "${GELB}\n git status --short w\:\n\t "M" for file is modified\n\t "A" for is new and has been added to staging \n\t "\?\? " indicates file is untracked.${RESET}\n" && git status -s'
+
+
+
+
 
 # Git Add
-alias ga='git add'             # Fügt Änderungen im Arbeitsverzeichnis zum Staging-Bereich hinzu
+alias ga='echo -e "${GELB}\nFügt Änderungen im Arbeitsverzeichnis zum Staging-Bereich hinzu${RESET}\n" && git add'
 
 # Git Push
-alias gp='git push'            # Pushed lokale Änderungen auf den Remote-Branch
-alias gpo='git push origin'    # Pushed lokale Änderungen auf den Remote-Branch "origin"
-alias gpof='git push origin --force-with-lease'    # Force-Pushed lokale Änderungen auf den Remote-Branch "origin" mit Lease-Check
-alias gpofn='git push origin --force-with-lease --no-verify'    # Force-Pushed lokale Änderungen auf den Remote-Branch "origin" mit Lease-Check und ohne Verifizierung
-alias gpt='git push --tag'     # Pushed alle Tags auf den Remote-Branch
+alias gp='echo -e "${GELB}\nPushed lokale Änderungen auf den Remote-Branch${RESET}\n" && git push'
+alias gpo='echo -e "${GELB}\nPushed lokale Änderungen auf den Remote-Branch \"origin\"${RESET}\n" && git push origin'
+alias gpof='echo -e "${GELB}\nForce-Pushed lokale Änderungen auf den Remote-Branch \"origin\" mit Lease-Check${RESET}\n" && git push origin --force-with-lease'
+alias gpofn='echo -e "${GELB}\nForce-Pushed lokale Änderungen auf den Remote-Branch \"origin\" mit Lease-Check und ohne Verifizierung${RESET}\n" && git push origin --force-with-lease --no-verify'
+alias gpt='echo -e "${GELB}\nPushed alle Tags auf den Remote-Branch${RESET}\n" && git push --tag'
 
 # Git Tag
-alias gtd='git tag --delete'   # Löscht einen lokalen Tag
-alias gtdr='git tag --delete origin'   # Löscht einen Remote-Tag
+alias gtd='echo -e "${GELB}\nLöscht einen lokalen Tag${RESET}\n" && git tag --delete'
+alias gtdr='echo -e "${GELB}\nLöscht einen Remote-Tag${RESET}\n" && git tag --delete origin'
 
 # Git Branch
-alias grb='git branch -r'      # Zeigt die Remote-Branches an
-alias gb='git branch'          # Zeigt alle Branches im aktuellen Repository an
+alias grb='echo -e "${GELB}\nZeigt die Remote-Branches an${RESET}\n" && git branch -r'
+alias gb='echo -e "${GELB}\nZeigt alle Branches im aktuellen Repository an${RESET}\n" && git branch'
 
 # Git Pull
-alias gplo='git pull origin'   # Holt die neuesten Änderungen vom Remote-Branch "origin"
+alias gplo='echo -e "${GELB}\nHolt die neuesten Änderungen vom Remote-Branch \"origin\"${RESET}\n" && git pull origin'
 
 # Git Commit
-alias gc='git commit'          # Erstellt einen Commit mit den im Staging-Bereich befindlichen Änderungen
+alias gc='echo -e "${GELB}\nErstellt einen Commit mit den im Staging-Bereich befindlichen Änderungen${RESET}\n" && git commit'
 
 # Git Diff
-alias gd='git diff'            # Zeigt die Unterschiede zwischen Arbeitsverzeichnis und Staging-Bereich an
-alias gdc='git diff --cached'  # Zeigt die Unterschiede zwischen Staging-Bereich und letztem Commit an
+alias gd='echo -e "${GELB}\nZeigt die Unterschiede zwischen Arbeitsverzeichnis und Staging-Bereich an${RESET}\n" && git diff'
+alias gdc='echo -e "${GELB}\nZeigt die Unterschiede zwischen Staging-Bereich und letztem Commit an${RESET}\n" && git diff --cached'
 
 # Git Checkout
-alias gco='git checkout'       # Wechselt zu einem anderen Branch oder Commit
+alias gco='echo -e "${GELB}\nWechselt zu einem anderen Branch oder Commit${RESET}\n" && git checkout'
 
 # Git Log
-  # Zeigt die Commit-Historie in einer Zeile an
-  alias gl='echo -e "${GELB} Zeigt die Commit-Historie in einer Zeile an${RESET}\n" && \
-  git log --pretty=oneline' 
-alias glol='git log --graph --abbrev-commit --oneline --decorate'   # Zeigt die Commit-Historie in einer graphischen Darstellung an
+alias gll='echo -e "${GELB}\nFarbig formatierte Ausgabe der Commit-Historie in Graph-Darstellung${RESET}\n" && git log --graph --format=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)" --all'
+
+alias gl='echo -e "${GELB}\nZeigt die Commit-Historie in einer Zeile an${RESET}\n" && git log --pretty=oneline'
+
+alias glol='echo -e "${GELB}\nZeigt die Commit-Historie in einer graphischen Darstellung an${RESET}\n" && git log --graph --abbrev-commit --oneline --decorate'
 
 # Git Remote
-alias gr='git remote'          # Zeigt die Namen der Remote-Repositories an
-alias grs='git remote show'    # Zeigt Informationen zu den Remote-Repositories an
+alias gr='echo -e "${GELB}\nZeigt die Namen der Remote-Repositories an${RESET}\n" && git remote'
+alias grs='echo -e "${GELB}\nZeigt Informationen zu den Remote-Repositories an${RESET}\n" && git remote show'
 
-# Andere Aliase
-alias gcb='git checkout -b'    # Erstellt einen neuen Branch und wechselt zu diesem
-alias gcm='git checkout master'    # Wechselt zum Branch "master"
-alias gclean="git branch --merged | grep -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"    # Löscht lokale Branches, die in den Branch "master" gemerged wurden
-alias gblog="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:red)%(refname:short)%(color:reset) - %(color:yellow)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:blue)%(committerdate:relative)%(color:reset))'"    # Zeigt die Commit-Historie für jeden Branch an
-alias gsub="git submodule update --remote"   # Aktualisiert alle Submodule auf die neueste Version
-alias gj="git-jump"    # Öffnet in der Vim-Quickfix-Liste Dateien von Interesse (z.B. bei "git diff" oder gemergten Dateien)
-alias dif="git diff --no-index"   # Vergleicht zwei Dateien, auch wenn sie nicht im Git-Repository sind
 
-#alias g='   '  #
-#alias g='   '  #
-#alias g='   '  #
-#alias g='   '  #
-#alias g='   '  #
-#alias XX='exa' #test
+
+
+
+
+
+# alias g='   '  #
+# alias g='   '  #
+# alias g='   '  #
+# alias g='   '  #
+# alias g='   '  #
+
 
 
 
 # -->greeting.zsh aliases.zsh  
- export SCRIPT_RUN_aliaseszsh="true"
+export SCRIPT_RUN_aliaseszsh="true"
+
  
+
