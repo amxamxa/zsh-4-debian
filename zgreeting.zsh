@@ -4,22 +4,21 @@
 ##  filepath:      /home/ZSH/
 ##  author:        mxx
 ##  file save date:   
-##  file creation date [yy-mmm]: 24 jan
+##  file creation date [yy-mmm]: 24-jan
 ##  file status:   work in progress
 ##  comments:      
 ###########################################
 
-
 # Umgebungsvariablen für verschiedene Skripte setzen
- #.zshenv: 
- export SCRIPT_RUN_zenv="true" 
- export x11_set="true"
+# .zshenv: 
+export SCRIPT_RUN_zenv="true" 
+export x11_set="true"
 # .zshrc 
- export SCRIPT_RUN_zshrc="true"
+export SCRIPT_RUN_zshrc="true"
 # aliases.zsh  
- export SCRIPT_RUN_aliaseszsh="true"
+export SCRIPT_RUN_aliaseszsh="true"
 # log_error.zsh 
- export SCRIPT_RUN_log_errorzsh="true"
+export SCRIPT_RUN_log_errorzsh="true"
 
 # Kopfzeile für das Terminal mit 'toilet' und 'lolcat' gestalten
 toilet -F gay -f smscript "³³³³³³³³³³³³³³³³³³³³" | sed -e 's/^/\t/' | lolcat --seed=250   
@@ -50,8 +49,6 @@ echo
 # Funktion zur Überprüfung von Umgebungsvariablen und Ausgabe entsprechender Nachrichten
 check_variable() {
     local var_name=$1
-    #local var_value="${!var_name}"
-   # local var_value="${(P)var_name}"  # Korrigiere die indirekte Parametererweiterung
     local var_value=$(eval "echo \$$var_name") 
     if [[ "$var_value" == "true" ]]; then
         output=$(echo "$var_name ist auf true gesetzt" | toilet -F gay -f pagga | sed -e 's/^/\t\t\t/' | lolcat --seed=206)
@@ -80,7 +77,7 @@ for var in "${variables[@]}"; do
     fi
 done
 
-# Ausgabe einer Nachricht basierend auf dem Wert von 'all_true'
+# Ausgabe einer Nachricht basierend auf dem Wertof 'all_true'
 if $all_true; then
     echo "Alles OK"
 fi
@@ -88,4 +85,3 @@ fi
 # Toilet-Animation am Ende
 toilet -F gay -f smscript "³³³³³³³³³³³³³³³³³³³³" | sed -e 's/^/\t/' | lolcat --seed=255   
 echo
-
