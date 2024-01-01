@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 ###########################################
 ##  filename:      greeting.zsh
 ##  filepath:      /home/ZSH/
@@ -66,21 +66,25 @@ check_variable SCRIPT_RUN_log_errorzsh
 
 # Liste der Umgebungsvariablen, die überprüft werden sollen
 variables=("SCRIPT_RUN_zenv" "SCRIPT_RUN_zshrc" "SCRIPT_RUN_aliaseszsh" "SCRIPT_RUN_log_errorzsh")
+
 # Flag, um zu verfolgen, ob alle Variablen auf "true" gesetzt sind
 all_true=true
+
 # Durchlaufen Sie jede Variable und prüfen Sie, ob sie auf "true" gesetzt ist
 for var in "${variables[@]}"; do
-    if [[ "${!var}" != "true" ]]; then
-        all_true=false
+    if [[ $(eval echo \$$var) != "true" ]]; then
         echo "Es gab wohl einen Fehler in $var"
+        all_true=false
         break
     fi
 done
 
-# Ausgabe einer Nachricht basierend auf dem Wertof 'all_true'
 if $all_true; then
-    echo "Alles OK"
+    echo "Alle Variablen sind auf 'true' gesetzt."
+else
+    echo "Nicht alle Variablen sind auf 'true' gesetzt."
 fi
+
 
 # Toilet-Animation am Ende
 toilet -F gay -f smscript "³³³³³³³³³³³³³³³³³³³³" | sed -e 's/^/\t/' | lolcat --seed=255   
