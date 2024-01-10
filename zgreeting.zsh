@@ -11,14 +11,14 @@
 
 # Umgebungsvariablen für verschiedene Skripte setzen
 # .zshenv: 
-export SCRIPT_RUN_zenv="true" 
-export x11_set="true"
+#export SCRIPT_RUN_zenv="true" 
+#export x11_set="true"
 # .zshrc 
-export SCRIPT_RUN_zshrc="true"
+#export SCRIPT_RUN_zshrc="true"
 # aliases.zsh  
-export SCRIPT_RUN_aliaseszsh="true"
+#export SCRIPT_RUN_aliaseszsh="true"
 # log_error.zsh 
-export SCRIPT_RUN_log_errorzsh="true"
+#export SCRIPT_RUN_log_errorzsh="true"
 
 # Kopfzeile für das Terminal mit 'toilet' und 'lolcat' gestalten
 toilet -F gay -f smscript "³³³³³³³³³³³³³³³³³³³³" | sed -e 's/^/\t/' | lolcat --seed=250   
@@ -62,28 +62,39 @@ check_variable() {
 check_variable SCRIPT_RUN_zenv
 check_variable SCRIPT_RUN_zshrc
 check_variable SCRIPT_RUN_aliaseszsh
-check_variable SCRIPT_RUN_log_errorzsh
+#check_variable SCRIPT_RUN_log_errorzsh
 
 # Liste der Umgebungsvariablen, die überprüft werden sollen
-variables=("SCRIPT_RUN_zenv" "SCRIPT_RUN_zshrc" "SCRIPT_RUN_aliaseszsh" "SCRIPT_RUN_log_errorzsh")
+#variables=("SCRIPT_RUN_zenv" "SCRIPT_RUN_zshrc" "SCRIPT_RUN_aliaseszsh" "SCRIPT_RUN_log_errorzsh")
+variables=("SCRIPT_RUN_zenv" "SCRIPT_RUN_zshrc" "SCRIPT_RUN_aliaseszsh")
 
 # Flag, um zu verfolgen, ob alle Variablen auf "true" gesetzt sind
 all_true=true
 
 # Durchlaufen Sie jede Variable und prüfen Sie, ob sie auf "true" gesetzt ist
 for var in "${variables[@]}"; do
+#toilet -F gay -f pagga $var|sed -e 's/^/\t\t\t/'|lolcat --seed=206
+    
+     if [[ $(eval echo \$$var) = "true" ]]; then
+        toilet -F gay -f smbraille "$var"|sed -e 's/^/\t/'|lolcat --seed=233
+        #all_true=false
+        #break
+    fi
+    
     if [[ $(eval echo \$$var) != "true" ]]; then
-        echo "Es gab wohl einen Fehler in $var"
-        all_true=false
-        break
+        toilet -F gay -f mini "$var"|sed -e 's/^/\t/'|lolcat --seed=233
+                echo "Es gab wohl einen Fehler in $var"
+
+       # all_true=false
+       # break
     fi
 done
 
-if $all_true; then
-    echo "Alle Variablen sind auf 'true' gesetzt."
-else
-    echo "Nicht alle Variablen sind auf 'true' gesetzt."
-fi
+# if $all_true; then
+    # echo "Alle Variablen sind auf 'true' gesetzt."
+# else
+    # echo "Nicht alle Variablen sind auf 'true' gesetzt."
+# fi
 
 
 # Toilet-Animation am Ende
