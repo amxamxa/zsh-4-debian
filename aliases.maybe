@@ -121,3 +121,12 @@ ZCOPY
 toilet -f 3D-ASCII Shadow "lloooll"
 toilet -F gay -f pagga "$(uname --operating-system)"|lolcat --seed=1
 toilet -F gay -f slant "$(uname --operating-system)"|lolcat --seed=1
+jp2a -i --colors --color-depth=24 --html-fontsize=2 --green=11.1 --html --output=tt.html
+asciiart riot,_Cyberpunk,_techno_music,_communist_revolution.png -c --width 40
+jp2a -i --colors --color-depth=24 --html-fontsize=2 --green=11.1 --html --output=tt.html
+for i in {0..255}; do toilet -F gay -f pagga "$(uname --operating-system)"| sed -e 's/^/\t\t/'| lolcat --seed=${i}; done
+fzf --preview 'batcat --color=always {}' --preview-window '~3'
+sudo dmesg --color=always --ctime |tail
+ls | sort -u # unique
+prettyping 8.8.8.8
+neofetch --config $XDG_CONFIG_HOME/neofetch/neofetch-long.conf

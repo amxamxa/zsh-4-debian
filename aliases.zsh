@@ -78,7 +78,6 @@ alias wh_fuck='dpkg -L' # alle Dateien finden, die mit 'apt install' installiert
 ##     gnome gui windows ##
 ### -------------------- ##
 ##### --%%%%%%%%%%%%%%-- #####
-
 alias WMinfo='echo -e "\n\t${PINK}...2xklicken!  zeigt Parameter des Windows an!${RESET}\n" && xprop | grep --color=auto -E WM_CLASS && xwininfo | grep --color=auto geometry'
 alias WMverbose='echo -e "\n\t${PINK}\n 2xklicken!... zeigt Parameter des Windows an!${RESET}\n" && xprop | grep --color=auto -e "WM_CLASS(STRING)" -e "*SIZE*" -e "WM_PROTOCOLS(ATOM):" -e "geometry" -e "_NET_WM_ALLOWED_ACTIONS(ATOM)" && xwininfo | grep --color=auto geometry'
 ##### --%%%%%%%%%%%%%%-- #####
@@ -105,8 +104,7 @@ alias LOGinline='less -F "$ZDOTDIR/log_error/log_error.txt"'
 ##### --%%%%%%%%%%%%%%-- #####
 
 alias -g SRC='source'
-
-alias -g L='|less -F'
+alias -g L='|less -X -j5 --tilde --save-marks --incsearch --RAW-CONTROL-CHARS --LINE-NUMBERS --line-num-width=3 --quit-if-one-screen --use-color --color=NWr --color=EwR  --color=PbC --color=Swb'
 alias -g G='|grep --ignore-case --color=auto' # ..usage$ file G pattern
 alias -g H='--help'
 #alias -g F='|tldr'
@@ -138,10 +136,10 @@ alias -s jpeg='img2sixel'
 
 alias bat='batcat --plain --terminal-width 80'
 # gute themes für batcat ansi OneHalfDark Dracula Coldark-Dark
-alias bat1='batcat --force-colorization --terminal-width 80 --theme=ansi'
-alias bat2='batcat --force-colorization --number --terminal-width 80 --wrap=auto --theme=Dracula'
-alias bat3='batcat --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=Coldark-Dark'
-alias bat4='batcat --number --terminal-width 80 --decorations=always --color=always --wrap=auto --theme=OneHalfDark'
+alias bat1='batcat --force-colorization --terminal-width 76 --theme=ansi'
+alias bat2='batcat --force-colorization --terminal-width 76 --wrap=auto --theme=Dracula'
+alias bat3='batcat --number --terminal-width 76 --decorations=always --color=always --wrap=auto --theme=Coldark-Dark'
+alias bat4='batcat --number --terminal-width 76 --decorations=always --color=always --wrap=auto --theme=OneHalfDark'
 
 ##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
@@ -163,28 +161,58 @@ du --human-readable --max-depth=1 --separate-dirs --threshold=16K --block-size=M
 ##    ls  ll  lh  ld ...
 ## ---------------------------  ## 
 ##### --%%%%%%%%%%%%%%-- #####
+# elementary-icon-theme faba-icon-theme gnome-colors faenza-icon-theme gnome-icon-theme-yasis gnome-icon-theme-nuovo  oxygen-icon-theme  obsidian-icon-theme volumeicon-alsa
+#gtk-update-icon-cache
+alias l='echo -e "\n\t${PINK} lsd --total-size --icon-theme fancy 	 --human-readable --classify --hyperlink always --dereference ${RESET}\n" && 	lsd --total-size --icon-theme fancy --human-readable --classify --hyperlink always --dereference'
+
+alias ll='echo -e "\t${PINK} lsd --total-size --almost-all --long --group-dirs=none --no-symlink   ${RESET}\n" && lsd --total-size --almost-all --icon-theme fancy --human-readable --classify --hyperlink always --long  --size short --group-dirs=last --blocks permission --blocks size --blocks links --blocks name --blocks user --blocks date --no-symlink'
+
+alias lll='echo -e "\t${PINK} lsd --total-size --almost-all --long --group-dirs=none --no-symlink   ${RESET}\n" && lsd --total-size --almost-all --icon-theme fancy --human-readable --classify --hyperlink always --long  --size short --group-dirs=first --blocks permission --blocks size --blocks links --blocks name --blocks user --blocks group --date relative --blocks date --no-symlink'
+
+
+
+
+#alias ll='echo -e "\n\t${PINK} lsd --total-size --almost-all --icon-theme fancy --human-readable --classify --hyperlink always --long  --size short --group-dirs=none --blocks permission --blocks size --blocks links --blocks name --blocks user --blocks group --date '+%H:%M Uhr %d. %b %Y'  --blocks date --no-symlink   ${RESET}\n"	&& lsd --total-size --almost-all --icon-theme fancy --human-readable --classify --hyperlink always --long  --size short --group-dirs=none --blocks permission --blocks size --blocks links --blocks name --blocks user --blocks group --date '+%H:%M Uhr %d. %b %Y'  --blocks date --no-symlink  '
+#alias l='echo -e "\n\t${PINK}   ${RESET}\n"	&& '
+#alias l='echo -e "\n\t${PINK}   ${RESET}\n"	&& '
+#alias l='echo -e "\n\t${PINK}   ${RESET}\n"	&& '
+#alias l='echo -e "\n\t${PINK}   ${RESET}\n"	&& '
+#alias l='echo -e "\n\t${PINK}   ${RESET}\n"	&& '
+
+
 
 export LS_OPTS='--color=force'
 alias ls='ls ${LS_OPTS}'
 alias sl='ls'
-# all hidden ls -shdrp $(pwd) .* 
-# ls -shAdp --group-directories-first --color=force * 
+# all hidden ls -shdrp $(pwd) .*
+# ls -shAdp --group-directories-first --color=force *
 
-alias l='echo -e "\n\t${PINK}ls -dsAhp --group-directories-first * ${RESET}\n"	&& 				ls -dsAhp --group-directories-first *'
 alias lh='echo -e "\n\t${PINK}Zeige nur versteckte Verzeichnisse und Dateien an${RESET}\n" && 	ls -pdAh --group-directories-first .*'
 alias lf='echo -e "\n\t${PINK}Zeige nur Dateien an${RESET}\n\t\t" && 							ls -shdrp *.*'
 alias ld='echo -e "\n\t${PINK}Zeigt nur Ordner, exkl. versteckte${RESET}\n" && 					ls -shdrp */'
-alias ll='echo -e "\n\t${PINK}Alles und als Liste und von unten nach OBEN${RESET}\n" && 		ls -alhrp'
 alias la='echo -e "\n\t${PINK}ls -lahp: Zeigt alles, mit --group-directories-first${RESET}\n" && ls -lahp --group-directories-first'
 alias lt='echo -e "\n\t${PINK}Liste TIME: nach Änderungsdatum (älteste zuerst)${RESET}\n\t${GELB}ls -AsltpGHp${RESET}" && ls -AsltGHp'
-alias lx='echo -e "\n\t${PINK} Liste EXT:  sortiert nach File-Eextension${RESET}\n\t${GELB}		ls -AXlGhp${RESET}\n" && ls -AXlGhp' 
+alias lx='echo -e "\n\t${PINK} Liste EXT:  sortiert nach File-Eextension${RESET}\n\t${GELB}		ls -AXlGhp${RESET}\n" && ls -AXlGhp'
+
+# export LS_OPTS='--color=force'
+# alias ls='ls ${LS_OPTS}'
+# alias sl='ls'
+# # all hidden ls -shdrp $(pwd) .*
+# # ls -shAdp --group-directories-first --color=force *
+# alias l='echo -e "\n\t${PINK}ls -dsAhp --group-directories-first * ${RESET}\n"	&& 				ls -dsAhp --group-directories-first *'
+# alias lh='echo -e "\n\t${PINK}Zeige nur versteckte Verzeichnisse und Dateien an${RESET}\n" && 	ls -pdAh --group-directories-first .*'
+# alias lf='echo -e "\n\t${PINK}Zeige nur Dateien an${RESET}\n\t\t" && 							ls -shdrp *.*'
+# alias ld='echo -e "\n\t${PINK}Zeigt nur Ordner, exkl. versteckte${RESET}\n" && 					ls -shdrp */'
+# alias ll='echo -e "\n\t${PINK}Alles und als Liste und von unten nach OBEN${RESET}\n" && 		ls -alhrp'
+# alias la='echo -e "\n\t${PINK}ls -lahp: Zeigt alles, mit --group-directories-first${RESET}\n" && ls -lahp --group-directories-first'
+# alias lt='echo -e "\n\t${PINK}Liste TIME: nach Änderungsdatum (älteste zuerst)${RESET}\n\t${GELB}ls -AsltpGHp${RESET}" && ls -AsltGHp'
+# alias lx='echo -e "\n\t${PINK} Liste EXT:  sortiert nach File-Eextension${RESET}\n\t${GELB}		ls -AXlGhp${RESET}\n" && ls -AXlGhp'
 
 ##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
 ##       e x a 
 ## ---------------------------  ## 
 ##### --%%%%%%%%%%%%%%-- #####
-
 alias e1='echo -e "\n\t${GELB} exa -A -l --tree --level 1--no-time --no-permissions --git --group-directories-first     ${RESET}\n" && exa --no-time --no-permissions --tree --level 1 --all --long --color-scale --icons --git --group-directories-first'
   alias e2='echo -e "\n\t${GELB} exa --no-time --no-permissions -A -l --tree --level 2 --git --group-directories-first${RESET}\n" && exa --tree --level 2 --all --long --color-scale --icons --no-time --no-permissions --git --group-directories-first'
  alias e3='echo -e "\t${GELB} exa -A -l --tree -level 3--no-time --no-permissions --git --group-directories-first${RESET}\n" && exa --tree --level 3 --all --long --color-scale --icons --no-time --no-permissions --git --group-directories-first'
@@ -194,7 +222,7 @@ alias e1='echo -e "\n\t${GELB} exa -A -l --tree --level 1--no-time --no-permissi
  alias egrep='egrep --color=auto'
  #... grep ... in History auf WORD
  alias h='history'
-alias g2history='cat "$ZDOTDIR/.zhistory"  | grep -i--colour=always'
+alias g2history='cat "$ZDOTDIR/.zhistory"  | grep -i --colour=always'
 alias g2h=g2history
 
 #grep...auf [ENV] printable enviroment variable auf WORD
@@ -221,8 +249,8 @@ alias ps="ps auxf"
 
 # searches process for an argument
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
-
-alias wget="wget -c" # wget-c: continue download if problems
+# wget-c: continue download if problems
+alias wget="wget -c" 
 alias top="btop"
 	
 
@@ -232,16 +260,16 @@ alias DF="pydf"
 
 
 alias EIN="sudo shutdown -r now"
-alias AUS="sudo shutdown now"
+alias AUS="sudo nala update && sudo shutdown now"
 ##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
 ##        D E B I A N
 ##      -- apt /dpkg -- 
 ## ---------------------------  ## 
 ##### --%%%%%%%%%%%%%%-- #####
-
 UPdate () {
-  if which nala > /dev/null; then
+ if which nala > /dev/null; then
+	#nala 
 	echo -e "\tAktualisiere Pakete\n\t\t" | lolcat
 	sudo nala update
 	nala list --upgradable
@@ -252,35 +280,36 @@ UPdate () {
 	fi
 	sudo nala autopurge
     sudo nala autoremove
-	else
+ else
+ #apt-get
 	 echo -e "\tAktualisiere Pakete\n\t\t" | lolcat
 	  sudo apt-get update
 	  apt list --upgradable
 	 echo -e "\t${PINK} Pakete upgraden? ${RESET}\n"
    	 read -r answer\?"Pakete upgraden (j/N)? "
 	      if [[ "$answer" =~ ^[Jj] ]]; then
-	      	apt-get upgrade
+	      sudo apt-get upgrade
 	      fi	
-	 	 apt-get autoremove
-	 	apt-get autoclean
+	 	sudo apt-get autoremove
+	 sudo apt-get autoclean
  	 echo -e "\tapt autoremove und apt autoclean 
  	 \n\t\terfolgreich durch geballert!\n" | lolcat
 	fi      }
 
-alias APTsugg='apt install --dry-run --install-suggests'
+alias APTsugg='sudo apt install --dry-run --install-suggests'
 
-alias APTpurge='nala purge |update echo -e "\t${PINK}Entferne Paket${RESET}\n" && sudo apt purge' 
+alias APTpurge='sudo nala purge |update echo -e "\t${PINK}Entferne Paket${RESET}\n" && sudo apt purge' 
 # Funktion ersetzt: alias APTsearch='nala search |echo -e "\t${PINK}Durchsuche Paketdatenbank${RESET}\n" && apt-cache search'  # apt search / Paketdatenbank
-alias APTshow='nala show |echo -e "\t${PINK}Zeige Paketinformationen${RESET}\n" && apt show'  # apt search / Paketinformationen
+alias APTshow='sudo nala show |echo -e "\t${PINK}Zeige Paketinformationen${RESET}\n" && apt show'  # apt search / Paketinformationen
 
-alias APTinstall='nala install | echo -e "\t${PINK}Installiere Paket${RESET}\n" && sudo apt install'
+alias APTinstall='sudo nala install | echo -e "\t${PINK}Installiere Paket${RESET}\n" && sudo apt install'
 
 	alias DPlist='echo -e "\t${PINK}Liste Dateien eines Pakets auf${RESET}\n" && dpkg --listfiles'
 	alias DPinstalled='echo -e "\t${PINK}Zeigt alle installierten Pakete auf Ihrem Debian-System ... wird mit cat /var/log/dpkg.log gemacht:${RESET}\n" && cat /var/log/dpkg.log | grep "status installed" | awk "{print \$5}" | cut -d ":" -f 1 | sort'
 
 # Filtert 'status installed' und sortiert nach der ersten Spalte (Datum) dann nach (Uhrzeit)
 alias DPtime-all="echo -e '\n\t${LILA}Seit 100 Jahren installiert:\n${RESET}' && cat /var/log/dpkg.log | grep 'status installed' | sort -k1,1 -k2,2"
-alias DPtime-36="echo -e '\n\t${GELB}Heute und gestern installiert:\n${RESET}' && grep -E \"\$(date -d 'yesterday' +'%Y-%m-%d')|\$(date +'%Y-%m-%d')\" /var/log/dpkg.log | grep 'status installed/n'"
+alias DPtime-36="echo -e '\n\t${GELB}Heute und gestern installiert:\n${RESET}' && grep -E \"\$(date -d 'yesterday' +'%Y-%m-%d')|\$(date +'%Y-%m-%d')\" /var/log/dpkg.log | grep 'status installed'/n"
 
 # file mgmt
 alias FOR='fortune 100% debian-hints '
@@ -302,7 +331,7 @@ alias T='echo -e "\t${GELB}Zeige verkürzte Handbücher (TL;DR)${RESET}\n" && tl
 alias _='echo -e "\t${PINK}Führe als Superuser (sudo) aus${RESET}\n" && sudo'
 alias c='echo -e "\t${PINK}Bildschirm löschen${RESET}\n"  && clear'
 alias q='echo -e "\t${PINK}Beenden${RESET}\n" && exit'
-alias lol="alias | lolcat"
+alias lol="alias | sort -k1,1 -k1.1,1.2 -k1.3,1.4| lolcat"
 
 ##### --%%%%%%%%%%%%%%-- #####
 ##	                        ##
@@ -317,10 +346,6 @@ alias gss='echo -e "${PINK}\n\t git status --short ${RESET} with abbr.:${RESET}\
 ${GELB}?? ... Untracked files${RESET}\t${GELB}U ... Files with merge conflicts${RESET}\t ${GELB}A ... New files added to staging ${RESET}\t${GELB}M ... Modified files${RESET}\t${GELB}D ... Deleted files${RESET}\t${GELB}R ... Renamed files${RESET}\t${GELB}C ... Copied files${RESET}\n" && git status -s'
 
 #alias gss='cowsay "${GELB}\n git status --short w\:\n\t "M" for file is modified\n\t "A" for is new and has been added to staging \n\t "\?\? " indicates file is untracked.${RESET}\n" && git status -s'
-
-
-
-
 
 # Git Add
 alias ga='echo -e "${GELB}\nFügt Änderungen im Arbeitsverzeichnis zum Staging-Bereich hinzu${RESET}\n" && git add'
