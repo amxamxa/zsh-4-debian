@@ -1,0 +1,3 @@
+60281 execve("/usr/bin/apt", ["apt"], 0x7ffcc8df6a18 /* 21 vars */) = 0
+60281 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Datei oder Verzeichnis nicht gefunden)
+60281 +++ exited with 1 +++

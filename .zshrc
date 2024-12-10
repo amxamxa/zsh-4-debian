@@ -168,21 +168,7 @@ POWERLEVEL9K_TIME_FORMAT='%D{%H:%M}'
 precmd() {
   log_error }
   
-### ------------------------------ ###
-###                  f z f
-### ------------------------------ ###
- source "/usr/share/doc/fzf/examples/key-bindings.zsh"
- #source "/usr/share/zsh/vendor-completions/_fzf"
- source "/usr/share/doc/fzf/examples/completion.zsh"
 
- function fzkill() {
-    local pid
-    pid=$(ps aufxc --user $(id -u)| sed 1d | fzf -m | awk '{print $2}')
-    
-    if [[ -n "$pid" ]]; then
-        kill -${1:-TERM} $pid
-    fi
-}
 ### ------------------------------ ###
 ##      globale 
 ##       Suffix-Aliases erweitern
@@ -264,11 +250,11 @@ precmd() {
 	  echo $(fc -ln -1) | tee -a $ZDOTDIR/aliases.maybe
 	 # Überprüft, ob der letzte Befehl erfolgreich ausgeführt wurde.
 	 if [ $? -eq 0 ]; then
-	   # Wenn der Befehl erfolgreich ausgeführt wurde, gibt diese Funktion eine Bestätigungsmeldung aus.
-	   echo "Befehl $(fc -ln -1) wurde erfolgreich an $ZDOTDIR/aliases.maybe angehängt."
+		   # Wenn der Befehl erfolgreich ausgeführt wurde, gibt diese Funktion eine Bestätigungsmeldung aus.
+		   echo "Befehl $(fc -ln -1) wurde erfolgreich an $ZDOTDIR/aliases.maybe angehängt."
 	 else
-	   # Wenn der Befehl fehlgeschlagen ist, gibt diese Funktion eine Fehlermeldung aus.
-	   echo "Fehler beim Anhängen des Befehls $(fc -ln -1) an $ZDOTDIR/aliases.maybe."
+		   # Wenn der Befehl fehlgeschlagen ist, gibt diese Funktion eine Fehlermeldung aus.
+		   echo "Fehler beim Anhängen des Befehls $(fc -ln -1) an $ZDOTDIR/aliases.maybe."
 	 fi
 }
 ### ------------------------------ ###
@@ -338,15 +324,30 @@ SEArchNdestroy()
   # column -t <<< "$TABELLE"
 # }
 
+### ------------------------------ ###
+###                  f z f
+### ------------------------------ ###
+ source "/usr/share/doc/fzf/examples/key-bindings.zsh"
+ #source "/usr/share/zsh/vendor-completions/_fzf"
+ source "/usr/share/doc/fzf/examples/completion.zsh"
+
+ function fzkill() {
+    local pid
+    pid=$(ps aufxc --user $(id -u)| sed 1d | fzf -m | awk '{print $2}')
+    
+    if [[ -n "$pid" ]]; then
+        kill -${1:-TERM} $pid
+    fi
+}
+#if [[ -r $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme ]]; then
+#	source "$ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme"
+#	POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+# fi
 
 
 ### ------------------------------ ###
 #    * *  S O U R C E plugins   * * ##
 ### ------------------------------ ###
-#if [[ -r $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme ]]; then
-#	source "$ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme"
-#	POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
-# fi
 # config für die "completion" gesourct
 source  "$ZDOTDIR/completion.zsh" 
 source  "$ZDOTDIR/nala-completion.zsh"
@@ -360,6 +361,8 @@ source "/etc/zsh_command_not_found"
 source "$ZDOTDIR/aliases.zsh"   
 # source custom function to log_error
 source "$ZDOTDIR/log_error.zsh"
+
+
 # motd
 export SCRIPT_RUN_zshrc="true"
 source "$ZDOTDIR/zgreeting.zsh"
@@ -371,12 +374,12 @@ source "$ZDOTDIR/zgreeting.zsh"
 export LS_COLORS="$(vivid generate molokai)"
 ## um die Farben manuell festzulegen. ###  aus mxx.yml 
 #export LS_COLORS="$(vivid -m 8-bit generate "$ZDOTDIR/color-schema.yml")"
-#export LS_COLORS="$(vivid "$ZDOTDIR/color-schema.yml")"
+#export LS_COLORS="$(vivid generate "$ZDOTDIR/color-schema.yml")"
 ### ------------------------------------------------------------ ###
 # ; ll; e1; l; 
 #  export LS_COLORS="$(vivid -m 8-bit generate gruvbox-dark-soft)"; ll; e1; l;no
 # export LS_COLORS="$(vivid -m 8-bit generate jellybeans)"; ll; e1; l; no
-# export LS_COLORS="$(vivid -m 8-bit generate one-dark)"; ll; e1; l; ok
+# export LS_COLORS="$(vivid generate one-dark)"
 #export LS_COLORS="$(vivid -m 8-bit generate gruvbox-dark)"; ll; e1; l; no
 # export LS_COLORS="$(vivid -m 8-bit generate dracula)"; ll; e1; l; naja
 # export LS_COLORS="$(vivid -m 8-bit generate iceberg-dark)"; ll; e1; l; no

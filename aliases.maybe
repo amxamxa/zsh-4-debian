@@ -130,3 +130,5 @@ sudo dmesg --color=always --ctime |tail
 ls | sort -u # unique
 prettyping 8.8.8.8
 neofetch --config $XDG_CONFIG_HOME/neofetch/neofetch-long.conf
+nmcli dev status
+netstat -tnlp

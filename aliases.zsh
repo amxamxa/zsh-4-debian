@@ -150,11 +150,11 @@ alias bat4='batcat --number --terminal-width 76 --decorations=always --color=alw
 # alias DU='echo -e "\t${PINK}Zeige die 22 größten Verzeichnisse und Dateien${RESET}\n" && command du -cah --exclude='*cache' --exclude='*run' --exclude='*sys' --exclude='*proc' | sort -hr | head -n 22' 
 D3() {
  echo -e "\n\t${GELB} du --max-depth=3 --separate-dirs --threshold=16K -BM -x $(pwd) 2> /dev/null | sort -hr | head -n 24${LILA} \t... wir reden über Pfad $(pwd)${RESET}}\n"
-du --human-readable --max-depth=3 --separate-dirs --threshold=16K --block-size=M --one-file-system --exclude='*cache' --exclude='*run' --exclude='*sys' --exclude='*proc'$pwd 2> /dev/null | sort -hr | head -n 24
+du --human-readable --max-depth=3 --separate-dirs --threshold=16K --block-size=M --one-file-system --exclude='*cache' --exclude='*run' --exclude='*sys' --exclude='*proc' $pwd 2> /dev/null | sort -hr | head -n 24
 }
 D1() {
  echo -e "\n\t${GELB} du --max-depth=1 --separate-dirs --threshold=16K -BM -x $(pwd) 2> /dev/null | sort -hr | head -n 24${LILA} \t... wir reden über Pfad $(pwd)${RESET}}\n"
-du --human-readable --max-depth=1 --separate-dirs --threshold=16K --block-size=M --one-file-system --exclude='*cache' --exclude='*run' --exclude='*sys' --exclude='*proc'$pwd 2> /dev/null | sort -hr | head -n 24
+du --human-readable --max-depth=1 --separate-dirs --threshold=16K --block-size=M --one-file-system --exclude='*cache' --exclude='*run' --exclude='*sys' --exclude='*proc' $pwd 2> /dev/null | sort -hr | head -n 24
 }
 ##### --%%%%%%%%%%%%%%-- #####
 ## ---------------------------  ## 
@@ -163,16 +163,47 @@ du --human-readable --max-depth=1 --separate-dirs --threshold=16K --block-size=M
 ##### --%%%%%%%%%%%%%%-- #####
 # elementary-icon-theme faba-icon-theme gnome-colors faenza-icon-theme gnome-icon-theme-yasis gnome-icon-theme-nuovo  oxygen-icon-theme  obsidian-icon-theme volumeicon-alsa
 #gtk-update-icon-cache
-alias l='echo -e "\n\t${PINK} lsd --total-size --icon-theme fancy 	 --human-readable --classify --hyperlink always --dereference ${RESET}\n" && 	lsd --total-size --icon-theme fancy --human-readable --classify --hyperlink always --dereference'
+alias l='echo -e "\t${PINK} LSD ohne alles ${RESET}\n" && 	lsd --total-size --icon-theme fancy --human-readable --classify --hyperlink always --dereference'
 
-alias ll='echo -e "\t${PINK} lsd --total-size --almost-all --long --group-dirs=none --no-symlink   ${RESET}\n" && lsd --total-size --almost-all --icon-theme fancy --human-readable --classify --hyperlink always --long  --size short --group-dirs=last --blocks permission --blocks size --blocks links --blocks name --blocks user --blocks date --no-symlink'
+alias ll='echo -e "\t${PINK} LSD ${LILA} REVERSE ... mit  alles  ${GELB}in $(pwd)${PINK}(mit relativer  Zeit ohne Gruppenberechtigung): ${RESET}\t" &&	lsd --header --blocks 'permission' --blocks 'size'  --blocks 'links' --blocks 'name' --blocks 'user' --blocks 'date' \
+	--total-size \
+	--almost-all \
+	--icon-theme 'fancy' \
+	--human-readable \
+	--date "relative" \
+	--no-symlink  \
+	--classify \
+	--hyperlink 'always' \
+	--long  \
+	--size short \
+	--group-dirs 'none' \
+	--reverse
+	'
+	
+alias lll='echo -e "\t${PINK} LSD ${LILA} REVERSE ... mit  alles  ${GELB}in $(pwd)${PINK} (mit absoluter Zeit und Gruppenberechtigung): ${RESET}\t" && lsd --date="+%d. %b %Y %H:%M Uhr" --long --header --blocks 'permission' --blocks 'size'  --blocks 'links' --blocks 'name' --blocks 'user' --blocks 'group' --blocks 'date' \
+	--total-size \
+	--almost-all \
+	--icon-theme 'fancy' \
+	--human-readable \
+	--classify \
+	--hyperlink 'always' \
+	--long  \
+	--size short \
+	--group-dirs 'none' \
+	--reverse
+	'
+	
 
-alias lll='echo -e "\t${PINK} lsd --total-size --almost-all --long --group-dirs=none --no-symlink   ${RESET}\n" && lsd --total-size --almost-all --icon-theme fancy --human-readable --classify --hyperlink always --long  --size short --group-dirs=first --blocks permission --blocks size --blocks links --blocks name --blocks user --blocks group --date relative --blocks date --no-symlink'
 
 
+alias la='echo -e "\t${PINK} Zeigt alles in ${GELB}$(pwd)${PINK} (hidden) Files und (hidden) directory:${RESET}\n" && lsd --size short \ 
+	--human-readable  \
+	--group-dirs first \
+	--almost-all \
+	--classify *.*'
+#alias lf='echo -e "\t${PINK} Zeigt alles in ${GELB}$(pwd)${PINK} (hidden) Files und (hidden) directory:${RESET}\n" && lsd --size short --human-readable --group-dirs first --almost-all --classify'
 
 
-#alias ll='echo -e "\n\t${PINK} lsd --total-size --almost-all --icon-theme fancy --human-readable --classify --hyperlink always --long  --size short --group-dirs=none --blocks permission --blocks size --blocks links --blocks name --blocks user --blocks group --date '+%H:%M Uhr %d. %b %Y'  --blocks date --no-symlink   ${RESET}\n"	&& lsd --total-size --almost-all --icon-theme fancy --human-readable --classify --hyperlink always --long  --size short --group-dirs=none --blocks permission --blocks size --blocks links --blocks name --blocks user --blocks group --date '+%H:%M Uhr %d. %b %Y'  --blocks date --no-symlink  '
 #alias l='echo -e "\n\t${PINK}   ${RESET}\n"	&& '
 #alias l='echo -e "\n\t${PINK}   ${RESET}\n"	&& '
 #alias l='echo -e "\n\t${PINK}   ${RESET}\n"	&& '
@@ -189,8 +220,8 @@ alias sl='ls'
 
 alias lh='echo -e "\n\t${PINK}Zeige nur versteckte Verzeichnisse und Dateien an${RESET}\n" && 	ls -pdAh --group-directories-first .*'
 alias lf='echo -e "\n\t${PINK}Zeige nur Dateien an${RESET}\n\t\t" && 							ls -shdrp *.*'
-alias ld='echo -e "\n\t${PINK}Zeigt nur Ordner, exkl. versteckte${RESET}\n" && 					ls -shdrp */'
-alias la='echo -e "\n\t${PINK}ls -lahp: Zeigt alles, mit --group-directories-first${RESET}\n" && ls -lahp --group-directories-first'
+#alias ld='echo -e "\n\t${PINK}Zeigt nur Ordner, exkl. versteckte${RESET}\n" && 					ls -shdrp */'
+#alias la='echo -e "\n\t${PINK}ls -lahp: Zeigt alles, mit --group-directories-first${RESET}\n" && ls -lahp --group-directories-first'
 alias lt='echo -e "\n\t${PINK}Liste TIME: nach Änderungsdatum (älteste zuerst)${RESET}\n\t${GELB}ls -AsltpGHp${RESET}" && ls -AsltGHp'
 alias lx='echo -e "\n\t${PINK} Liste EXT:  sortiert nach File-Eextension${RESET}\n\t${GELB}		ls -AXlGhp${RESET}\n" && ls -AXlGhp'
 
@@ -390,8 +421,11 @@ alias gr='echo -e "${GELB}\nZeigt die Namen der Remote-Repositories an${RESET}\n
 alias grs='echo -e "${GELB}\nZeigt Informationen zu den Remote-Repositories an${RESET}\n" && git remote show'
 
 
-
-
+#Der git for-each-ref Befehl listet Referenzen (refs) in einem Git-Repository auf, wie z.B. Branches, Tags und andere
+  #  Aktueller Branch: Schnell erkennen, auf welchem Branch man sich gerade befindet (%(HEAD) zeigt ein Sternchen neben dem aktuellen Branch).
+#    Branch-Übersicht: Eine Liste aller Branches im Repository erhalten.
+#    Commit-Informationen: Sehen, welcher Commit zuletzt auf jedem Branch gemacht wurde, inklusive Commit-Hash, Nachricht, Autor und Datum.
+alias gblog="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:red)%(refname:short)%(color:reset) - %(color:yellow)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:blue)%(committerdate:relative)%(color:reset))'"       
 
 
 

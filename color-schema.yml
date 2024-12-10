@@ -78,9 +78,9 @@ core:
     foreground: bg-6
 
   directory:
-    foreground: magenta-intense
+    foreground:   blau-l-neo # cyan-intense #  magenta-intense
     #    background: bg-1
-   # font-style: bold
+    font-style: bold
 
   symlink:
     foreground: red-cooler
@@ -125,58 +125,52 @@ core:
     font-style: bold
 
   setuid: 
-    foreground: gold 
     background: bg-3
  
   setgid: 
-    foreground: gold 
-    background: bg-3
+       background: bg-3
     
   file_with_capability: 
-      foreground: gold 
-      background: bg-2
+      background: bg-3
 
   sticky_other_writable: 
-    foreground: gold 
-    background: bg-6
+      background: bg-4
 
   other_writable:
-    foreground: gold 
     background: bg-5
 
   sticky:   
-    foreground: gold 
     background: bg-5
 
   executable_file:
-    foreground: gelb
-    background: orange
-    font-style: italic
+    foreground: cyan-intense  # lila-dunkel 
+    background: bg-4
+    font-style: bold
     
     
 text:
   special:
     foreground: yellow-warmer
-    background: gelb-hell #orange-d 
+    background: bg-6
 
   todo:
     foreground: fg-main
     #font-style: bold
-    background: orange-d #fg-dim
+    background: bg-6
 
   licenses:
     foreground: blue-l
 
   configuration:
     foreground: gelb
-  #  font-style: bold
+    font-style: bold
 
   other:
     foreground: pink
     font-style: bold
 
 markup:
-  foreground: blue-warmer
+  foreground: cyan-faint  
   background: blau-dunkel
   font-style: bold
 
@@ -191,26 +185,26 @@ programming:
     continuous-integration:
       foreground: gruen-mint  
   #font-style: bold
-  #241f31
 media:
   image:
     foreground: blau-l-neo
-   #  background: lila-dunkel
-    
+    background: bg-3
+   
   audio:
     foreground: pink-d
-   # background: lila-dunkel
+    background: lila-dunkel
   video:
     foreground: blau-ll
+    background: bg-3
     font-style: bold
-   
-   # background: lila-dunkel
 
   fonts:
     foreground: pink
+    background: fg-dim 
+    # lila-dunkel #595959
 
 office:
-  foreground: pink-l
+  foreground:   blue-faint  
  # background: fg-dim
 
 archives:
@@ -221,6 +215,6 @@ executable:
   foreground: orange-d
 
 unimportant:
-  foreground: bg-6
-  #background: bg-4
-  #background: fg-dim
+  foreground: fg-alt
+  background: bg-6
+  
